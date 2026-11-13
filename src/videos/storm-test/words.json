@@ -1,0 +1,470 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.299,
+  "shot": 1
+ },
+ {
+  "word": "sea",
+  "start": 0.299,
+  "end": 0.597,
+  "shot": 1
+ },
+ {
+  "word": "was",
+  "start": 0.597,
+  "end": 0.896,
+  "shot": 1
+ },
+ {
+  "word": "trying",
+  "start": 0.896,
+  "end": 1.194,
+  "shot": 1
+ },
+ {
+  "word": "to",
+  "start": 1.194,
+  "end": 1.493,
+  "shot": 1
+ },
+ {
+  "word": "eat",
+  "start": 1.493,
+  "end": 1.791,
+  "shot": 1
+ },
+ {
+  "word": "the",
+  "start": 1.791,
+  "end": 2.09,
+  "shot": 1
+ },
+ {
+  "word": "ship.",
+  "start": 2.09,
+  "end": 2.388,
+  "shot": 1
+ },
+ {
+  "word": "The",
+  "start": 2.388,
+  "end": 2.687,
+  "shot": 2
+ },
+ {
+  "word": "captain",
+  "start": 2.687,
+  "end": 2.985,
+  "shot": 2
+ },
+ {
+  "word": "held",
+  "start": 2.985,
+  "end": 3.284,
+  "shot": 2
+ },
+ {
+  "word": "the",
+  "start": 3.284,
+  "end": 3.582,
+  "shot": 2
+ },
+ {
+  "word": "wheel.",
+  "start": 3.582,
+  "end": 3.881,
+  "shot": 2
+ },
+ {
+  "word": "The",
+  "start": 3.881,
+  "end": 4.179,
+  "shot": 2
+ },
+ {
+  "word": "wind",
+  "start": 4.179,
+  "end": 4.478,
+  "shot": 2
+ },
+ {
+  "word": "tore",
+  "start": 4.478,
+  "end": 4.776,
+  "shot": 2
+ },
+ {
+  "word": "at",
+  "start": 4.776,
+  "end": 5.075,
+  "shot": 2
+ },
+ {
+  "word": "the",
+  "start": 5.075,
+  "end": 5.373,
+  "shot": 2
+ },
+ {
+  "word": "sails.",
+  "start": 5.373,
+  "end": 5.672,
+  "shot": 2
+ },
+ {
+  "word": "The",
+  "start": 5.672,
+  "end": 5.97,
+  "shot": 2
+ },
+ {
+  "word": "cook",
+  "start": 5.97,
+  "end": 6.269,
+  "shot": 2
+ },
+ {
+  "word": "held",
+  "start": 6.269,
+  "end": 6.567,
+  "shot": 2
+ },
+ {
+  "word": "a",
+  "start": 6.567,
+  "end": 6.866,
+  "shot": 2
+ },
+ {
+  "word": "can",
+  "start": 6.866,
+  "end": 7.164,
+  "shot": 2
+ },
+ {
+  "word": "of",
+  "start": 7.164,
+  "end": 7.463,
+  "shot": 2
+ },
+ {
+  "word": "oil.",
+  "start": 7.463,
+  "end": 7.761,
+  "shot": 2
+ },
+ {
+  "word": "One",
+  "start": 7.761,
+  "end": 8.06,
+  "shot": 3
+ },
+ {
+  "word": "sailor",
+  "start": 8.06,
+  "end": 8.358,
+  "shot": 3
+ },
+ {
+  "word": "laughed.",
+  "start": 8.358,
+  "end": 8.657,
+  "shot": 3
+ },
+ {
+  "word": "'Oil?",
+  "start": 8.657,
+  "end": 8.955,
+  "shot": 3
+ },
+ {
+  "word": "Against",
+  "start": 8.955,
+  "end": 9.254,
+  "shot": 3
+ },
+ {
+  "word": "THAT?'",
+  "start": 9.254,
+  "end": 9.552,
+  "shot": 3
+ },
+ {
+  "word": "The",
+  "start": 9.552,
+  "end": 9.851,
+  "shot": 3
+ },
+ {
+  "word": "captain",
+  "start": 9.851,
+  "end": 10.149,
+  "shot": 3
+ },
+ {
+  "word": "said",
+  "start": 10.149,
+  "end": 10.448,
+  "shot": 3
+ },
+ {
+  "word": "nothing.",
+  "start": 10.448,
+  "end": 10.746,
+  "shot": 3
+ },
+ {
+  "word": "But",
+  "start": 10.746,
+  "end": 11.045,
+  "shot": 4
+ },
+ {
+  "word": "the",
+  "start": 11.045,
+  "end": 11.343,
+  "shot": 4
+ },
+ {
+  "word": "cook",
+  "start": 11.343,
+  "end": 11.642,
+  "shot": 4
+ },
+ {
+  "word": "poured",
+  "start": 11.642,
+  "end": 11.94,
+  "shot": 4
+ },
+ {
+  "word": "the",
+  "start": 11.94,
+  "end": 12.239,
+  "shot": 4
+ },
+ {
+  "word": "oil",
+  "start": 12.239,
+  "end": 12.537,
+  "shot": 4
+ },
+ {
+  "word": "over",
+  "start": 12.537,
+  "end": 12.836,
+  "shot": 4
+ },
+ {
+  "word": "the",
+  "start": 12.836,
+  "end": 13.134,
+  "shot": 4
+ },
+ {
+  "word": "side.",
+  "start": 13.134,
+  "end": 13.433,
+  "shot": 4
+ },
+ {
+  "word": "It",
+  "start": 13.433,
+  "end": 13.731,
+  "shot": 4
+ },
+ {
+  "word": "shone",
+  "start": 13.731,
+  "end": 14.03,
+  "shot": 4
+ },
+ {
+  "word": "gold",
+  "start": 14.03,
+  "end": 14.328,
+  "shot": 4
+ },
+ {
+  "word": "on",
+  "start": 14.328,
+  "end": 14.627,
+  "shot": 4
+ },
+ {
+  "word": "the",
+  "start": 14.627,
+  "end": 14.925,
+  "shot": 4
+ },
+ {
+  "word": "black",
+  "start": 14.925,
+  "end": 15.224,
+  "shot": 4
+ },
+ {
+  "word": "water.",
+  "start": 15.224,
+  "end": 15.522,
+  "shot": 4
+ },
+ {
+  "word": "You",
+  "start": 15.522,
+  "end": 15.821,
+  "shot": 5
+ },
+ {
+  "word": "see,",
+  "start": 15.821,
+  "end": 16.119,
+  "shot": 5
+ },
+ {
+  "word": "the",
+  "start": 16.119,
+  "end": 16.418,
+  "shot": 5
+ },
+ {
+  "word": "oil",
+  "start": 16.418,
+  "end": 16.716,
+  "shot": 5
+ },
+ {
+  "word": "lays",
+  "start": 16.716,
+  "end": 17.015,
+  "shot": 5
+ },
+ {
+  "word": "the",
+  "start": 17.015,
+  "end": 17.313,
+  "shot": 5
+ },
+ {
+  "word": "water",
+  "start": 17.313,
+  "end": 17.612,
+  "shot": 5
+ },
+ {
+  "word": "flat.",
+  "start": 17.612,
+  "end": 17.91,
+  "shot": 5
+ },
+ {
+  "word": "The",
+  "start": 17.91,
+  "end": 18.209,
+  "shot": 5
+ },
+ {
+  "word": "wave",
+  "start": 18.209,
+  "end": 18.507,
+  "shot": 5
+ },
+ {
+  "word": "sank",
+  "start": 18.507,
+  "end": 18.806,
+  "shot": 5
+ },
+ {
+  "word": "down",
+  "start": 18.806,
+  "end": 19.104,
+  "shot": 5
+ },
+ {
+  "word": "like",
+  "start": 19.104,
+  "end": 19.403,
+  "shot": 5
+ },
+ {
+  "word": "a",
+  "start": 19.403,
+  "end": 19.701,
+  "shot": 5
+ },
+ {
+  "word": "tired",
+  "start": 19.701,
+  "end": 20.0,
+  "shot": 5
+ },
+ {
+  "word": "dog.",
+  "start": 20.0,
+  "end": 20.299,
+  "shot": 5
+ },
+ {
+  "word": "So",
+  "start": 20.299,
+  "end": 20.597,
+  "shot": 6
+ },
+ {
+  "word": "the",
+  "start": 20.597,
+  "end": 20.896,
+  "shot": 6
+ },
+ {
+  "word": "sea",
+  "start": 20.896,
+  "end": 21.194,
+  "shot": 6
+ },
+ {
+  "word": "went",
+  "start": 21.194,
+  "end": 21.493,
+  "shot": 6
+ },
+ {
+  "word": "quiet,",
+  "start": 21.493,
+  "end": 21.791,
+  "shot": 6
+ },
+ {
+  "word": "and",
+  "start": 21.791,
+  "end": 22.09,
+  "shot": 6
+ },
+ {
+  "word": "the",
+  "start": 22.09,
+  "end": 22.388,
+  "shot": 6
+ },
+ {
+  "word": "ship",
+  "start": 22.388,
+  "end": 22.687,
+  "shot": 6
+ },
+ {
+  "word": "sailed",
+  "start": 22.687,
+  "end": 22.985,
+  "shot": 6
+ },
+ {
+  "word": "on.",
+  "start": 22.985,
+  "end": 23.284,
+  "shot": 6
+ }
+]
