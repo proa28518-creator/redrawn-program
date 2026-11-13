@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>صفحة البناء — برنامج Redrawn 3D Story</title>
+<style>
+  body { margin: 0; background: #0f1115; color: #e8e8e8; font-family: system-ui, "Segoe UI", Tahoma, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 40px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .sub { color: #9aa0aa; font-size: 15px; margin-bottom: 22px; }
+  .card { background: #171a21; border: 1px solid #262b36; border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; }
+  .card h2 { font-size: 17px; margin: 0 0 12px; color: #ffd479; }
+  .row { display: flex; gap: 10px; align-items: flex-start; padding: 7px 0; border-top: 1px solid #232833; font-size: 15px; line-height: 1.6; }
+  .row:first-of-type { border-top: none; }
+  .st { flex: none; width: 26px; text-align: center; font-size: 18px; }
+  .done { color: #4ec94e; } .run { color: #ffd479; } .next { color: #8b93a3; }
+  .tag { display: inline-block; background: #232833; border-radius: 6px; padding: 1px 8px; font-size: 13px; color: #c9d1de; direction: ltr; }
+  code { direction: ltr; unicode-bidi: embed; background: #232833; padding: 1px 6px; border-radius: 5px; font-size: 13px; }
+  .note { color: #9aa0aa; font-size: 14px; line-height: 1.7; }
+  .foot { color: #6b7280; font-size: 13px; margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🎬 صفحة البناء — برنامج Redrawn 3D Story</h1>
+  <div class="sub">برنامج إنتاج فيديوهات قصصية ثلاثية الأبعاد (45–70 ثانية، عمودي 9:16) — بأسلوب Ricks Clips، كله كود.</div>
+
+  <div class="card">
+    <h2>الحالة الآن — أبو سمبل: الحكم النهائي ✅</h2>
+    <div class="row"><span class="st done">✅</span><span><b>الفيديو التاني اتبنى:</b> أبو سمبل — 187 كلمة، 12 لقطة، 55.8 ثانية، 1674 فريم. السكربت اتكتب واتحقق، والبناء بـ 4 وكلاء بالتوازي، و3 جولات إصلاح.</span></div>
+    <div class="row"><span class="st done">✅</span><span><b>النتيجة النهائية:</b> 9 من 12 لقطة ناجحة، 3 جزئية، صفر فاشلة. (البداية كانت 2 ناجحة و7 فاشلة — كل خطأ اتصلح واتثبت بالصور.)</span></div>
+    <div class="row"><span class="st done">✅</span><span><b>اللي اتصلح:</b> الكاميرات البعيدة، اللون البنفسجي، النهر (بقى ميّه مش خدوش)، البلوك الـ 30 طن (طباشير على الحجر)، المناشير المايلة والغبار، عمود الشمس في قدس الأقداس.</span></div>
+    <div class="row"><span class="st next">⏳</span><span><b>اللي لسه:</b> البلوك لسه مسطّح شوية، والنهر بيبان آخر اللقطة 8 بس، والمهرّج في اللقطة 10 مش متأكدين منه من الصورة المصغّرة. والريندر الكامل للفيديو لسه متعملش — محتاج أجهزة جيت هب.</span></div>
+    <div class="row"><span class="st next">⏳</span><span><b>جيت هب:</b> البرنامج اترفع على <code>arabysft2-sudo/me</code> (مجلد، 75 ملف) — إنشاء مستودع جديد مرفوض من التطبيق (403). ملفات التشغيل المتوازي جاهزة بس مش قادرة تترفع لنفس السبب. التثبيت النضيف على Codespace لسه غير متحقق.</span></div>
+  </div>
+
+  <div class="card">
+    <h2>الحالة الآن — المرحلة 1 على لينكس</h2>
+    <div class="row"><span class="st done">✅</span><span><b>الهيكل جاهز:</b> المشروع + <code>src/videos/bridge/</code> (13 ملف) + 4 صناديق معزولة <code>_world _char _cam _post</code></span></div>
+    <div class="row"><span class="st done">✅</span><span><b>الحزم اتثبتت:</b> <span class="tag">Remotion 4.0.290</span> <span class="tag">three 0.175.0</span> <span class="tag">fiber 9.1.2</span> <span class="tag">React 19.1.0</span></span></div>
+    <div class="row"><span class="st done">✅</span><span><b>سكربتات التشغيل جاهزة:</b> <code>install.sh / render.sh / test_render.sh</code> للينكس + <code>install.bat / render.bat / test_render.bat</code> لويندوز</span></div>
+    <div class="row"><span class="st done">✅</span><span><b>المهارة والشرح:</b> المهارة الخام + ملف <code>README.md</code> بالعربي</span></div>
+    <div class="row"><span class="st done">✅</span><span><b>فحص الكود نضيف:</b> <code>tsc --noEmit</code> صفر أخطاء — والـ 3 صور الثابتة اترندرت واتشافت (فريم 100 و400 و900): جنود بوجوه مختلفة، مدينة مرسومة بخطوط حبر، ولا بقع سوداء.</span></div>
+    <div class="row"><span class="st next">⏳</span><span><b>بعدها:</b> تجربة البرنامج على جيت هب — بعد ما لينكس يثبت إنه شغال واحترافي</span></div>
+  </div>
+
+  <div class="card">
+    <h2>البرنامج بيعمل إيه؟</h2>
+    <div class="row"><span class="st">🎥</span><span>فيديو قصصي 45–70 ثانية: عوالم 3D حقيقية مرسومة بخطوط حبر، شخصيات كرتونية بوجوه بتتغير مع الكلام، والكاميرا بتتحرك طول الوقت.</span></div>
+    <div class="row"><span class="st">📏</span><span>15 مقياس جودة رقمي (حبر، إضاءة، ظلال بنفسجية، عزل خلفية، ضباب) — بتتفحص على صور ثابتة قبل الريندر.</span></div>
+    <div class="row"><span class="st">👥</span><span>كل فيديو بيتبني بـ 4 وكلاء بالتوازي: العالم، الشخصيات، الكاميرا، الإضاءة — وبعدها دمج وفحص.</span></div>
+    <div class="row"><span class="st">🖥️</span><span>بيتثبت على لينكس الأول، وبعدها على جيت هب، والريندر على جهازك بكارت الشاشة بتاعك.</span></div>
+  </div>
+
+  <p class="note">المرحلة 1 على لينكس اكتملت واتحققت: التثبيت ناجح، فحص الكود نضيف، والـ 3 صور الثابتة طالعة ومتشافة. الفيديو اللي بعتّه اتقري، وقواعده الأربعة (أغرب صورة في أول ثانيتين، وكل سطر له صورة، والوجوه مع الكلام، والمفاجأة قبل الآخر) دخلت في البرنامج.</p>
+  <p class="foot">آخر تحديث: 12 نوفمبر 2026 — 12:45 بتوقيت القاهرة · أبو سمبل: الحكم النهائي 9/12 ناجحة ✅ · الريندر الكامل لسه معلّق على جيت هب</p>
+</div>
+</body>
+</html>
