@@ -1,0 +1,74 @@
+[
+ {
+  "sentence": "The sea was trying to eat the ship.",
+  "start": 0.0,
+  "end": 2.39,
+  "shot": 1
+ },
+ {
+  "sentence": "The captain held the wheel.",
+  "start": 2.39,
+  "end": 3.88,
+  "shot": 2
+ },
+ {
+  "sentence": "The wind tore at the sails.",
+  "start": 3.88,
+  "end": 5.67,
+  "shot": 2
+ },
+ {
+  "sentence": "The cook held a can of oil.",
+  "start": 5.67,
+  "end": 7.76,
+  "shot": 2
+ },
+ {
+  "sentence": "One sailor laughed.",
+  "start": 7.76,
+  "end": 8.66,
+  "shot": 3
+ },
+ {
+  "sentence": "'Oil?",
+  "start": 8.66,
+  "end": 8.96,
+  "shot": 3
+ },
+ {
+  "sentence": "Against THAT?' The captain said nothing.",
+  "start": 8.96,
+  "end": 10.75,
+  "shot": 3
+ },
+ {
+  "sentence": "But the cook poured the oil over the side.",
+  "start": 10.75,
+  "end": 13.43,
+  "shot": 4
+ },
+ {
+  "sentence": "It shone gold on the black water.",
+  "start": 13.43,
+  "end": 15.52,
+  "shot": 4
+ },
+ {
+  "sentence": "You see, the oil lays the water flat.",
+  "start": 15.52,
+  "end": 17.91,
+  "shot": 5
+ },
+ {
+  "sentence": "The wave sank down like a tired dog.",
+  "start": 17.91,
+  "end": 20.3,
+  "shot": 5
+ },
+ {
+  "sentence": "So the sea went quiet, and the ship sailed on.",
+  "start": 20.3,
+  "end": 23.28,
+  "shot": 6
+ }
+]
