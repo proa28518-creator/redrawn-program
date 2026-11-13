@@ -1,0 +1,130 @@
+# Render in parallel — animated-3d-story-program
+# Splits a Remotion render across up to 20 parallel GitHub-hosted jobs
+# (the free plan's concurrency limit is exactly 20 concurrent jobs),
+# then concatenates the chunks into one video.
+#
+# BUDGET — READ BEFORE A FULL RENDER:
+# - GitHub Free: 20 concurrent standard jobs, 2,000 Linux minutes/month,
+#   500 MB artifact storage. A job runs at most 6 hours.
+# - CPU-only runners render slowly: on our Linux VM a frame took ~4 min
+#   (SwiftShader, no GPU). A full 2,025-frame render is ~8,100 CPU-minutes
+#   — about 4x the whole free monthly budget — even split across 20 jobs,
+#   because parallelism does not reduce total minutes.
+# - DEFAULT IS A 30-FRAME TEST (frames 0-29). Never run a full render
+#   without the owner's explicit say-so; it will eat the monthly budget
+#   (and overage is paid, not free).
+# - Works for any composition in the program (BridgeShort, AbuSimbel, ...).
+name: Render in parallel — animated-3d-story-program
+
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: 'Remotion composition id (e.g. BridgeShort)'
+        default: 'BridgeShort'
+        required: true
+      frames:
+        description: 'Frame range, e.g. 0-29 (test) or 0-2024 (full)'
+        default: '0-29'
+        required: true
+      max_chunks:
+        description: 'Parallel chunks (max 20 on the free plan)'
+        default: '20'
+        required: true
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      chunks: ${{ steps.split.outputs.chunks }}
+    steps:
+      - id: split
+        run: |
+          python3 - <<'PY'
+          import json, os
+          frames = os.environ['FRAMES']
+          start, end = map(int, frames.split('-'))
+          max_chunks = int(os.environ['MAX_CHUNKS'])
+          total = end - start + 1
+          n = min(max_chunks, total)
+
+          # Distribute frames evenly across n chunks without gaps or overlaps
+          chunks = []
+          base_size = total // n
+          remainder = total % n
+
+          current_start = start
+          for i in range(n):
+              # The first 'remainder' chunks get one extra frame
+              chunk_size = base_size + (1 if i < remainder else 0)
+              current_end = current_start + chunk_size - 1
+              chunks.append({"index": i, "start": current_start, "end": current_end})
+              current_start = current_end + 1
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('chunks=' + json.dumps(chunks) + '\n')
+          print(f"{total} frames -> {n} chunks")
+          PY
+        env:
+          FRAMES: ${{ inputs.frames }}
+          MAX_CHUNKS: ${{ inputs.max_chunks }}
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        chunk: ${{ fromJSON(needs.plan.outputs.chunks) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Install ffmpeg (if missing)
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Install a browser for Remotion
+        run: npx remotion browser install chrome
+      - name: Render chunk ${{ matrix.chunk.index }} (frames ${{ matrix.chunk.start }}-${{ matrix.chunk.end }})
+        run: |
+          mkdir -p out
+          export REMOTION_TMP="$PWD/out/remotion-tmp" TEMP="$PWD/out/remotion-tmp" TMP="$PWD/out/remotion-tmp"
+          npx remotion render src/index.ts ${{ inputs.composition }} out/chunk-${{ matrix.chunk.index }}.mp4 --frames=${{ matrix.chunk.start }}-${{ matrix.chunk.end }} --gl=swangle --concurrency=2 --image-format=jpeg --jpeg-quality=92 --crf=16
+      - name: Upload chunk
+        uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.chunk.index }}
+          path: out/chunk-${{ matrix.chunk.index }}.mp4
+
+  finalize:
+    needs: render
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Download all chunks
+        uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          merge-multiple: true
+          path: chunks
+      - name: Install ffmpeg (if missing)
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Concatenate chunks
+        run: |
+          cd chunks
+          for f in $(ls chunk-*.mp4 | sort -t- -k2 -n); do echo "file '$f'" >> list.txt; done
+          cat list.txt
+          ffmpeg -f concat -safe 0 -i list.txt -c copy ../final.mp4
+          ls -la ../final.mp4
+      - name: Upload final video
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-video
+          path: final.mp4
+          retention-days: 1
