@@ -1,0 +1,1 @@
+{"customizations":{"vscode":{"extensions":["dbaeumer.vscode-eslint"]}},"features":{"ghcr.io/devcontainers/features/python:1":{"version":"3.11"}},"image":"mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm","name":"Redrawn 3D Story","postCreateCommand":"sudo apt-get update && sudo apt-get install -y ffmpeg && bash install.sh"}
