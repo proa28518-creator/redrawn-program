@@ -3,6 +3,7 @@ import { Composition } from "remotion";
 import { BridgeShort, BRIDGE_FRAMES } from "./videos/bridge/Bridge";
 import { AbuSimbel, ABU_SIMBEL_FRAMES } from "./videos/abu-simbel/AbuSimbel";
 import { StormTest, STORM_TEST_FRAMES } from "./videos/storm-test/StormTest";
+import { QuakerGuns as QuakerGunsOpus, QUAKER_FRAMES as QUAKER_OPUS_FRAMES } from "./videos/quaker-guns-opus/Quaker";
 
 export const Root: React.FC = () => (
   <>
@@ -10,6 +11,15 @@ export const Root: React.FC = () => (
       id="BridgeShort"
       component={BridgeShort}
       durationInFrames={BRIDGE_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{}}
+    />
+    <Composition
+      id="QuakerGunsOpus"
+      component={QuakerGunsOpus}
+      durationInFrames={QUAKER_OPUS_FRAMES}
       fps={30}
       width={1080}
       height={1920}
