@@ -1,0 +1,50 @@
+{
+ "dependencies": {
+  "react": "19.1.0",
+  "react-dom": "19.1.0",
+  "remotion": "4.0.290",
+  "@remotion/cli": "4.0.290",
+  "@remotion/three": "4.0.290",
+  "@remotion/bundler": "4.0.290",
+  "@remotion/renderer": "4.0.290",
+  "three": "0.175.0",
+  "@react-three/fiber": "9.1.2",
+  "@react-three/postprocessing": "3.0.4",
+  "postprocessing": "6.37.2"
+ },
+ "devDependencies": {
+  "typescript": "5.8.3",
+  "@types/react": "19.1.0",
+  "@types/react-dom": "19.1.0",
+  "@types/three": "0.175.0"
+ },
+ "engines": {
+  "node": ">=20.11.0"
+ },
+ "name": "animated-3d-story-program",
+ "packageManager": "npm@10.9.4",
+ "private": true,
+ "scripts": {
+  "postinstall": "node scripts/postinstall-port-patch.mjs",
+  "check:assets": "node scripts/check-assets.mjs",
+  "check:camera": "node scripts/check-camera.mjs BridgeShort",
+  "audit:cameras": "node scripts/audit-cameras.mjs",
+  "audit:anchors": "node scripts/audit-anchors.mjs",
+  "qa:bridge": "python3 scripts/short_qa.py out/bridge/video.mp4 out/bridge/qa templates/scripts/bridge_shots.py",
+  "pre-render:bridge": "npm run check:assets && npm run check:camera && npm run audit:cameras && npm run audit:anchors",
+  "render:bridge": "npm run pre-render:bridge && remotion render src/index.ts BridgeShort out/bridge/video.mp4 --codec h264 --crf 16 --scale 1.3333",
+  "render:bridge:instrumented": "npm run pre-render:bridge && node scripts/instrumented-render.mjs",
+  "render:bridge:chunked": "npm run pre-render:bridge && node scripts/render-chunked.mjs BridgeShort out/bridge/video.mp4 500 0 2024",
+  "still:bridge": "node scripts/stills.mjs out/bridge/stills/x_ 100,400 0.5 BridgeShort",
+  "typecheck": "tsc --noEmit",
+  "qc:all": "node scripts/qc-gate.mjs",
+  "golden:capture": "node scripts/golden.mjs capture",
+  "golden:compare": "node scripts/golden.mjs compare",
+  "motion:check": "python3 scripts/motion-check.py out/bridge/test-30f.mp4",
+  "check:texts": "node scripts/check-texts.mjs",
+  "check:beats": "node scripts/check-beats.mjs",
+  "safe:profile": "node scripts/safe-profile.mjs"
+ },
+ "type": "module",
+ "version": "1.0.0"
+}
