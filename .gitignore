@@ -1,0 +1,11 @@
+node_modules/
+out/
+build/
+dist/
+remotion-tmp/
+*.log
+.DS_Store
+build/
+
+references/frames/
+references/sheets/
