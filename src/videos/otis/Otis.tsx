@@ -138,7 +138,7 @@ const ShotView: React.FC<{ id: number; kit: Kit; alpha: number }> = ({ id, kit, 
   </AbsoluteFill>
 );
 
-export const Otis: React.FC = () => {
+export const Otis: React.FC<{ muteAudio?: boolean }> = ({ muteAudio }) => {
   const f = useCurrentFrame();
   const kit = useKit();
   if (!kit) return null;
@@ -150,7 +150,7 @@ export const Otis: React.FC = () => {
       ))}
       {flash > 0 && <AbsoluteFill style={{ background: "#ffffff", opacity: flash, pointerEvents: "none" }} />}
       <CaptionsOverlay />
-      <OtisAudio />
+      {!muteAudio && <OtisAudio />}
     </AbsoluteFill>
   );
 };

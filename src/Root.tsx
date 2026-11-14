@@ -18,6 +18,15 @@ export const Root: React.FC = () => (
       defaultProps={{}}
     />
     <Composition
+      id="OtisSilent"
+      component={Otis}
+      durationInFrames={OTIS_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{ muteAudio: true }}
+    />
+    <Composition
       id="BridgeShort"
       component={BridgeShort}
       durationInFrames={BRIDGE_FRAMES}
