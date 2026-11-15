@@ -5,6 +5,7 @@ import { AbuSimbel, ABU_SIMBEL_FRAMES } from "./videos/abu-simbel/AbuSimbel";
 import { StormTest, STORM_TEST_FRAMES } from "./videos/storm-test/StormTest";
 import { QuakerGuns as QuakerGunsOpus, QUAKER_FRAMES as QUAKER_OPUS_FRAMES } from "./videos/quaker-guns-opus/Quaker";
 import { Otis, OTIS_FRAMES } from "./videos/otis/Otis";
+import { IndianaBell, INDIANA_FRAMES } from "./videos/indiana-bell/IndianaBell";
 
 export const Root: React.FC = () => (
   <>
@@ -25,6 +26,15 @@ export const Root: React.FC = () => (
       width={1080}
       height={1920}
       defaultProps={{ muteAudio: true }}
+    />
+    <Composition
+      id="IndianaBell"
+      component={IndianaBell}
+      durationInFrames={INDIANA_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{}}
     />
     <Composition
       id="BridgeShort"
