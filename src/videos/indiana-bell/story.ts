@@ -286,8 +286,20 @@ const rawCamAt = (id: number, f: number): Cam => {
       return moveCam(f, a, b, [-11.5, 2.1, 16.5], [9.5, 2.1, 16.5], [-9.5, 1.9, 6.8], [11.5, 1.9, 6.8], 44, 42, 0, 0, true);
 
     // 15 | 31.0–33.0 | Low-Angle + Tilt Up خفيف: الكوريكات ترفع العمارة على البكر
-    case 15:
-      return moveCam(f, a, b, [6.4, 0.9, 9.6], [5.6, 1.7, 8.4], [0, 2.2, 0], [0, 3.6, 0], 44, 40, 0, 0);
+    // Two-phase blend: tight on the pumping worker + jack, then from ~f955 it eases back low & wide
+    // (full by f987) to show the raised skirt, the jack row and the grown gap. Both rigs keep moving,
+    // so velocity is never zero. (Opus 5.5 patch via Antigravity, applied verbatim.)
+    case 15: {
+      const tight = moveCam(f, a, b, [6.4, 0.9, 9.6], [5.6, 1.7, 8.4], [0, 2.2, 0], [0, 3.6, 0], 44, 40, 0, 0);
+      const wide = moveCam(f, a, b, [5.0, 1.0, 14.0], [3.4, 1.05, 18.5], [1.8, 1.6, 4.5], [1.3, 1.5, 4.5], 46, 48, 0, 0);
+      const w = smooth((f - 955) / 32);
+      return {
+        pos: lerp3(tight.pos, wide.pos, w),
+        look: lerp3(tight.look, wide.look, w),
+        fov: tight.fov + (wide.fov - tight.fov) * w,
+        roll: 0,
+      };
+    }
 
     // 16 | 33.0–35.5 | Orbit بطيء + Time-Lapse: تقويم يطير والعمارة تلف تدريجياً
     case 16:

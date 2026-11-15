@@ -478,8 +478,16 @@ export class World {
         stand.add(page);
         this.calendarPages.push(page);
       }
-      stand.position.set(11.8, 0, 8.6);
-      stand.rotation.y = -0.5;
+      // Shot 16: parked on the entrance sidewalk in front of the building, clear of the
+      // rotating building's corner sweep (radius 7.9), the benches, and the ruler/plaque zone
+      // (ruler at (5.7, 0, 6.6), plaque ~(7.3, 0.7, 4.8)). Enlarged 1.8x (pages included) so
+      // the flips read in the orbit's clear wide window (~f1000-1035, before the neighbour
+      // roof sweeps the base). (Opus 5.5 patch via Antigravity; position adapted by the desk
+      // agent — Opus's (6.6, 0, 4.8) coincided with the ruler plaque; a first desk spot at
+      // (7.8, 0, 7.8) landed on the right frame edge in the f1027 verification still.)
+      stand.position.set(4.2, 0, 10.2);
+      stand.rotation.y = 0.1;
+      stand.scale.setScalar(1.8);
       stand.name = "calendarStand";
       R.add(stand);
       this.calendarStand = stand;
@@ -553,6 +561,12 @@ export class World {
         [-2.75, "#f5b921", 0.9], // gas (yellow)
         [-2.2, "#5a6474", 1.8],  // telephone cable bundle (dark)
       ];
+      // Fixed slip couplings over each run's sx=+4 joint (world x = X_XRAY + 4). Parented to
+      // xrayGroup, NOT flexPipes, so they don't scale: the stretching pipe slides through them.
+      // The joint is placed off-centre on purpose: the stretch is centred on x=X_XRAY, so pipe
+      // material at the centre joint barely moves, while at sx=+4 it slides ~0.5 by shot's end.
+      // (Opus 5.5 patch via Antigravity; joint moved from sx=0 to sx=+4 by the desk agent.)
+      const sleeveMat = twoTone(new THREE.MeshLambertMaterial({ color: "#dfe5ec" }));
       for (const [py, col, ph] of runs) {
         const mat = twoTone(new THREE.MeshLambertMaterial({ color: col }));
         const run = new THREE.Group();
@@ -566,6 +580,18 @@ export class World {
         }
         run.position.set(X_XRAY, py, 0.2);
         this.flexPipes.add(run);
+        // The sx=+4 joint sits between segments 5 and 6: centre the sleeve on their mean
+        // undulation height and mean bent-end z offset there
+        const sA = Math.sin(5 * 1.1 + ph);
+        const sB = Math.sin(6 * 1.1 + ph);
+        const sleeve = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.3, 0.62, 12), sleeveMat);
+        sleeve.rotation.z = Math.PI / 2;
+        sleeve.position.set(
+          X_XRAY + 4,
+          py + (sA + sB) * 0.07,
+          0.2 + (0.975 * (Math.sin(sB * 0.16) - Math.sin(sA * 0.16))) / 2,
+        );
+        this.xrayGroup.add(sleeve);
       }
       this.xrayGroup.add(this.flexPipes);
     }
@@ -832,8 +858,8 @@ export class World {
       this.xrayGhost.position.x = X_XRAY + 0.14 * Math.sin(t * 0.6);
       // Shot 21: the footing beam glides over the rollers
       if (id === 21) this.slideBeam.position.x = X_XRAY - 2.4 - 0.3 + 0.6 * smooth((f - 1350) / 60);
-      // Shot 22: the flexible runs stretch with the rotation
-      const stretch = id === 22 ? 1 + 0.045 * smooth((f - 1410) / 75) : 1;
+      // Shot 22: the flexible runs stretch ~12% with the rotation, sliding through the fixed sleeves
+      const stretch = id === 22 ? 1 + 0.12 * smooth((f - 1410) / 75) : 1;
       this.flexPipes.scale.set(stretch, 1, 1);
       this.flexPipes.position.x = X_XRAY * (stretch - 1) * -1;
       // Shot 20: the three secret markers pop in one by one
