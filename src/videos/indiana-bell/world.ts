@@ -18,6 +18,7 @@ import {
   X_SITE, X_PLAN, X_OFFICE, X_SWITCH, X_MEET, X_IMAGINE, X_XRAY, X_DOOR,
 } from "./story";
 import { applyCam } from "../common/applyCam";
+import { quantizeShadowExtent, snapShadowLight } from "./shadowstable";
 
 // No external GLBs required; procedural geometry & textures handle everything cleanly
 export const loadKit = (): Promise<Kit> => Promise.resolve({});
@@ -709,15 +710,17 @@ export class World {
     const K = LOOK[s.light], sunDir = this.shotSun(id, s, L);
     this.hemi.color.set(L.sky); this.hemi.groundColor.set(L.ground); this.hemi.intensity = L.hemiI;
     this.sun.color.set(L.sunCol); this.sun.intensity = L.sunI;
-    let Rr = THREE.MathUtils.clamp(dist * 1.15 + 7, 12, 95);
-    if (s.light === "golden") Rr = Math.max(Rr, 35);
-    this.sun.position.copy(focus).addScaledVector(sunDir, 220);
-    this.sun.target.position.copy(focus);
+    const Rr = quantizeShadowExtent(dist, s.light === "golden");
+    snapShadowLight(focus, sunDir, Rr, this.sun.shadow.mapSize.x, 220, this.sun.target.position, this.sun.position);
+    this.sun.target.updateMatrixWorld(true);
+    this.sun.updateMatrixWorld(true);
     const sc = this.sun.shadow.camera;
     sc.left = -Rr; sc.right = Rr; sc.top = Rr; sc.bottom = -Rr; sc.near = 20; sc.far = 480;
     sc.updateProjectionMatrix();
+    sc.updateMatrixWorld(true);
     this.sun.shadow.bias = L.bias;
     this.sun.shadow.normalBias = L.normalBias * (Rr / 12);
+    this.sun.shadow.needsUpdate = true;
     this.fill.intensity = 0;
 
     TONE.uLitCol.value.set(...L.lit); TONE.uShadeCol.value.set(...L.shade); TONE.uShadeLift.value.set(...L.lift);
