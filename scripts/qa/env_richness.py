@@ -3,6 +3,14 @@
 
 Implements sections 1, 3, 4, 5, and 6 of plan_p2c.md deterministically using
 only numpy and PIL.
+
+Gating correction (desk-adopted from GLM's Phase 2 confirmation pass,
+2026-11-16): F2 is gated on the RAW texture_energy floor 0.45 ONLY — the
+relative tex_ratio basis is a reported measurement, never a gate. The
+automated props proxy is DISCARDED for per-shot F1 gating (measured mean
+bias +20.0 vs hand counts); per-shot F1 verdicts are issued only for
+hand-audited shots, from the hand counts. Measurement code and measured
+values are unchanged by this correction.
 """
 
 import os
@@ -60,8 +68,11 @@ HAND_NOTES = {
 }
 
 # Fixed pre-registered thresholds and constants (plan_p2c.md).
+# F1 gate: hand-counted props >= F1_FLOOR, hand-audited shots only.
+# F2 gate: raw texture_energy >= F2_RAW_REF (the ONLY texture gate since the
+# 2026-11-16 correction; the former relative tex_ratio floor 2.3684 is
+# retired as a gate — tex_ratio remains a reported measurement only).
 F1_FLOOR = 12.0
-F2_RATIO_FLOOR = 2.3684
 F2_RAW_REF = 0.4500
 
 EDGE_LUMA_THRESHOLD = 28.0
@@ -84,7 +95,6 @@ CSV_COLUMNS = [
     "prop_bias",
     "corrected_props",
     "f1_pass",
-    "f1_raw_pass",
     "raw_linear_grad",
     "texture_energy",
     "tex_ratio",
@@ -402,8 +412,9 @@ def run_self_tests(height: int, width: int) -> dict:
     # independent x/y rounding steps, whereas for the deterministic planar ramp the
     # steps coincide along integer-level contours (P(both) = P(dx) = 0.05839), yielding
     # raw_linear=0.00029826 and E_tex=0.174638. Keep the ramp, TEX_C_CAP, and all
-    # scoring rules (F2 primary tex_ratio >= 2.3684 vs measured flat_ours) unchanged,
-    # and gate on the true deterministic values.
+    # scoring rules unchanged, and gate on the true deterministic values.
+    # (Calibration values only; F2 shot gating was corrected 2026-11-16 to the
+    # raw texture_energy >= 0.45 floor — see module docstring.)
     assert 0.170 <= syn_b_tex["texture_energy"] <= 0.180, (
         f"syn_b texture_energy out of [0.170, 0.180]: {syn_b_tex['texture_energy']}"
     )
@@ -452,7 +463,6 @@ def _write_csv(out_path: Path, shot_records: list) -> None:
                     "" if rec["prop_bias"] is None else rec["prop_bias"],
                     f"{rec['corrected_props']:.2f}",
                     rec["f1_pass"],
-                    rec["f1_raw_pass"],
                     f"{rec['raw_linear_grad']:.6f}",
                     f"{rec['texture_energy']:.4f}",
                     f"{rec['tex_ratio']:.4f}",
@@ -480,10 +490,11 @@ def _write_markdown(
         "",
         "**Specification:** `plan_p2c.md` (pre-registered, deterministic, numpy + PIL only)  ",
         f"**Stills Measured:** {num_shots} (`shot-01` .. `shot-{num_shots:02d}`)  ",
-        "**Fixed Floors:** F1 (`corrected_props >= 12.0`), F2 (`tex_ratio >= 2.3684`, relative to `flat_ours` = `synthetic_flat_drift`)",
+        "**Fixed Floors:** F1 (hand-counted props `>= 12.0`, hand-audited shots only), F2 (`texture_energy >= 0.4500`, raw)",
         "",
         "> **Scale Disclaimer (§4.2):** Absolute scale equating between `texture_energy` and inkbeat's unrecovered script is **NOT claimed**. "
-        "The relative ratio `tex_ratio >= 2.3684` (`0.45 / 0.19`) is the primary pre-registered F2 test, while raw `texture_energy` and unclamped `raw_linear_grad` are reported alongside it.",
+        "Per the 2026-11-16 gating correction, F2 is gated on raw `texture_energy >= 0.4500` ONLY; `tex_ratio` (relative to `flat_ours` = `synthetic_flat_drift`) and unclamped `raw_linear_grad` are reported as measurements, never as gates. "
+        "The automated props proxy (`proxy_props`, and the bias-corrected estimate `corrected_props`) is likewise informational only — per-shot F1 verdicts come solely from hand counts.",
         "",
         "---",
         "",
@@ -494,7 +505,7 @@ def _write_markdown(
         f"| `synthetic_flat_rgb` (a) | {syn_a['raw_linear_grad']:.6f} | {syn_a['texture_energy']:.4f} | {syn_a['proxy_props']} | Zero-gradient sanity gate |",
         f"| `synthetic_flat_drift` (b, `flat_ours`) | {syn_b['raw_linear_grad']:.6f} | {syn_b['texture_energy']:.4f} | {syn_b['proxy_props']} | Untextured drift baseline (`flat_ours`) |",
         "",
-        "> **Self-Test Gate Erratum (Coordinator Ruling, Option B):** `plan_p2c.md` §4.1/§8 Step 4 predicted `raw_linear_grad = 0.0003852` and `texture_energy = 0.1902` (gate `[0.185, 0.195]` / `[0.00035, 0.00042]`) under an independence assumption for x/y rounding steps. On the deterministic planar ramp, x and y rounding steps coincide along integer-level contours (`P(both) = P(dx) = 0.05839`), yielding `raw_linear_grad = 0.00029826` and `texture_energy = 0.174638`. Per coordinator ruling, the Step 4 gate bounds were updated to `E_tex in [0.170, 0.180]` and `raw_linear_grad in [0.00029, 0.00031]` while keeping the ramp, `c_cap = 0.056`, and all F1/F2 scoring (`tex_ratio >= 2.3684` against measured `flat_ours`) unchanged.",
+        "> **Self-Test Gate Erratum (Coordinator Ruling, Option B):** `plan_p2c.md` §4.1/§8 Step 4 predicted `raw_linear_grad = 0.0003852` and `texture_energy = 0.1902` (gate `[0.185, 0.195]` / `[0.00035, 0.00042]`) under an independence assumption for x/y rounding steps. On the deterministic planar ramp, x and y rounding steps coincide along integer-level contours (`P(both) = P(dx) = 0.05839`), yielding `raw_linear_grad = 0.00029826` and `texture_energy = 0.174638`. Per coordinator ruling, the Step 4 gate bounds were updated to `E_tex in [0.170, 0.180]` and `raw_linear_grad in [0.00029, 0.00031]` while keeping the ramp, `c_cap = 0.056`, and all scoring thresholds unchanged at that time. (F2 shot gating was later corrected, 2026-11-16: raw `texture_energy >= 0.45` only; `tex_ratio` is a measurement, not a gate.)",
         "",
         "---",
         "",
@@ -535,8 +546,8 @@ def _write_markdown(
             "",
             "## 3. Per-Shot Measurements (All 26 Stills)",
             "",
-            "| shot_id | proxy_props | hand_props | prop_bias | corrected_props | f1_pass | f1_raw_pass | raw_linear_grad | texture_energy | tex_ratio | f2_pass | overall_pass |",
-            "| --- | ---: | ---: | ---: | ---: | :---: | :---: | ---: | ---: | ---: | :---: | :---: |",
+            "| shot_id | proxy_props | hand_props | prop_bias | corrected_props | f1_pass | raw_linear_grad | texture_energy | tex_ratio | f2_pass | overall_pass |",
+            "| --- | ---: | ---: | ---: | ---: | :---: | ---: | ---: | ---: | :---: | :---: |",
         ]
     )
 
@@ -545,7 +556,7 @@ def _write_markdown(
         bias_str = "—" if rec["prop_bias"] is None else f"{rec['prop_bias']:+d}"
         lines.append(
             f"| {rec['shot_id']} | {rec['proxy_props']} | {hand_str} | {bias_str} | "
-            f"{rec['corrected_props']:.2f} | {rec['f1_pass']} | {rec['f1_raw_pass']} | "
+            f"{rec['corrected_props']:.2f} | {rec['f1_pass']} | "
             f"{rec['raw_linear_grad']:.6f} | {rec['texture_energy']:.4f} | {rec['tex_ratio']:.4f} | "
             f"{rec['f2_pass']} | {rec['overall_pass']} |"
         )
@@ -578,11 +589,9 @@ def _write_markdown(
     lines.extend(
         [
             "",
-            f"- **F1 Pass (`corrected_props >= 12.0`):** `{pass_counts['f1_pass_count']}/{num_shots}` (`{pass_counts['f1_pass_pct']:.1f}%`)",
-            f"- **F1 Raw Pass (`proxy_props >= 12`):** `{pass_counts['f1_raw_pass_count']}/{num_shots}` (`{pass_counts['f1_raw_pass_pct']:.1f}%`)",
-            f"- **F2 Pass (`tex_ratio >= 2.3684`):** `{pass_counts['f2_pass_count']}/{num_shots}` (`{pass_counts['f2_pass_pct']:.1f}%`)",
-            f"- **F2 Raw Diagnostic (`texture_energy >= 0.4500`):** `{pass_counts['f2_raw_pass_count']}/{num_shots}` (`{pass_counts['f2_raw_pass_pct']:.1f}%`)",
-            f"- **Overall Pass (`f1_pass` AND `f2_pass`):** `{pass_counts['overall_pass_count']}/{num_shots}` (`{pass_counts['overall_pass_pct']:.1f}%`)",
+            f"- **F1 Pass (hand counts `>= 12.0`, hand-audited shots only):** `{pass_counts['f1_pass_count']}/{pass_counts['f1_audited_count']}` (`{pass_counts['f1_pass_pct']:.1f}%` of audited)",
+            f"- **F2 Pass (`texture_energy >= 0.4500`, raw — the only texture gate):** `{pass_counts['f2_pass_count']}/{num_shots}` (`{pass_counts['f2_pass_pct']:.1f}%`)",
+            f"- **Overall Pass (`f1_pass` AND `f2_pass`, hand-audited shots only):** `{pass_counts['overall_pass_count']}/{pass_counts['f1_audited_count']}` (`{pass_counts['overall_pass_pct']:.1f}%` of audited)",
             "",
             "---",
             "",
@@ -708,14 +717,23 @@ def main() -> None:
         formula_corr = max(0.0, round(proxy_val - mean_bias, 2))
         corrected_val = float(hand_val) if is_audited else formula_corr
 
-        f1_pass = "PASS" if corrected_val >= F1_FLOOR else "FAIL"
-        f1_raw_pass = "PASS" if proxy_val >= int(F1_FLOOR) else "FAIL"
+        # F1 gate (corrected 2026-11-16): hand counts ONLY. The proxy and its
+        # bias-corrected estimate are informational measurements, never a
+        # gate; non-audited shots earn no per-shot F1 verdict.
+        if is_audited:
+            f1_pass = "PASS" if float(hand_val) >= F1_FLOOR else "FAIL"
+        else:
+            f1_pass = "N/A"
 
         e_tex = r["texture_energy"]
         tex_ratio = e_tex / flat_ours
-        f2_pass = "PASS" if tex_ratio >= F2_RATIO_FLOOR else "FAIL"
-        f2_raw_pass = "PASS" if e_tex >= F2_RAW_REF else "FAIL"
-        overall_pass = "PASS" if (f1_pass == "PASS" and f2_pass == "PASS") else "FAIL"
+        # F2 gate (corrected 2026-11-16): raw texture_energy >= 0.45 ONLY.
+        # tex_ratio stays a reported measurement; it is not a gate.
+        f2_pass = "PASS" if e_tex >= F2_RAW_REF else "FAIL"
+        if f1_pass == "N/A":
+            overall_pass = "N/A"
+        else:
+            overall_pass = "PASS" if (f1_pass == "PASS" and f2_pass == "PASS") else "FAIL"
 
         rec = {
             "shot_id": sid,
@@ -725,7 +743,6 @@ def main() -> None:
             "corrected_props": round(corrected_val, 2),
             "formula_corrected_props": formula_corr,
             "f1_pass": f1_pass,
-            "f1_raw_pass": f1_raw_pass,
             "raw_linear_grad": round(r["raw_linear_grad"], 6),
             "texture_energy": round(e_tex, 4),
             "tex_ratio": round(tex_ratio, 4),
@@ -733,7 +750,6 @@ def main() -> None:
             "texture_energy_full": e_tex,
             "tex_ratio_full": tex_ratio,
             "f2_pass": f2_pass,
-            "f2_raw_pass": f2_raw_pass,
             "overall_pass": overall_pass,
             "num_raw_components": r["num_raw_components"],
             "num_after_min_area": r["num_after_min_area"],
@@ -750,23 +766,19 @@ def main() -> None:
         "tex_ratio": _compute_stats([r["tex_ratio_full"] for r in shot_records]),
     }
 
+    f1_audited_count = sum(1 for r in shot_records if r["f1_pass"] != "N/A")
     f1_pass_count = sum(1 for r in shot_records if r["f1_pass"] == "PASS")
-    f1_raw_pass_count = sum(1 for r in shot_records if r["f1_raw_pass"] == "PASS")
     f2_pass_count = sum(1 for r in shot_records if r["f2_pass"] == "PASS")
-    f2_raw_pass_count = sum(1 for r in shot_records if r["f2_raw_pass"] == "PASS")
     overall_pass_count = sum(1 for r in shot_records if r["overall_pass"] == "PASS")
 
     pass_counts = {
+        "f1_audited_count": f1_audited_count,
         "f1_pass_count": f1_pass_count,
-        "f1_pass_pct": 100.0 * f1_pass_count / float(num_shots),
-        "f1_raw_pass_count": f1_raw_pass_count,
-        "f1_raw_pass_pct": 100.0 * f1_raw_pass_count / float(num_shots),
+        "f1_pass_pct": 100.0 * f1_pass_count / float(f1_audited_count),
         "f2_pass_count": f2_pass_count,
         "f2_pass_pct": 100.0 * f2_pass_count / float(num_shots),
-        "f2_raw_pass_count": f2_raw_pass_count,
-        "f2_raw_pass_pct": 100.0 * f2_raw_pass_count / float(num_shots),
         "overall_pass_count": overall_pass_count,
-        "overall_pass_pct": 100.0 * overall_pass_count / float(num_shots),
+        "overall_pass_pct": 100.0 * overall_pass_count / float(f1_audited_count),
     }
 
     import PIL
@@ -782,9 +794,8 @@ def main() -> None:
             "image_dimensions": {"height": height, "width": width},
             "num_shots": num_shots,
             "floors": {
-                "f1_corrected_props_min": F1_FLOOR,
-                "f2_tex_ratio_min": F2_RATIO_FLOOR,
-                "f2_raw_texture_energy_ref": F2_RAW_REF,
+                "f1_hand_props_min": F1_FLOOR,
+                "f2_texture_energy_raw_min": F2_RAW_REF,
             },
         },
         "synthetic_calibration": calibration,
@@ -814,8 +825,8 @@ def main() -> None:
 
     print(
         f"[DONE] Wrote {json_path}, {csv_path}, {md_path} | "
-        f"F1={f1_pass_count}/{num_shots}, F2={f2_pass_count}/{num_shots}, "
-        f"Overall={overall_pass_count}/{num_shots}"
+        f"F1={f1_pass_count}/{f1_audited_count} audited, F2={f2_pass_count}/{num_shots}, "
+        f"Overall={overall_pass_count}/{f1_audited_count} audited"
     )
 
 
