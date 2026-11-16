@@ -1020,26 +1020,26 @@ export function getDiegeticTexture(id: DiegeticTexId): THREE.CanvasTexture {
       });
 
     case "hook_warn_badge":
-      return makeTex(id, 256, 128, (g) => {
+      return makeTex(id, 512, 256, (g) => {
         g.fillStyle = "#4a100c";
-        g.fillRect(0, 0, 256, 128);
+        g.fillRect(0, 0, 512, 256);
         g.strokeStyle = "#ff5a36";
-        g.lineWidth = 8;
-        g.strokeRect(6, 6, 244, 116);
+        g.lineWidth = 12;
+        g.strokeRect(12, 12, 488, 232);
         // Warning triangle graphic
         g.fillStyle = "#ffd038";
         g.beginPath();
-        g.moveTo(64, 22);
-        g.lineTo(108, 102);
-        g.lineTo(20, 102);
+        g.moveTo(128, 44);
+        g.lineTo(216, 204);
+        g.lineTo(40, 204);
         g.closePath();
         g.fill();
         g.fillStyle = "#1c0a04";
-        g.font = "bold 54px monospace";
-        g.fillText("!", 48, 92);
+        g.font = "bold 108px monospace";
+        g.fillText("!", 96, 184);
         g.fillStyle = "#ff6d4a";
-        g.font = "bold 46px monospace";
-        g.fillText("ERR!", 124, 82);
+        g.font = "bold 92px monospace";
+        g.fillText("ERR!", 248, 164);
       });
 
     case "split_left_jpl":

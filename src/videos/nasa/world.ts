@@ -15,7 +15,7 @@ import {
   StarfieldDome,
   toonLam,
 } from "./build";
-import { clamp01, ShotId, smoothstep, V3 } from "./story";
+import { clamp01, moveCurve, ShotId, smoothstep, V3 } from "./story";
 
 const noInk = (s: THREE.Object3D) => s.layers.set(NOINK);
 
@@ -428,7 +428,7 @@ export const DeepSpaceSet: React.FC<{
   );
 
   // Shot 2 wrongness indicators: blinking warning badge + deterministic brief glitch flicker (both active at f107)
-  const warnOn = shotId === 2 && ((frame - 60) % 14) < 7;
+  const warnOn = shotId === 2 && ((frame - 60) % 14) < 10;
   const glitchCycle = shotId === 2 ? (frame - 60) % 19 : 0;
   const glitchOn = shotId === 2 && glitchCycle >= 7 && glitchCycle <= 9;
 
@@ -462,7 +462,7 @@ export const DeepSpaceSet: React.FC<{
             h("mesh", { key: `hmr-${i}`, material: ringMat, position: mp, onUpdate: noInk }, h("torusGeometry", { args: [0.32, 0.018, 8, 24] })),
           ),
           shotId === 2
-            ? h(RibbonLine, { points: hookHairlineDevPts, width: 0.032, color: "#ff4726" })
+            ? h(RibbonLine, { points: hookHairlineDevPts, width: 0.06, color: "#ff4726" })
             : null,
           // Upward-left descent speed streaks rushing past the falling orbiter (strictly behind HUD depth z <= -0.8)
           ...HOOK_STREAKS.map((st, i) => {
@@ -485,14 +485,14 @@ export const DeepSpaceSet: React.FC<{
             { position: [-0.08, 1.86, 0.95], rotation: [-0.14, 0.08, 0] },
             h("mesh", { material: hudFrameMat, position: [0, 0, -0.025], castShadow: true }, h("boxGeometry", { args: [1.62, 0.84, 0.04] })),
             h("mesh", { material: hookHudMat, position: [0, 0, 0.002], onUpdate: noInk }, h("planeGeometry", { args: [1.56, 0.78] })),
-            shotId === 2 ? h(RibbonLine, { points: hudMiniDevPts, width: 0.016, color: "#ff4d2e" }) : null,
+            shotId === 2 ? h(RibbonLine, { points: hudMiniDevPts, width: 0.03, color: "#ff4d2e" }) : null,
             warnOn
               ? h(
                   "group",
                   null,
-                  h("mesh", { material: hookWarnMat, position: [glitchOn ? 0.58 : 0.55, -0.29, 0.014], onUpdate: noInk }, h("planeGeometry", { args: [0.34, 0.17] })),
-                  h("mesh", { material: glitchOrangeMat, position: [0, 0.405, 0.012], onUpdate: noInk }, h("planeGeometry", { args: [1.58, 0.022] })),
-                  h("mesh", { material: glitchOrangeMat, position: [0, -0.405, 0.012], onUpdate: noInk }, h("planeGeometry", { args: [1.58, 0.022] })),
+                  h("mesh", { material: hookWarnMat, position: [0.42, -0.22, 0.014], onUpdate: noInk }, h("planeGeometry", { args: [0.75, 0.375] })),
+                  h("mesh", { material: glitchOrangeMat, position: [0, 0.405, 0.012], onUpdate: noInk }, h("planeGeometry", { args: [1.58, 0.04] })),
+                  h("mesh", { material: glitchOrangeMat, position: [0, -0.405, 0.012], onUpdate: noInk }, h("planeGeometry", { args: [1.58, 0.04] })),
                 )
               : null,
             glitchOn
@@ -1183,7 +1183,16 @@ export const MarsApproachBurnSet: React.FC<{
           null,
           h(RibbonLine, { points: gate57Pts, width: 0.095, color: "#ff5a36" }),
           h(RibbonLine, { points: divePts, width: 0.08, color: "#ff7338" }),
-          h("mesh", { material: gate57Mat, position: [0.4, -0.45, -1.1], onUpdate: noInk }, h("planeGeometry", { args: [2.0, 0.5] })),
+          (() => {
+            // 57 KM tag rides the top strip, right of the antenna mast, shrinking as the
+            // camera closes in: a fixed label is occluded by the diving craft for u > ~0.7
+            // (proven by f1493 on v1/v2). lookY(u) = 0.75 - 1.55 * moveCurve(u) mirrors the
+            // shot-18 camera look path in story.ts; x = 0.7 clears the mast (craftX + 0.72 max).
+            const shrinkK = smoothstep(0.55, 0.95, u);
+            const tagW = 1.4 - 0.7 * shrinkK;
+            const tagY = 0.75 - 1.55 * moveCurve(u) + 1.18;
+            return h("mesh", { material: gate57Mat, position: [0.62, tagY, -1.3], onUpdate: noInk }, h("planeGeometry", { args: [tagW, tagW / 4] }));
+          })(),
         )
       : null,
     h(MarsClimateOrbiter, { position: orbiterPos, rotation: orbiterRot, heatLevel, breakupProgress }),
