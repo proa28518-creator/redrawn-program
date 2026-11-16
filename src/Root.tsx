@@ -7,6 +7,7 @@ import { QuakerGuns as QuakerGunsOpus, QUAKER_FRAMES as QUAKER_OPUS_FRAMES } fro
 import { Otis, OTIS_FRAMES } from "./videos/otis/Otis";
 import { IndianaBell, INDIANA_FRAMES } from "./videos/indiana-bell/IndianaBell";
 import { InkbeatFamilyDemo, FAMILY_DEMO_FRAMES } from "./videos/inkbeat-family-demo/InkbeatFamilyDemo";
+import { CameraRigDemo, DEMO_FRAMES } from "./videos/camera-rig-demo/CameraRigDemo";
 
 export const Root: React.FC = () => (
   <>
@@ -68,6 +69,15 @@ export const Root: React.FC = () => (
       id="InkbeatFamilyDemo"
       component={InkbeatFamilyDemo}
       durationInFrames={FAMILY_DEMO_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{}}
+    />
+    <Composition
+      id="CameraRigDemo"
+      component={CameraRigDemo}
+      durationInFrames={DEMO_FRAMES}
       fps={30}
       width={1080}
       height={1920}
