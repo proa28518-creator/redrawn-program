@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "description": "NASA Mars Climate Orbiter locked sentence breaks and shot-18 rhetorical contrast-pair beat override",
+  "phrase_breaks": {
+    "mode": "replace",
+    "split_at_start_frames": [
+      60, 154, 289, 394, 488, 546, 614, 682, 753, 800, 873, 946,
+      1021, 1076, 1180, 1269, 1409, 1508, 1614, 1673, 1751, 1857, 1919
+    ]
+  },
+  "shots": {
+    "17": {
+      "beat_label": "escalation",
+      "notes": "Completes 226-vs-57 contrast pair; reveal opens at date line on shot 19 (50.28s)"
+    }
+  }
+}

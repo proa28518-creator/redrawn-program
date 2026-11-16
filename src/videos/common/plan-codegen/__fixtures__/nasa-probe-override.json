@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "shots": {
+    "4": {
+      "camera_slot_id": "cam_custom_probe_closeup",
+      "notes": "Desk probe override on shot index 4"
+    }
+  }
+}

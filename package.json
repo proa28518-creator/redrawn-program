@@ -43,6 +43,7 @@
   "motion:check": "python3 scripts/motion-check.py out/bridge/test-30f.mp4",
   "check:texts": "node scripts/check-texts.mjs",
   "check:beats": "node scripts/check-beats.mjs",
+  "plan:codegen": "node scripts/plan-codegen.mjs",
   "safe:profile": "node scripts/safe-profile.mjs"
  },
  "type": "module",
