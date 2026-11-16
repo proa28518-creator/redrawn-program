@@ -292,7 +292,7 @@ export class PostPipeline {
         uniforms: src.uniforms,
         defines: src.defines,
         side: src.side,
-        glslVersion: src.glslVersion,
+        glslVersion: src.glslVersion as THREE.GLSLVersion | undefined,
       });
       // RawShaderMaterial sources need their own precision header; fall back to a plain
       // vertex shader for those
