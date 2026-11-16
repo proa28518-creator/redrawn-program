@@ -8,6 +8,7 @@ import { Otis, OTIS_FRAMES } from "./videos/otis/Otis";
 import { IndianaBell, INDIANA_FRAMES } from "./videos/indiana-bell/IndianaBell";
 import { InkbeatFamilyDemo, FAMILY_DEMO_FRAMES } from "./videos/inkbeat-family-demo/InkbeatFamilyDemo";
 import { CameraRigDemo, DEMO_FRAMES } from "./videos/camera-rig-demo/CameraRigDemo";
+import { InkSpike, INK_SPIKE_FRAMES } from "./videos/ink-spike/InkSpike";
 
 export const Root: React.FC = () => (
   <>
@@ -91,6 +92,24 @@ export const Root: React.FC = () => (
       width={1080}
       height={1920}
       defaultProps={{}}
+    />
+    <Composition
+      id="InkSpike"
+      component={InkSpike}
+      durationInFrames={INK_SPIKE_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{ enableInk: true }}
+    />
+    <Composition
+      id="InkSpikeRaw"
+      component={InkSpike}
+      durationInFrames={INK_SPIKE_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{ enableInk: false }}
     />
   </>
 );
