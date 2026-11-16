@@ -7,6 +7,7 @@ import { QuakerGuns as QuakerGunsOpus, QUAKER_FRAMES as QUAKER_OPUS_FRAMES } fro
 import { Otis, OTIS_FRAMES } from "./videos/otis/Otis";
 import { IndianaBell, INDIANA_FRAMES } from "./videos/indiana-bell/IndianaBell";
 import { InkbeatFamilyDemo, FAMILY_DEMO_FRAMES } from "./videos/inkbeat-family-demo/InkbeatFamilyDemo";
+import { NasaOrbiter, NASA_ORBITER_META } from "./videos/nasa/NasaOrbiter";
 
 export const Root: React.FC = () => (
   <>
@@ -80,6 +81,15 @@ export const Root: React.FC = () => (
       fps={30}
       width={1080}
       height={1920}
+      defaultProps={{}}
+    />
+    <Composition
+      id={NASA_ORBITER_META.id}
+      component={NasaOrbiter}
+      durationInFrames={NASA_ORBITER_META.durationInFrames}
+      fps={NASA_ORBITER_META.fps}
+      width={NASA_ORBITER_META.width}
+      height={NASA_ORBITER_META.height}
       defaultProps={{}}
     />
   </>
