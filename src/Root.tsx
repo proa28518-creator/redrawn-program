@@ -6,6 +6,7 @@ import { StormTest, STORM_TEST_FRAMES } from "./videos/storm-test/StormTest";
 import { QuakerGuns as QuakerGunsOpus, QUAKER_FRAMES as QUAKER_OPUS_FRAMES } from "./videos/quaker-guns-opus/Quaker";
 import { Otis, OTIS_FRAMES } from "./videos/otis/Otis";
 import { IndianaBell, INDIANA_FRAMES } from "./videos/indiana-bell/IndianaBell";
+import { InkbeatFamilyDemo, FAMILY_DEMO_FRAMES } from "./videos/inkbeat-family-demo/InkbeatFamilyDemo";
 
 export const Root: React.FC = () => (
   <>
@@ -58,6 +59,15 @@ export const Root: React.FC = () => (
       id="StormTest"
       component={StormTest}
       durationInFrames={STORM_TEST_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{}}
+    />
+    <Composition
+      id="InkbeatFamilyDemo"
+      component={InkbeatFamilyDemo}
+      durationInFrames={FAMILY_DEMO_FRAMES}
       fps={30}
       width={1080}
       height={1920}
