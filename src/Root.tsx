@@ -9,6 +9,7 @@ import { IndianaBell, INDIANA_FRAMES } from "./videos/indiana-bell/IndianaBell";
 import { InkbeatFamilyDemo, FAMILY_DEMO_FRAMES } from "./videos/inkbeat-family-demo/InkbeatFamilyDemo";
 import { CameraRigDemo, DEMO_FRAMES } from "./videos/camera-rig-demo/CameraRigDemo";
 import { InkDemo, INK_DEMO_FRAMES } from "./videos/inkbeat-demo/InkDemo";
+import { BangladeshHeist, BANGLADESH_FRAMES } from "./videos/bangladesh/BangladeshHeist";
 
 export const Root: React.FC = () => (
   <>
@@ -110,6 +111,15 @@ export const Root: React.FC = () => (
       width={1080}
       height={1920}
       defaultProps={{ enableInk: false }}
+    />
+    <Composition
+      id="BangladeshHeist"
+      component={BangladeshHeist}
+      durationInFrames={BANGLADESH_FRAMES}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{}}
     />
   </>
 );
