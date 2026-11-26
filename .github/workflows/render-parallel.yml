@@ -120,7 +120,18 @@ jobs:
           cd chunks
           for f in $(ls chunk-*.mp4 | sort -t- -k2 -n); do echo "file '$f'" >> list.txt; done
           cat list.txt
-          ffmpeg -f concat -safe 0 -i list.txt -c copy ../final.mp4
+          # Re-encode (NOT -c copy): stream copy kept each chunk's container
+          # padding, stretching frame timestamps at every join to ~52ms
+          # instead of 33.3ms (visible stutter). Rewriting video timestamps
+          # onto an exact 30fps grid (setpts=N/(30*TB)) gives perfectly even
+          # pacing with no frames duplicated or dropped; aresample=async
+          # keeps the concatenated narration audio continuous and in sync.
+          ffmpeg -f concat -safe 0 -i list.txt \
+            -vf "settb=AVTB,setpts=N/(30*TB)" -vsync cfr -r 30 \
+            -c:v libx264 -crf 17 -preset medium -pix_fmt yuv420p \
+            -af "aresample=async=1:first_pts=0" \
+            -c:a aac -b:a 192k \
+            ../final.mp4
           ls -la ../final.mp4
       - name: Upload final video
         uses: actions/upload-artifact@v4
