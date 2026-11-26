@@ -1,1 +1,67 @@
-{"_doc":"The expert (BIBLE.md): portly professor in his sixties, round spectacles, white moustache, three-piece suit; returns in the lab in a white coat (same spec, coat variant staged by scene — Build uses the suit; the lab coat is the same jacket layer in white, swapped via this spec's lab twin expertlab.json). Stout W .92, browThick 1.1.","face":{"browThick":1.1,"eyeSize":0.95,"mouthSize":0.95},"facialHair":{"colour":"#e8e2d8","kind":"moustache"},"glasses":{"kind":"round"},"hair":{"colour":"#d9d2c6","seed":9,"style":"receding"},"hat":{"kind":"none"},"head":{},"hide":[],"id":"expert","limbs":{"armLen":0.9,"handR":0.06,"legLen":1.14,"width":0.06},"name":"Expert","torso":{"body":{"H":0.94,"W":0.92,"band":0.1,"build":"stout"},"outfit":{"layers":[{"collar":"point","color":"#f0ead9","t":"shirt"},{"color":"#5d5648","t":"vest"},{"color":"#4a3f30","t":"tie"},{"buttons":2,"color":"#4c4234","lapels":true,"openW":0.4,"t":"jacket","tip":0.42}],"trousers":"#3a332a"}}}
+{
+ "_doc": "The expert (BIBLE.md): portly professor in his sixties, round spectacles, white moustache, three-piece suit; returns in the lab in a white coat (same spec, coat variant staged by scene — Build uses the suit; the lab coat is the same jacket layer in white, swapped via this spec's lab twin expertlab.json). Stout W .92, browThick 1.1.",
+ "face": {
+  "browThick": 1.1,
+  "eyeSize": 0.95,
+  "mouthSize": 0.95
+ },
+ "facialHair": {
+  "colour": "#e8e2d8",
+  "kind": "moustache"
+ },
+ "glasses": {
+  "kind": "round"
+ },
+ "hair": {
+  "colour": "#d9d2c6",
+  "seed": 9,
+  "style": "receding"
+ },
+ "hat": {
+  "kind": "none"
+ },
+ "head": {},
+ "hide": [],
+ "id": "expert",
+ "limbs": {
+  "armLen": 0.9,
+  "handR": 0.06,
+  "legLen": 1.14,
+  "width": 0.06
+ },
+ "name": "Expert",
+ "torso": {
+  "body": {
+   "H": 0.94,
+   "W": 0.92,
+   "band": 0.1,
+   "build": "stout"
+  },
+  "outfit": {
+   "layers": [
+    {
+     "collar": "point",
+     "color": "#f0ead9",
+     "t": "shirt"
+    },
+    {
+     "color": "#5d5648",
+     "t": "vest"
+    },
+    {
+     "color": "#4a3f30",
+     "t": "tie"
+    },
+    {
+     "buttons": 2,
+     "color": "#4c4234",
+     "lapels": true,
+     "openW": 0.4,
+     "t": "jacket",
+     "tip": 0.42
+    }
+   ],
+   "trousers": "#3a332a"
+  }
+ }
+}

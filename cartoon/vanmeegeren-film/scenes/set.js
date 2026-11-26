@@ -133,9 +133,9 @@ export function buildSet(THREE, scene, opts = {}, kit) {
   map.position.set(.35, 2.6, -2.59); R.add(map);
   // the wall clock
   const clockF = new THREE.Mesh(new THREE.CircleGeometry(.3, 22), new THREE.MeshBasicMaterial({ color: 0xf2ead8 }));
-  clockF.position.set(1.35, 3.1, -2.59); R.add(clockF);
+  clockF.position.set(1.35, 3.1, -2.78); R.add(clockF);
   const clockR = part(THREE, new THREE.TorusGeometry(.3, .03, 8, 22), flat('#37424a', '#232a30'));
-  clockR.position.set(1.35, 3.1, -2.59); R.add(clockR);
+  clockR.position.set(1.35, 3.1, -2.78); R.add(clockR);
   R.add(box(THREE, .03, .2, .02, '#2c2c2c', '#1c1c1c', 1.35, 3.16, -2.58, 0, 0));
   R.add(box(THREE, .16, .03, .02, '#2c2c2c', '#1c1c1c', 1.42, 3.08, -2.58, 0, 0));
   // THE DOOR (back-right) open onto the lit corridor — the far end: corridor walls falling away,
@@ -152,6 +152,11 @@ export function buildSet(THREE, scene, opts = {}, kit) {
   corr.add(box(THREE, .5, 1.05, .34, '#3c4450', '#272e38', 1.85, .55, -9.4, 0, .015));         // the second officer, a shape
   corr.add(bulb(THREE, .13, 0xffd9a0, 2.35, 3.1, -6.2));                                      // corridor ceiling bulb
   corr.add(bulb(THREE, .13, 0xffd9a0, 2.35, 3.1, -9.2));
+  // a notice board on the back wall: pinned papers dress the centre of the room
+  R.add(box(THREE, 1.1, 1.3, .05, '#8a6f4d', '#6b543a', -0.55, 2.5, -2.93, 0, .012));
+  R.add(box(THREE, .34, .44, .02, '#e8e2d2', '#c9c2ae', -0.82, 2.68, -2.89, 0, .01));
+  R.add(box(THREE, .34, .44, .02, '#ded7c5', '#c0b9a4', -0.28, 2.62, -2.89, 0, .01));
+  R.add(box(THREE, .34, .4, .02, '#e2dccb', '#c4bda7', -0.55, 2.14, -2.89, 0, .01));
   // a coat stand + a filing cabinet (dressing, camera side kept clear)
   R.add(box(THREE, .07, 2.2, .07, '#4c3823', '#33250f', -2.7, 1.1, -2.2, 0, .012));
   R.add(box(THREE, .8, .05, .5, '#7d8288', '#585d63', -2.55, .9, -2.3, 0, .015));

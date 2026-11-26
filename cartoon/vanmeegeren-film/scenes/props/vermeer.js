@@ -73,9 +73,9 @@ export function build(o = {}) {
     new THREE.MeshBasicMaterial({ map: stampTex, transparent: true, depthWrite: false }));
   stamp.position.set(.3, .62, .07); stamp.rotation.z = -.22; stamp.visible = false; g.add(stamp);
   // the dust sheet (state: cover): a cloth slab hanging over the whole frame from its top
-  const sheet = part(new THREE.BoxGeometry(1.78, 2.08, .05), flat('#b3aa97', '#8f8672'), .02);
+  const sheet = part(new THREE.BoxGeometry(1.78, 2.08, .05), flat('#a2987f', '#7d7460'), .02);
   sheet.position.set(0, 1.12, .1); g.add(sheet);
-  const fold = part(new THREE.BoxGeometry(1.78, .16, .09), flat('#c4bca6', '#9d957e'), .015);
+  const fold = part(new THREE.BoxGeometry(1.78, .16, .09), flat('#b0a68d', '#8a8069'), .015);
   fold.position.set(0, 2.24, .1); g.add(fold);
   g.userData.update = (obj, q) => {
     const cover = q.cover != null ? q.cover : 1;
