@@ -1,7 +1,8 @@
 # Render in parallel — animated-3d-story-program
 # Splits a Remotion render across up to 20 parallel GitHub-hosted jobs
 # (the free plan's concurrency limit is exactly 20 concurrent jobs),
-# then concatenates the chunks into one video.
+# then concatenates video-only chunks and encodes the full mix audio once.
+# With no audio_file, chunk audio is used if present; muted chunks stay silent.
 #
 # BUDGET — READ BEFORE A FULL RENDER:
 # - GitHub Free: 20 concurrent standard jobs, 2,000 Linux minutes/month,
@@ -31,6 +32,10 @@ on:
         description: 'Parallel chunks (max 20 on the free plan)'
         default: '20'
         required: true
+      audio_file:
+        description: 'Full mix audio file in repo, e.g. public/mix.wav; empty = use chunk audio fallback'
+        required: false
+        default: ''
 
 jobs:
   plan:
@@ -95,7 +100,7 @@ jobs:
         run: |
           mkdir -p out
           export REMOTION_TMP="$PWD/out/remotion-tmp" TEMP="$PWD/out/remotion-tmp" TMP="$PWD/out/remotion-tmp"
-          npx remotion render src/index.ts ${{ inputs.composition }} out/chunk-${{ matrix.chunk.index }}.mp4 --frames=${{ matrix.chunk.start }}-${{ matrix.chunk.end }} --gl=swangle --concurrency=2 --image-format=jpeg --jpeg-quality=92 --crf=16 --timeout=240000
+          npx remotion render src/index.ts ${{ inputs.composition }} out/chunk-${{ matrix.chunk.index }}.mp4 --frames=${{ matrix.chunk.start }}-${{ matrix.chunk.end }} --gl=swangle --concurrency=2 --image-format=jpeg --jpeg-quality=92 --crf=16 --timeout=240000 --muted
       - name: Upload chunk
         uses: actions/upload-artifact@v4
         with:
@@ -107,6 +112,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      - uses: actions/checkout@v4
       - name: Download all chunks
         uses: actions/download-artifact@v4
         with:
@@ -116,6 +122,9 @@ jobs:
       - name: Install ffmpeg (if missing)
         run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
       - name: Concatenate chunks
+        env:
+          FRAMES: ${{ inputs.frames }}
+          AUDIO_FILE: ${{ inputs.audio_file }}
         run: |
           cd chunks
           for f in $(ls chunk-*.mp4 | sort -t- -k2 -n); do echo "file '$f'" >> list.txt; done
@@ -124,19 +133,63 @@ jobs:
           # padding, stretching frame timestamps at every join to ~52ms
           # instead of 33.3ms (visible stutter). Rewriting video timestamps
           # onto an exact 30fps grid (setpts=N/(30*TB)) gives perfectly even
-          # pacing with no frames duplicated or dropped; aresample=async
-          # keeps the concatenated narration audio continuous and in sync.
-          # -t trims the summed per-chunk AAC padding tail so the output is
-          # exactly the requested frame range long (frames/30 seconds).
-          DUR=$(python3 -c "s,e='${{ inputs.frames }}'.split('-'); print((int(e)-int(s)+1)/30)")
+          # pacing with no frames duplicated or dropped. Encode the full mix
+          # once to avoid per-chunk AAC priming gaps; otherwise use chunk
+          # audio if present. Newly rendered muted chunks have no audio.
+          # -t limits both streams to the requested frame range duration.
+          read -r START DUR < <(python3 -c 'import os; s,e=map(int,os.environ["FRAMES"].split("-")); print(s/30,(e-s+1)/30)')
+          AUDIO_ARGS=()
+          if [[ -n "$AUDIO_FILE" ]]; then
+            AUDIO_ARGS=(-ss "$START" -i "$GITHUB_WORKSPACE/$AUDIO_FILE" -map 0:v:0 -map 1:a:0 -af "asetpts=PTS-STARTPTS")
+          else
+            AUDIO_ARGS=(-af "aresample=async=1:first_pts=0")
+          fi
           ffmpeg -f concat -safe 0 -i list.txt \
+            "${AUDIO_ARGS[@]}" \
             -vf "settb=AVTB,setpts=N/(30*TB)" -vsync cfr -r 30 \
             -c:v libx264 -crf 17 -preset medium -pix_fmt yuv420p \
-            -af "aresample=async=1:first_pts=0" \
             -c:a aac -b:a 192k \
             -t "$DUR" \
             ../final.mp4
           ls -la ../final.mp4
+      - name: Verify final video
+        env:
+          FRAMES: ${{ inputs.frames }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess, sys
+          from decimal import Decimal
+
+          start, end = map(int, os.environ['FRAMES'].split('-'))
+          expected_frames = end - start + 1
+          expected_duration = Decimal(expected_frames) / 30
+          measured_frames = 'unavailable'
+          measured_duration = 'unavailable'
+          try:
+              result = subprocess.run([
+                  'ffprobe', '-v', 'error', '-select_streams', 'v:0',
+                  '-count_frames', '-show_entries',
+                  'stream=nb_read_frames:format=duration', '-of', 'json',
+                  'final.mp4'
+              ], check=True, capture_output=True, text=True)
+              probe = json.loads(result.stdout)
+              measured_frames = probe['streams'][0]['nb_read_frames']
+              measured_duration = probe['format']['duration']
+              duration = Decimal(measured_duration)
+              valid = (
+                  int(measured_frames) == expected_frames
+                  and duration.is_finite()
+                  and abs(duration - expected_duration) <= Decimal('0.05')
+              )
+          except Exception as error:
+              print(f'::error::Unable to verify final.mp4: {error}')
+              valid = False
+          print(f'Video frames: {measured_frames}; expected: {expected_frames}')
+          print(f'Container duration: {measured_duration}s; expected: {expected_duration}s; tolerance: 0.05s')
+          if not valid:
+              print('::error::final.mp4 failed verification: frame count must match exactly and container duration must be within 0.05s of the requested range.')
+              sys.exit(1)
+          PY
       - name: Upload final video
         uses: actions/upload-artifact@v4
         with:
