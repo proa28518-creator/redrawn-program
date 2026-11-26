@@ -1,0 +1,256 @@
+{
+ "1321": {
+  "cx": 485.3,
+  "cy": -360.3,
+  "d": 541.7,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1322": {
+  "cx": 493.3,
+  "cy": -335.1,
+  "d": 537.1,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1323": {
+  "cx": 504.8,
+  "cy": -305.4,
+  "d": 529.4,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1324": {
+  "cx": 520.0,
+  "cy": -254.7,
+  "d": 515.7,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1325": {
+  "cx": 537.7,
+  "cy": -216.3,
+  "d": 506.5,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1326": {
+  "cx": 557.5,
+  "cy": -176.3,
+  "d": 500.3,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1327": {
+  "cx": 577.0,
+  "cy": -125.4,
+  "d": 488.1,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1328": {
+  "cx": 597.4,
+  "cy": -63.0,
+  "d": 472.8,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1329": {
+  "cx": 615.7,
+  "cy": 5.9,
+  "d": 454.4,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1330": {
+  "cx": 633.9,
+  "cy": 73.1,
+  "d": 437.6,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1331": {
+  "cx": 649.8,
+  "cy": 134.5,
+  "d": 422.3,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1332": {
+  "cx": 664.4,
+  "cy": 195.6,
+  "d": 405.5,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1333": {
+  "cx": 677.7,
+  "cy": 251.3,
+  "d": 391.7,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1334": {
+  "cx": 687.8,
+  "cy": 307.5,
+  "d": 374.9,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1335": {
+  "cx": 695.3,
+  "cy": 368.1,
+  "d": 355.0,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1336": {
+  "cx": 701.1,
+  "cy": 424.0,
+  "d": 336.6,
+  "roll": 0.0,
+  "az": -0.6,
+  "el": 8.3,
+  "src": "s16: from his legs (s16_bosslegs.py), head off frame / hidden"
+ },
+ "1436": {
+  "cx": 769.02,
+  "cy": 435.72,
+  "d": 356.63,
+  "roll": -4.8,
+  "az": 10.4,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "good"
+ },
+ "1437": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1438": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1439": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1440": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1441": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1442": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1443": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1444": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ },
+ "1445": {
+  "cx": 770.31,
+  "cy": 436.12,
+  "d": 354.53,
+  "roll": -4.8,
+  "az": 10.6,
+  "el": 6.2,
+  "az_el": "estimate",
+  "src": "s16: base roll -52 at f1436-37 (bad hat read) set to -4.8; f1438+ held f1437 (dissolve)",
+  "quality": "partial,roll-interp"
+ }
+}

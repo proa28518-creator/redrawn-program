@@ -1,0 +1,35 @@
+{
+  "kind": "rbx",
+  "id": "sister",
+  "film": "levitate",
+  "name": "Sister",
+  "role": "cookie liar",
+  "skin": "#7a4a2e",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "blonde_smug"
+  },
+  "hair": {
+    "style": "spiky",
+    "color": "#0d0d0d"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#111111",
+    "accent": "#f4f4f4",
+    "print": "ribbons",
+    "pants": "#f2f2f2",
+    "pantsKind": "long",
+    "shoes": "#f2f2f2"
+  },
+  "v1": "dark skin, black spiky hair, black top with white ribbons, white wide pants"
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "rbx",
+  "id": "pinkgirl",
+  "film": "love",
+  "name": "Pink girl",
+  "role": "\"extremely quiet\"",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#b8401e"
+  },
+  "hat": {
+    "style": "baseball_cap",
+    "color": "#ff3fa8"
+  },
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tank",
+    "topColor": "#ff3fa8",
+    "pants": "#2d62d8",
+    "pantsKind": "long",
+    "shoes": "#2d62d8"
+  },
+  "v1": "red hair, pink cap + pink tank, blue jeans"
+}

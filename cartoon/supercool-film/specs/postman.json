@@ -1,0 +1,21 @@
+{
+  "_doc": "Sentence (agent S, 2026-11-04): 'A lanky postman in a navy uniform jacket with brass buttons, a grey flat cap and a brown leather satchel at his hip.' Slim, legs 1.38; shirt + navy jacket 4 brass buttons + belt; satchel = a big brown flapped pocket at the hip (no satchel prop/strap layer exists); hat = W2 engine/hats/flatcap.js (first render used a grey bowler before it existed). ~3 min.",
+  "head": {},
+  "face": { "eyeSize": 0.98 },
+  "hair": { "style": "short", "colour": "auburn", "seed": 7 },
+  "hat": { "kind": "flatcap", "crown": "#6f6a72", "band": "#2f2b36" },
+  "torso": {
+    "body": { "build": "slim", "W": 0.7, "H": 0.95 },
+    "outfit": {
+      "trousers": "#2c3150",
+      "layers": [
+        { "t": "shirt", "color": "#eae6e0", "collar": "point" },
+        { "t": "jacket", "color": "#33406e", "tip": 0.62, "openW": 0.3, "lapels": false, "buttons": 4, "buttonColor": "#d9b440", "buttonGap": 0.1 },
+        { "t": "belt", "y": 0.2, "color": "#2b2024", "buckle": "#d9b440" },
+        { "t": "pocket", "x": 0.62, "y": 0.1, "w": 0.34, "h": 0.2, "color": "#8a5a34", "flap": true }
+      ]
+    }
+  },
+  "limbs": { "legLen": 1.38, "armLen": 0.98, "width": 0.058, "handR": 0.06 },
+  "hide": []
+}

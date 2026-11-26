@@ -1,0 +1,20 @@
+{
+  "_doc": "Mara, the baker (The Last Loaf, agent F). Body/outfit = agent E's lab/body/specs/baker.json; hair = W's bun, dark brown. Voice af_heart.",
+  "head": {},
+  "face": { "eyeSize": 1.05, "mouthWidth": 0.95 },
+  "hair": { "style": "bun", "colour": "dark", "seed": 4 },
+  "hat": { "kind": "none" },
+  "torso": {
+    "body": { "build": "curvy" },
+    "outfit": {
+      "layers": [
+        { "t": "blouse", "color": "#f4eeec", "collar": "round" },
+        { "t": "buttons", "n": 3, "from": 0.74, "to": 0.62, "color": "#f4eeec", "r": 0.013 },
+        { "t": "apron", "color": "#efe2c4", "bib": 0.6, "width": 0.62, "bibW": 0.5, "waist": 0.16, "to": 0.82 }
+      ],
+      "skirt": { "color": "#a8442f", "length": "ankle", "shape": "aline", "flare": 1.4, "pleats": 16 }
+    }
+  },
+  "limbs": { "legLen": 1.2, "armLen": 0.92, "width": 0.058, "handR": 0.06 },
+  "hide": []
+}

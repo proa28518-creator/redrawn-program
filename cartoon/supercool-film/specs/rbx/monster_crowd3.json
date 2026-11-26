@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "crowd3",
+  "film": "monster",
+  "name": "Student 3",
+  "role": "crowd, flees the school",
+  "skin": "#c68a5a",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "derp_o"
+  },
+  "hair": {
+    "style": "bun",
+    "color": "#c08a3a"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#3a9a4a",
+    "pants": "#262a36",
+    "pantsKind": "long",
+    "shoes": "#262a36"
+  },
+  "v1": "one of 6-8 mixed students (V1 crowd loop, entry 2)"
+}

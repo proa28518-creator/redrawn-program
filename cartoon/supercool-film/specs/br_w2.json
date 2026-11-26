@@ -1,0 +1,14 @@
+{ "_doc": "backrooms (agent C, 2026-11-04): 'Kip, a lanky teenager: very thin and tall, a slouchy charcoal beanie over messy black hair, a faded purple hoodie with a kangaroo pocket, grey jeans.' Slim W .60 (the thinnest), long legs 1.42, long arms; beanie = his hat shape; owned colour purple.",
+  "id": "br_w2",
+  "name": "Kip",
+  "head": {},
+  "face": { "eyeSize": 1.03, "browThick": 1.32, "mouthWidth": 0.95 },
+  "hair": { "style": "lobe", "colour": "black", "seed": 9 },
+  "hat": { "kind": "beanie", "crown": "#3a3940", "cuff": "#2c2b31", "slouch": 0.12 },
+  "torso": { "body": { "build": "slim", "W": 0.6, "H": 0.92 },
+    "outfit": { "trousers": "#5c5e66",
+      "layers": [ { "t": "jumper", "color": "#5a3f84", "neckW": 0.44, "neckD": 0.14, "pattern": { "type": "speckle", "color": "#4b346f" } },
+                  { "t": "pocket", "x": 0, "y": 0.26, "w": 0.44, "h": 0.12, "color": "#46316a" } ] } },
+  "limbs": { "legLen": 1.42, "armLen": 0.98, "width": 0.055, "handR": 0.058 },
+  "hide": []
+}

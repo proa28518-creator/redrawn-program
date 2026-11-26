@@ -1,0 +1,23 @@
+{
+ "_doc": "Townsperson grey bowler (src/hats/bowler.js; colours in specs/townsperson.json). follow = the hat rides the head camera with its own el.",
+ "shape": {
+  "brimR": 0.555,
+  "brimT": 0.03,
+  "curl": 0.07,
+  "curlStart": 0.72,
+  "crownR": 0.385,
+  "crownH": 0.46,
+  "crownTop": 0.52,
+  "crownBulge": 0.03,
+  "inkBrim": 0.032,
+  "mount": {
+   "y": 0.31,
+   "rx": 0
+  }
+ },
+ "tilt": {},
+ "follow": {
+  "el": 6.0
+ },
+ "pose": {}
+}

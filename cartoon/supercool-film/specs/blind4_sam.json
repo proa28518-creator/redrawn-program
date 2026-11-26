@@ -1,0 +1,17 @@
+{ "_doc": "blind4: 'Sam, a lanky teenage boy with messy black hair, a purple jumper and grey shorts.' Slim W .62, long teen legs 1.36 / arms .94 (lanky); short black hair, messy = seed + front tuft; purple jumper with a darker neck stripe; grey trousers colour = the shorts; no hat.",
+  "head": {},
+  "face": { "eyeSize": 1.02, "browThick": 1.35, "mouthSize": 1.05, "mouthWidth": 1.0 },
+  "hair": { "style": "short", "colour": "black", "seed": 9, "front": 0.5 },
+  "hat": { "kind": "none" },
+  "torso": {
+    "body": { "build": "slim", "W": 0.62, "H": 0.9 },
+    "outfit": {
+      "trousers": "#8b8d92",
+      "layers": [
+        { "t": "jumper", "color": "#7a4fa8", "neckW": 0.32, "neckD": 0.08, "pattern": { "type": "stripes", "color": "#5e3a86", "from": 0.48, "to": 0.58 } }
+      ]
+    }
+  },
+  "limbs": { "legLen": 1.36, "armLen": 0.94, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

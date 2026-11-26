@@ -1,0 +1,61 @@
+{
+ "about": "No picture service (no Google Flow): the worked example of free textures. Bases from web photos (web_image, raw/<name>.jpg, credits in assets/tex/CREDITS.md) and from code (procedural.py, the procedural section), decals from marks drawn in code. Copy what fits into assets/tex/recipes.json; field meanings in the headers of make_tex.py and procedural.py.",
+ "tile_size": 2048,
+ "preview_size": 400,
+ "note": "tile = D covered by one repeat of the texture. Decals multiply: surface * mix(1, rgb, a * instance alpha).",
+ "procedural": {
+  "pc_wallpaper": { "kind": "wallpaper", "pattern": "damask", "count": 6, "dirt": 0.3, "seed": 1 },
+  "pc_carpet": { "kind": "carpet", "dirt": 0.4, "seed": 2 },
+  "pc_ceiling": { "kind": "tiles", "pattern": "perforated", "count": 4, "dirt": 0.35, "seed": 3 },
+  "pc_concrete": { "kind": "concrete", "dirt": 0.45, "seed": 4 },
+  "pc_panels": { "kind": "panels", "count": 2, "dirt": 0.5, "seed": 5 },
+  "pc_planks": { "kind": "planks", "count": 8, "dirt": 0.3, "seed": 6 },
+  "pc_brick": { "kind": "brick", "count": 6, "dirt": 0.3, "seed": 7 },
+  "pc_rust": { "kind": "rust", "dirt": 0.5, "seed": 8 },
+  "pc_grass": { "kind": "grass", "seed": 9 },
+  "pc_bark": { "kind": "bark", "seed": 10 },
+  "mk_stains": { "kind": "stains", "seed": 11 },
+  "mk_grime": { "kind": "grime", "seed": 12 },
+  "mk_scuffs": { "kind": "scuffs", "seed": 13 },
+  "mk_damp": { "kind": "damp", "seed": 14 },
+  "mk_cracks": { "kind": "cracks", "seed": 15 },
+  "mk_splatter": { "kind": "splatter", "seed": 16 }
+ },
+ "bases": {
+  "wallpaper": { "raw": "pc_wallpaper", "flat": [3, 0.6], "calm": null, "mean": [0.62, 0.58, 0.4], "detail": 0.05, "chroma": 0.7, "tile": [3, 3] },
+  "carpet": { "raw": "pc_carpet", "flat": [3, 0.5], "calm": null, "mean": [0.5, 0.45, 0.3], "detail": 0.045, "chroma": 0.6, "tile": [2, 2] },
+  "ceiling_tile": { "raw": "pc_ceiling", "flat": [3, 0.6], "calm": null, "mean": [0.72, 0.7, 0.62], "detail": 0.05, "chroma": 0.6, "tile": [4, 4] },
+  "concrete": { "raw": "pc_concrete", "flat": [3, 0.5], "calm": null, "mean": [0.5, 0.5, 0.48], "detail": 0.05, "chroma": 0.5, "tile": [4, 4] },
+  "steel_panels": { "raw": "pc_panels", "flat": [3, 0.6], "calm": null, "mean": [0.45, 0.48, 0.49], "detail": 0.05, "chroma": 0.5, "tile": [4, 4] },
+  "planks": { "raw": "pc_planks", "flat": [3, 0.6], "calm": null, "mean": [0.48, 0.35, 0.22], "detail": 0.06, "chroma": 0.6, "tile": [3, 3] },
+  "brick": { "raw": "pc_brick", "flat": [3, 0.6], "calm": null, "mean": [0.52, 0.32, 0.26], "detail": 0.07, "chroma": 0.7, "tile": [3, 3] },
+  "rust_plate": { "raw": "pc_rust", "flat": [3, 0.6], "calm": null, "mean": [0.42, 0.36, 0.3], "detail": 0.06, "chroma": 0.8, "tile": [4, 4] },
+  "grass": { "raw": "pc_grass", "flat": [3, 0.5], "calm": null, "mean": [0.3, 0.42, 0.2], "detail": 0.06, "chroma": 0.7, "tile": [3, 3] },
+  "bark": { "raw": "pc_bark", "flat": [3, 0.6], "calm": null, "mean": [0.36, 0.29, 0.23], "detail": 0.07, "chroma": 0.6, "tile": [2, 2] },
+  "photo_rust": { "raw": "ph_rust", "trim": 0, "flat": [4, 0.15], "calm": [14, 0.35], "paint": 5, "periodic": false, "mean": [0.42, 0.34, 0.28], "detail": 0.055, "chroma": 0.7, "tile": [4, 4], "source": "photo" },
+  "photo_carpet": { "raw": "ph_carpet", "trim": 0, "flat": [4, 0.15], "calm": [14, 0.35], "paint": 3, "periodic": false, "mean": [0.5, 0.44, 0.32], "detail": 0.045, "chroma": 0.6, "tile": [2, 2], "source": "photo" },
+  "photo_bark": { "raw": "ph_bark", "trim": 0, "flat": [4, 0.2], "calm": [16, 0.4], "paint": 5, "periodic": false, "mean": [0.36, 0.3, 0.24], "detail": 0.065, "chroma": 0.6, "tile": [2, 2], "source": "photo" }
+ },
+ "decals": {
+  "grid": 6, "floor_rgb": 0.22, "zero": 36, "fade": 34,
+  "kinds": {
+   "stain": { "colour": 0.6, "dark": 0.4, "soft": 4 },
+   "grime": { "colour": 0.3, "dark": 0.3, "soft": 6 },
+   "scuff": { "colour": 0.2, "dark": 0.35, "soft": 2 },
+   "damp": { "colour": 0.6, "dark": 0.36, "soft": 4, "streak": true },
+   "crack": { "colour": 0.2, "dark": 0.25, "soft": 1 },
+   "splatter": { "colour": 0.4, "dark": 0.32, "soft": 2 }
+  },
+  "groups": [
+   { "raw": "mk_grime", "first": 0, "kind": "grime", "names": ["grime_a", "grime_b", "grime_c", "grime_d", "grime_e", "grime_f"] },
+   { "raw": "mk_stains", "first": 6, "kind": "stain", "names": ["stain_a", "stain_b", "stain_c", "stain_d", "stain_e", "stain_f"] },
+   { "raw": "mk_scuffs", "first": 12, "kind": "scuff", "names": ["scuff_a", "scuff_b", "scuff_c", "scuff_d", "scuff_e", "scuff_f"] },
+   { "raw": "mk_damp", "first": 18, "kind": "damp", "names": ["damp_a", "damp_b", "damp_c", "damp_d", "damp_e", "damp_f"] },
+   { "raw": "mk_cracks", "first": 24, "kind": "crack", "names": ["crack_a", "crack_b", "crack_c", "crack_d", "crack_e", "crack_f"] },
+   { "raw": "mk_splatter", "first": 30, "kind": "splatter", "names": ["splat_a", "splat_b", "splat_c", "splat_d", "splat_e", "splat_f"] }
+  ],
+  "notes": { "damp": "cells 18-23 have their heavy end at the cell top: keep spin near 0 so they run down" },
+  "preview_base": [0.6, 0.57, 0.5],
+  "preview_name": "decals_on_base.jpg"
+ }
+}

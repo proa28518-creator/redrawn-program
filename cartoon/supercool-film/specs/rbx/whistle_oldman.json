@@ -1,0 +1,36 @@
+{
+  "kind": "rbx",
+  "id": "oldman",
+  "film": "whistle",
+  "name": "Old man",
+  "role": "lonely neighbour",
+  "skin": "#f0d2b8",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "dad_moustache"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#eeeeee"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": {
+    "style": "beard_long",
+    "color": "#eeeeee"
+  },
+  "wear": {
+    "top": "shirt",
+    "topColor": "#151515",
+    "pants": "#151515",
+    "pantsKind": "long",
+    "shoes": "#151515"
+  },
+  "v1": "light skin, white hair + long white beard, black clothes"
+}

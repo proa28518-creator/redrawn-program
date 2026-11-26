@@ -1,0 +1,12 @@
+{
+"_doc": "Townsperson face (tools/s12_build.py): palette + surfR; frames per shot in face.<shot>.json.",
+"surfR": 0.4625,
+"palette": {
+"ink": "#2d2228",
+"maroon": "#4a1a2a",
+"tongue": "#d0707c",
+"white": "#fbf6f3",
+"lip": "#c9a9b4"
+},
+"frames": {}
+}

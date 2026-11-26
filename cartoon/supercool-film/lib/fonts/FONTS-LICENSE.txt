@@ -1,0 +1,10 @@
+The fonts in this folder draw the burned-in captions of a film in the letters the system caption fonts (Segoe UI Black,
+Arial Black) can't be trusted with on every computer: Vietnamese, Russian, Thai and Hindi (lab/stage.js capFace). They are
+the same files as the app's Blender kit fonts (templates/blender/assets/fonts, built by the app's scripts/blender-fonts.py):
+each is Inter Black (Latin, Latin Extended, Vietnamese, Cyrillic; from @fontsource/inter) merged with one Noto Sans script
+font at weight 800, named "CZ Latin" (cz-latin.ttf), "CZ Thai" (cz-thai.ttf, + Noto Sans Thai) and "CZ Devanagari"
+(cz-deva.ttf, + Noto Sans Devanagari). tools/export_suite.mjs copies them to templates/cartoon/lib/fonts.
+
+Inter: Copyright The Inter Project Authors. Noto Sans: Copyright Google LLC / The Noto Project Authors.
+They are Modified Versions licensed under the SIL Open Font License 1.1 (OFL.txt beside this file,
+https://openfontlicense.org).

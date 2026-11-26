@@ -1,0 +1,67 @@
+{
+ "_doc": "Boss torso pose per GLOBAL frame (tools/bossbody_track.py): x y hem centre px, D px per torso unit, lean deg (+ CCW), yaw (+ chest to viewer right), pitch (+ from above), sy.",
+ "430": {
+  "x": 719.5,
+  "y": 1147.8,
+  "D": 324,
+  "lean": 16.8,
+  "yaw": -60,
+  "pitch": -8.4,
+  "sy": 1,
+  "tz": -0.9,
+  "chainSag": [
+   -0.08,
+   -0.24
+  ]
+ },
+ "466": {
+  "x": 687,
+  "y": 1156.6,
+  "D": 386,
+  "lean": 31.4,
+  "yaw": -40,
+  "pitch": 29.8,
+  "sy": 1,
+  "tz": -0.9,
+  "chainSag": [
+   -0.12,
+   -0.2
+  ]
+ },
+ "494": {
+  "x": 530,
+  "y": 1210,
+  "D": 322,
+  "lean": -2,
+  "yaw": -10,
+  "pitch": -10,
+  "sy": 1
+ },
+ "512": {
+  "x": 590,
+  "y": 1430,
+  "D": 412,
+  "lean": 4,
+  "yaw": -55,
+  "pitch": -8,
+  "sy": 1
+ },
+ "1395": {
+  "x": 812,
+  "y": 863,
+  "D": 322,
+  "lean": 16,
+  "yaw": -8,
+  "pitch": -6,
+  "sy": 1
+ },
+ "1430": {
+  "x": 842,
+  "y": 860,
+  "D": 326,
+  "lean": 15,
+  "yaw": -6,
+  "pitch": -6,
+  "sy": 1
+ }
+}

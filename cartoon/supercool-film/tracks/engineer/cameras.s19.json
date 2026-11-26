@@ -1,0 +1,344 @@
+{
+ "1700": {
+  "cx": 973.6,
+  "cy": -127.6,
+  "d": 756.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1701": {
+  "cx": 1026.9,
+  "cy": -184.3,
+  "d": 786.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1702": {
+  "cx": 1068.2,
+  "cy": -242.0,
+  "d": 816.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1703": {
+  "cx": 1114.5,
+  "cy": -298.7,
+  "d": 846.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1704": {
+  "cx": 1160.8,
+  "cy": -384.4,
+  "d": 876.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1705": {
+  "cx": 1203.1,
+  "cy": -440.1,
+  "d": 906.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1706": {
+  "cx": 1241.4,
+  "cy": -497.8,
+  "d": 936.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1707": {
+  "cx": 1269.8,
+  "cy": -553.5,
+  "d": 966.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1708": {
+  "cx": 1272.5,
+  "cy": -608.2,
+  "d": 996.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1709": {
+  "cx": 1279.7,
+  "cy": -662.9,
+  "d": 1026.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1710": {
+  "cx": 1288.6,
+  "cy": -717.6,
+  "d": 1056.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1711": {
+  "cx": 1312.9,
+  "cy": -774.3,
+  "d": 1086.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1712": {
+  "cx": 1335.2,
+  "cy": -837.0,
+  "d": 1116.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1713": {
+  "cx": 1359.5,
+  "cy": -895.7,
+  "d": 1146.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1714": {
+  "cx": 1380.8,
+  "cy": -956.4,
+  "d": 1176.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: from his mask bbox (feet = cy + 1.69 d, left edge = cx - .51 d), d +30/frame"
+ },
+ "1715": {
+  "cx": 1319.0,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1716": {
+  "cx": 1321.2,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1717": {
+  "cx": 1321.0,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1718": {
+  "cx": 1321.0,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1719": {
+  "cx": 1321.6,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1720": {
+  "cx": 1322.4,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1721": {
+  "cx": 1322.4,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1722": {
+  "cx": 1322.4,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1723": {
+  "cx": 1322.5,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1724": {
+  "cx": 1322.5,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1725": {
+  "cx": 1323.5,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1726": {
+  "cx": 1323.5,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1727": {
+  "cx": 1322.6,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1728": {
+  "cx": 1322.6,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1729": {
+  "cx": 1323.6,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1730": {
+  "cx": 1325.0,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1731": {
+  "cx": 1326.0,
+  "cy": -520.0,
+  "d": 1000.0,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s19: vest edge at the right frame edge (x by s19_align)"
+ },
+ "1732": {
+  "cx": 1444.0,
+  "cy": -500.0,
+  "d": 900.0,
+  "roll": 0.0,
+  "az": 18,
+  "el": 20.0,
+  "src": "s19: re-entry (truth_head f1736-37, mask edge before)"
+ },
+ "1733": {
+  "cx": 1388.4,
+  "cy": -420.0,
+  "d": 850.0,
+  "roll": 0.0,
+  "az": 18,
+  "el": 20.0,
+  "src": "s19: re-entry (truth_head f1736-37, mask edge before)"
+ },
+ "1734": {
+  "cx": 1293.2,
+  "cy": -300.0,
+  "d": 780.0,
+  "roll": 0.0,
+  "az": 18,
+  "el": 20.0,
+  "src": "s19: re-entry (truth_head f1736-37, mask edge before)"
+ },
+ "1735": {
+  "cx": 1152.0,
+  "cy": -180.0,
+  "d": 720.0,
+  "roll": 0.0,
+  "az": 18,
+  "el": 20.0,
+  "src": "s19: re-entry (truth_head f1736-37, mask edge before)"
+ },
+ "1736": {
+  "cx": 1018.0,
+  "cy": 130.0,
+  "d": 650.0,
+  "roll": 0.0,
+  "az": 18,
+  "el": 20.0,
+  "src": "s19: re-entry (truth_head f1736-37, mask edge before)"
+ },
+ "1737": {
+  "cx": 900.0,
+  "cy": 402.0,
+  "d": 582.0,
+  "roll": 0.0,
+  "az": 18,
+  "el": 20.0,
+  "src": "s19: re-entry (truth_head f1736-37, mask edge before)"
+ }
+}

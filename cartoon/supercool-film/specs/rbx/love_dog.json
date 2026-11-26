@@ -1,0 +1,25 @@
+{
+  "kind": "rbx",
+  "id": "dog",
+  "film": "love",
+  "name": "Dog",
+  "role": "dog",
+  "skin": "#e08a3a",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": null,
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "body": "dog",
+  "note": "orange shiba inu: orange-tan coat (#e08a3a), cream chest, muzzle and inner ears (#f4e4c8), pointed ears, curled tail",
+  "v1": "orange shiba"
+}

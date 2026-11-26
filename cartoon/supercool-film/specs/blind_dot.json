@@ -1,0 +1,19 @@
+{ "_doc": "Dot, a short round tourist woman with curly red hair, round sunglasses, a flowery dress and a camera (blind1). Stout W .96, short legs 1.12; curly red hair, no hat; sun glasses; dress = teal blouse + knee bell skirt with pink dots (flowery = dots). The camera is a film prop.",
+  "head": {},
+  "face": { "eyeSize": 1.05, "mouthWidth": 1.05, "mouthSize": 1.05 },
+  "hair": { "style": "curly", "colour": "red", "seed": 6 },
+  "glasses": { "kind": "sun" },
+  "hat": { "kind": "none" },
+  "torso": {
+    "body": { "build": "stout", "W": 0.96, "H": 0.94 },
+    "outfit": {
+      "layers": [
+        { "t": "blouse", "color": "#2f9e98", "collar": "round", "placket": false, "pattern": { "type": "dots", "color": "#f4a6c0" } },
+        { "t": "belt", "y": 0.14, "h": 0.035, "color": "#f2e6c8", "buckle": "#f2e6c8" }
+      ],
+      "skirt": { "color": "#2f9e98", "length": "knee", "shape": "bell", "flare": 1.35, "pleats": 0, "pattern": { "type": "dots", "color": "#f4a6c0" } }
+    }
+  },
+  "limbs": { "legLen": 1.12, "armLen": 0.92, "width": 0.062, "handR": 0.062 },
+  "hide": []
+}

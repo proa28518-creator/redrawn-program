@@ -1,0 +1,32 @@
+{
+  "kind": "rbx",
+  "id": "dentist",
+  "film": "whistle",
+  "name": "Dentist",
+  "role": "dentist in kitchen",
+  "skin": "#e6e6e6",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "o_eyes"
+  },
+  "hair": null,
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "labcoat",
+    "topColor": "#f4f4f4",
+    "shirtColor": "#f4f4f4",
+    "accent": "#111111",
+    "pants": "#2a2a2a",
+    "pantsKind": "long",
+    "shoes": "#2a2a2a"
+  },
+  "v1": "grey/white skin, white lab coat, stethoscope, black tie (stethoscope not in the schema)"
+}

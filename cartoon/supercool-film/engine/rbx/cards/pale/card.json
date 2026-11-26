@@ -1,0 +1,91 @@
+{
+ "height": 4.4,
+ "headY": 0.92,
+ "sideFaces": 1,
+ "crawlFaces": 1,
+ "source": "AI Studio (Nano Banana, owner's plan), prompts in experiments/roblox-style/v3/creatures/batch*.txt; cut with propkit cut.py (BiRefNet, MIT)",
+ "frames": {
+  "crawl1": {
+   "file": "crawl1.webp",
+   "w": 1817,
+   "h": 1031,
+   "ppd": 393.864,
+   "foot": [
+    0.5032,
+    0.9942
+   ],
+   "sheet": "pale_crawl"
+  },
+  "crawl2": {
+   "file": "crawl2.webp",
+   "w": 1516,
+   "h": 1002,
+   "ppd": 393.864,
+   "foot": [
+    0.4405,
+    0.994
+   ],
+   "sheet": "pale_crawl"
+  },
+  "crawl3": {
+   "file": "crawl3.webp",
+   "w": 1779,
+   "h": 1037,
+   "ppd": 393.864,
+   "foot": [
+    0.4778,
+    0.9952
+   ],
+   "sheet": "pale_crawl"
+  },
+  "crawl4": {
+   "file": "crawl4.webp",
+   "w": 1697,
+   "h": 1155,
+   "ppd": 393.864,
+   "foot": [
+    0.4891,
+    0.9957
+   ],
+   "sheet": "pale_crawl"
+  },
+  "crawl_front": {
+   "file": "crawl_front.webp",
+   "w": 2067,
+   "h": 1062,
+   "ppd": 393.864,
+   "foot": [
+    0.4981,
+    0.9953
+   ],
+   "sheet": "pale_crawl"
+  },
+  "stand": {
+   "file": "stand.webp",
+   "w": 600,
+   "h": 1400,
+   "ppd": 318.182,
+   "foot": [
+    0.4937,
+    0.9964
+   ],
+   "sheet": "pale_crawl"
+  }
+ },
+ "sets": {
+  "front": {
+   "idle": "stand",
+   "roar": "stand"
+  },
+  "side": {
+   "idle": "stand"
+  },
+  "crawlSide": [
+   "crawl1",
+   "crawl2",
+   "crawl3",
+   "crawl4"
+  ],
+  "crawlFront": "crawl_front"
+ }
+}

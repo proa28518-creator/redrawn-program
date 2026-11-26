@@ -1,0 +1,38 @@
+{
+  "kind": "rbx",
+  "id": "teacher",
+  "film": "levitate",
+  "name": "Teacher",
+  "role": "faints",
+  "skin": "#f7e0cc",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "derp_o"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#111111"
+  },
+  "hat": null,
+  "glasses": {
+    "style": "round",
+    "color": "#111111"
+  },
+  "facial": null,
+  "wear": {
+    "top": "suit",
+    "topColor": "#141414",
+    "shirtColor": "#f4f4f4",
+    "accent": "#c0202a",
+    "pants": "#141414",
+    "pantsKind": "long",
+    "shoes": "#141414"
+  },
+  "v1": "white skin, black hair, round glasses, black suit, white shirt, red tie"
+}

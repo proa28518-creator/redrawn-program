@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "b__",
+  "film": "monster",
+  "name": "Student 6",
+  "role": "crowd, flees the school",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1,
+    "width": 1
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "bug_eyes"
+  },
+  "hair": null,
+  "hat": {
+    "style": "baseball_cap",
+    "color": "#d43a3a"
+  },
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#222222",
+    "pants": "#262a36",
+    "pantsKind": "long",
+    "shoes": "#262a36"
+  },
+  "v1": "one of 6-8 mixed students (V1 crowd loop, entry 5)",
+  "copyOf": "monster_crowd6"
+}

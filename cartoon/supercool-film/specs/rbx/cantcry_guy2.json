@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "guy2",
+  "film": "cantcry",
+  "name": "Guy",
+  "role": "narrator stand-in for the rule",
+  "skin": "#f5c98a",
+  "build": {
+    "scale": 1,
+    "width": 1
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "dad_moustache"
+  },
+  "hair": {
+    "style": "swept",
+    "color": "#c7a8d6"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tank",
+    "topColor": "#1f44e0",
+    "pants": "#121318",
+    "pantsKind": "long",
+    "shoes": "#121318"
+  },
+  "v1": "tan/orange skin, lavender chunky hair, royal-blue sleeveless tank, black pants, curly drawn moustache face",
+  "copyOf": "cantcry_guy"
+}

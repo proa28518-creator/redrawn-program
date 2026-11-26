@@ -1,0 +1,19 @@
+{
+  "_doc": "Sentence (agent S, 2026-11-04): 'A young woman with red curly hair and round sunglasses, in a teal jumper and a long mustard skirt.' Curvy build; curly red; glasses sun; teal jumper + ankle A-line mustard skirt. ~2 min.",
+  "head": {},
+  "face": { "eyeSize": 1.02, "mouthWidth": 0.95 },
+  "hair": { "style": "curly", "colour": "red", "seed": 11 },
+  "glasses": { "kind": "sun" },
+  "hat": { "kind": "none" },
+  "torso": {
+    "body": { "build": "curvy", "W": 0.8 },
+    "outfit": {
+      "layers": [
+        { "t": "jumper", "color": "#2f8f8a", "neckW": 0.38, "neckD": 0.1 }
+      ],
+      "skirt": { "color": "#d6a432", "length": "ankle", "shape": "aline", "flare": 1.35, "pleats": 10 }
+    }
+  },
+  "limbs": { "legLen": 1.25, "armLen": 0.9, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

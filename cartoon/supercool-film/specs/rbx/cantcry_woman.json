@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "woman",
+  "film": "cantcry",
+  "name": "Woman",
+  "role": "\"breathe slow\" demo",
+  "skin": "#e8b48a",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "happy_derp"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#4a2a18"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tank",
+    "topColor": "#8a2ad8",
+    "pants": "#1a1c28",
+    "pantsKind": "long",
+    "shoes": "#1a1c28"
+  },
+  "v1": "tan skin, long brown hair, purple tank"
+}

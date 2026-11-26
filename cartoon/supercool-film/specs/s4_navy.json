@@ -1,0 +1,9 @@
+{ "_doc": "S-4: the Navy signalman on the rescue ship, medium build, yellow oilskin coat, navy watch cap. He sends the pings back.",
+  "head": {}, "face": { "eyeSize": 0.99, "browThick": 1.4, "mouthWidth": 0.9 },
+  "hair": { "style": "lobe", "colour": "brown" },
+  "hat": { "kind": "beanie", "crown": "#27324f", "cuff": "#1d2640" },
+  "torso": { "body": { "build": "medium", "W": 0.84, "H": 0.96, "band": 0.1 },
+    "outfit": { "trousers": "#2a2f3c", "layers": [
+      { "t": "jumper", "color": "#3c4a66", "neckW": 0.4, "neckD": 0.1 },
+      { "t": "coat", "color": "#d9b12e", "buttons": 3, "buttonColor": "#4a3c14", "tip": 0.42, "openW": 0.24 } ] } },
+  "limbs": { "legLen": 1.26, "armLen": 0.96, "width": 0.058, "handR": 0.06 }, "hide": [] }

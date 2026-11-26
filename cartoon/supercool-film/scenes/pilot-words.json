@@ -1,0 +1,254 @@
+[
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "خبط",
+  "start": 0.04,
+  "end": 0.23
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "الإزازة",
+  "start": 0.23,
+  "end": 0.51
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "على",
+  "start": 0.51,
+  "end": 0.73
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "الترابيزة",
+  "start": 0.73,
+  "end": 1.18
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "وفجأة",
+  "start": 1.69,
+  "end": 2.19
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "خط",
+  "start": 2.19,
+  "end": 2.31
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "أبيض",
+  "start": 2.31,
+  "end": 2.73
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "جري",
+  "start": 2.73,
+  "end": 3.01
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "جوه",
+  "start": 3.01,
+  "end": 3.29
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "المية",
+  "start": 3.29,
+  "end": 3.73
+ },
+ {
+  "who": "hero",
+  "line": 3,
+  "word": "رفعها",
+  "start": 4.45,
+  "end": 4.74
+ },
+ {
+  "who": "hero",
+  "line": 3,
+  "word": "قدام",
+  "start": 4.74,
+  "end": 5.02
+ },
+ {
+  "who": "hero",
+  "line": 3,
+  "word": "عينه",
+  "start": 5.02,
+  "end": 5.31
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "ولقى",
+  "start": 5.56,
+  "end": 5.92
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "التلج",
+  "start": 5.92,
+  "end": 6.34
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "بيزحف",
+  "start": 6.34,
+  "end": 6.69
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "من",
+  "start": 6.69,
+  "end": 6.85
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "فوق",
+  "start": 6.85,
+  "end": 7.09
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "لتحت",
+  "start": 7.31,
+  "end": 7.82
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "كأن",
+  "start": 8.32,
+  "end": 8.54
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "حد",
+  "start": 8.54,
+  "end": 8.63
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "داس",
+  "start": 8.63,
+  "end": 8.91
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "على",
+  "start": 8.91,
+  "end": 9.06
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "زرار",
+  "start": 9.06,
+  "end": 9.33
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "التجميد",
+  "start": 9.33,
+  "end": 9.87
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "من",
+  "start": 10.84,
+  "end": 10.98
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "ثانية",
+  "start": 10.98,
+  "end": 11.28
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "كانت",
+  "start": 11.28,
+  "end": 11.49
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "المية",
+  "start": 11.49,
+  "end": 11.78
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "بتتحرك",
+  "start": 11.78,
+  "end": 12.13
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "عادي",
+  "start": 12.13,
+  "end": 12.33
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "ودلوقتي",
+  "start": 12.86,
+  "end": 13.35
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "الإزازة",
+  "start": 13.35,
+  "end": 13.79
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "بتتملي",
+  "start": 13.79,
+  "end": 14.09
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "بلورات",
+  "start": 14.09,
+  "end": 14.48
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "تجميد",
+  "start": 14.48,
+  "end": 14.81
+ }
+]

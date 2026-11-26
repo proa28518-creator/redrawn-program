@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "baker",
+  "film": "sneeze",
+  "name": "Baker",
+  "role": "French bakery",
+  "skin": "#f7e0cc",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "dad_moustache"
+  },
+  "hair": null,
+  "hat": null,
+  "glasses": null,
+  "facial": {
+    "style": "moustache_curly",
+    "color": "#111111"
+  },
+  "wear": {
+    "top": "shirt",
+    "topColor": "#ffffff",
+    "pants": "#ffffff",
+    "pantsKind": "long",
+    "shoes": "#ffffff"
+  },
+  "v1": "scene.js baker: all white, bald, moustache face"
+}

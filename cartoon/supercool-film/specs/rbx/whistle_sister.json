@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "sister",
+  "film": "whistle",
+  "name": "Sister",
+  "role": "peeks in door",
+  "skin": "#6b4429",
+  "build": {
+    "scale": 0.82,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "squint_mad"
+  },
+  "hair": {
+    "style": "bun",
+    "color": "#111111"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#ff6fb0",
+    "pants": "#2a2a2a",
+    "pantsKind": "long",
+    "shoes": "#2a2a2a"
+  },
+  "v1": "dark skin, black hair, pink top"
+}

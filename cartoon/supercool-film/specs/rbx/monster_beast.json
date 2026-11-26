@@ -1,0 +1,16 @@
+{
+  "kind": "rbx",
+  "id": "beast",
+  "film": "monster",
+  "name": "Beast",
+  "role": "school monster, protector",
+  "skin": "#16161b",
+  "body": "card",
+  "card": "beast",
+  "note": "WP-CR: painted AI Studio cards (engine/rbx/card.js, frames in engine/rbx/cards/beast/): black robotic school monster, spikes, long clawed arms past the knees, box head with jagged teeth and glowing red slit eyes (an additive eyes card on top). 4.5 D tall (cardHeight overrides). Frames: front idle / step / reach / roar, side walk x4 + reach + roar, back idle + step. The pose picks the frame (view from the camera, walk step, reach, scream face = roar).",
+  "build": { "scale": 1 },
+  "head": { "shape": "monster" },
+  "face": { "default": "monster" },
+  "hair": null, "hat": null, "glasses": null, "facial": null,
+  "v1": "2.5x tall black spiky robotic monster, long thin black arms, rectangular head with glowing red eyes + jagged teeth"
+}

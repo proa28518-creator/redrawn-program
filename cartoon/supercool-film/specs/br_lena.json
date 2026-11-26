@@ -1,0 +1,14 @@
+{ "_doc": "backrooms (agent C, 2026-11-04): 'Lena, the one who went missing on day two (flashback): medium build, a long ginger ponytail, a raspberry jumper with a darker stripe, dark jeans, a dark scarf.' Curvy pear torso (W ~.82) with a band so the jeans show, legs 1.3; ginger ponytail (Maya is a black bob); owned colour raspberry. Clean-ish: she was lost only two days.",
+  "id": "br_lena",
+  "name": "Lena",
+  "head": {},
+  "face": { "eyeSize": 1.02, "browThick": 1.3, "mouthWidth": 0.95 },
+  "hair": { "style": "long", "colour": "ginger", "seed": 8 },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "curvy", "band": 0.1 },
+    "outfit": { "trousers": "#3f5a86",
+      "layers": [ { "t": "jumper", "color": "#a33a5e", "neckW": 0.34, "neckD": 0.09, "pattern": { "type": "stripes", "color": "#842b4a", "from": 0.5, "to": 0.62 } },
+                  { "t": "scarf", "color": "#2f3542", "tail": 0.36 } ] } },
+  "limbs": { "legLen": 1.3, "armLen": 0.93, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

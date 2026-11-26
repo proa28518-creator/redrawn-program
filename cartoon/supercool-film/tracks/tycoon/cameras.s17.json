@@ -1,0 +1,1312 @@
+{
+ "1446": {
+  "cx": 495.35,
+  "cy": 770.21,
+  "d": 39.27,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1447": {
+  "cx": 493.63,
+  "cy": 768.62,
+  "d": 39.08,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1448": {
+  "cx": 492.02,
+  "cy": 766.89,
+  "d": 39.12,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1449": {
+  "cx": 490.52,
+  "cy": 764.93,
+  "d": 39.35,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1450": {
+  "cx": 489.07,
+  "cy": 762.84,
+  "d": 39.65,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1451": {
+  "cx": 487.67,
+  "cy": 760.75,
+  "d": 39.91,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1452": {
+  "cx": 486.29,
+  "cy": 758.47,
+  "d": 40.24,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1453": {
+  "cx": 485.02,
+  "cy": 756.25,
+  "d": 40.43,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1454": {
+  "cx": 483.92,
+  "cy": 754.0,
+  "d": 40.36,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1455": {
+  "cx": 482.94,
+  "cy": 751.43,
+  "d": 40.95,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1456": {
+  "cx": 482.1,
+  "cy": 749.25,
+  "d": 40.73,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1457": {
+  "cx": 481.36,
+  "cy": 746.75,
+  "d": 40.85,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1458": {
+  "cx": 480.83,
+  "cy": 744.02,
+  "d": 41.07,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1459": {
+  "cx": 480.44,
+  "cy": 741.32,
+  "d": 41.2,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1460": {
+  "cx": 480.24,
+  "cy": 738.59,
+  "d": 41.47,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1461": {
+  "cx": 480.21,
+  "cy": 735.8,
+  "d": 41.62,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1462": {
+  "cx": 480.38,
+  "cy": 732.84,
+  "d": 41.92,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1463": {
+  "cx": 480.73,
+  "cy": 729.66,
+  "d": 42.44,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1464": {
+  "cx": 481.32,
+  "cy": 726.49,
+  "d": 42.75,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1465": {
+  "cx": 482.16,
+  "cy": 723.26,
+  "d": 43.12,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1466": {
+  "cx": 483.23,
+  "cy": 720.0,
+  "d": 43.23,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1467": {
+  "cx": 484.56,
+  "cy": 716.67,
+  "d": 43.37,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1468": {
+  "cx": 486.2,
+  "cy": 713.12,
+  "d": 43.56,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1469": {
+  "cx": 488.15,
+  "cy": 709.56,
+  "d": 43.82,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1470": {
+  "cx": 490.48,
+  "cy": 706.03,
+  "d": 43.93,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1471": {
+  "cx": 493.19,
+  "cy": 702.21,
+  "d": 44.23,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1472": {
+  "cx": 496.29,
+  "cy": 698.12,
+  "d": 44.39,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1473": {
+  "cx": 499.89,
+  "cy": 694.16,
+  "d": 44.69,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1474": {
+  "cx": 503.93,
+  "cy": 689.91,
+  "d": 45.07,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1475": {
+  "cx": 508.57,
+  "cy": 685.45,
+  "d": 45.33,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1476": {
+  "cx": 513.92,
+  "cy": 680.84,
+  "d": 45.53,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1477": {
+  "cx": 520.09,
+  "cy": 676.05,
+  "d": 45.59,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1478": {
+  "cx": 527.14,
+  "cy": 670.71,
+  "d": 46.08,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1479": {
+  "cx": 535.34,
+  "cy": 664.99,
+  "d": 46.53,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1480": {
+  "cx": 544.58,
+  "cy": 658.89,
+  "d": 47.13,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1481": {
+  "cx": 555.66,
+  "cy": 652.28,
+  "d": 47.63,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1482": {
+  "cx": 568.25,
+  "cy": 645.17,
+  "d": 48.12,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1483": {
+  "cx": 582.9,
+  "cy": 637.45,
+  "d": 48.53,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1484": {
+  "cx": 599.7,
+  "cy": 629.07,
+  "d": 48.98,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1485": {
+  "cx": 619.05,
+  "cy": 619.95,
+  "d": 49.24,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1486": {
+  "cx": 641.01,
+  "cy": 610.08,
+  "d": 49.56,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1487": {
+  "cx": 666.12,
+  "cy": 599.35,
+  "d": 49.86,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1488": {
+  "cx": 694.33,
+  "cy": 587.57,
+  "d": 50.64,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1489": {
+  "cx": 726.47,
+  "cy": 574.8,
+  "d": 51.54,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1490": {
+  "cx": 762.37,
+  "cy": 561.11,
+  "d": 52.59,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1491": {
+  "cx": 802.29,
+  "cy": 546.51,
+  "d": 53.67,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1492": {
+  "cx": 846.3,
+  "cy": 531.11,
+  "d": 54.61,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1493": {
+  "cx": 894.71,
+  "cy": 514.8,
+  "d": 55.84,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1494": {
+  "cx": 947.7,
+  "cy": 497.42,
+  "d": 57.3,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1495": {
+  "cx": 1004.47,
+  "cy": 480.0,
+  "d": 58.69,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1496": {
+  "cx": 1063.01,
+  "cy": 462.21,
+  "d": 60.08,
+  "roll": 6.0,
+  "az": -8.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1555": {
+  "cx": 1123.06,
+  "cy": 685.97,
+  "d": 71.74,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1556": {
+  "cx": 1098.14,
+  "cy": 695.66,
+  "d": 76.55,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1557": {
+  "cx": 1071.96,
+  "cy": 710.45,
+  "d": 77.35,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1558": {
+  "cx": 1045.54,
+  "cy": 724.91,
+  "d": 77.8,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1559": {
+  "cx": 1019.28,
+  "cy": 739.18,
+  "d": 77.6,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1560": {
+  "cx": 993.96,
+  "cy": 752.58,
+  "d": 77.1,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1561": {
+  "cx": 970.16,
+  "cy": 764.77,
+  "d": 77.14,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1562": {
+  "cx": 947.89,
+  "cy": 776.23,
+  "d": 76.78,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1563": {
+  "cx": 927.13,
+  "cy": 786.97,
+  "d": 76.35,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1564": {
+  "cx": 907.72,
+  "cy": 796.7,
+  "d": 76.19,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1565": {
+  "cx": 889.65,
+  "cy": 805.78,
+  "d": 75.88,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1566": {
+  "cx": 872.91,
+  "cy": 814.09,
+  "d": 75.64,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1567": {
+  "cx": 857.36,
+  "cy": 821.48,
+  "d": 75.74,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1568": {
+  "cx": 843.0,
+  "cy": 828.06,
+  "d": 76.18,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1569": {
+  "cx": 829.71,
+  "cy": 833.75,
+  "d": 76.93,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1570": {
+  "cx": 817.41,
+  "cy": 838.3,
+  "d": 78.63,
+  "roll": 14.0,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1571": {
+  "cx": 805.92,
+  "cy": 842.96,
+  "d": 79.47,
+  "roll": 13.4,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1572": {
+  "cx": 795.17,
+  "cy": 847.19,
+  "d": 80.35,
+  "roll": 12.8,
+  "az": -18.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1573": {
+  "cx": 785.06,
+  "cy": 851.1,
+  "d": 81.06,
+  "roll": 12.2,
+  "az": -16.88,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1574": {
+  "cx": 775.67,
+  "cy": 854.55,
+  "d": 81.67,
+  "roll": 11.6,
+  "az": -15.75,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1575": {
+  "cx": 766.94,
+  "cy": 857.66,
+  "d": 82.61,
+  "roll": 11.0,
+  "az": -14.62,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1576": {
+  "cx": 758.61,
+  "cy": 860.42,
+  "d": 84.48,
+  "roll": 10.4,
+  "az": -13.5,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1577": {
+  "cx": 750.77,
+  "cy": 862.39,
+  "d": 86.11,
+  "roll": 9.8,
+  "az": -12.38,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1578": {
+  "cx": 743.04,
+  "cy": 865.27,
+  "d": 85.79,
+  "roll": 9.2,
+  "az": -11.25,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1579": {
+  "cx": 735.94,
+  "cy": 866.01,
+  "d": 89.16,
+  "roll": 8.6,
+  "az": -10.12,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1580": {
+  "cx": 729.05,
+  "cy": 867.11,
+  "d": 92.07,
+  "roll": 8.0,
+  "az": -9.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1581": {
+  "cx": 722.2,
+  "cy": 868.72,
+  "d": 93.99,
+  "roll": 7.5,
+  "az": -8.4,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1582": {
+  "cx": 715.46,
+  "cy": 870.69,
+  "d": 95.04,
+  "roll": 7.0,
+  "az": -7.8,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1583": {
+  "cx": 708.84,
+  "cy": 872.64,
+  "d": 96.32,
+  "roll": 6.5,
+  "az": -7.2,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1584": {
+  "cx": 702.4,
+  "cy": 874.26,
+  "d": 98.1,
+  "roll": 6.0,
+  "az": -6.6,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1585": {
+  "cx": 696.12,
+  "cy": 875.58,
+  "d": 100.49,
+  "roll": 5.5,
+  "az": -6.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1586": {
+  "cx": 689.95,
+  "cy": 876.31,
+  "d": 103.68,
+  "roll": 5.0,
+  "az": -5.76,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1587": {
+  "cx": 683.9,
+  "cy": 876.78,
+  "d": 107.53,
+  "roll": 4.5,
+  "az": -5.52,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1588": {
+  "cx": 677.96,
+  "cy": 876.93,
+  "d": 112.02,
+  "roll": 4.0,
+  "az": -5.28,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1589": {
+  "cx": 672.01,
+  "cy": 877.0,
+  "d": 116.82,
+  "roll": 3.5,
+  "az": -5.04,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1590": {
+  "cx": 666.12,
+  "cy": 877.0,
+  "d": 121.95,
+  "roll": 3.0,
+  "az": -4.8,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1591": {
+  "cx": 660.28,
+  "cy": 877.14,
+  "d": 126.81,
+  "roll": 2.9,
+  "az": -4.56,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1592": {
+  "cx": 654.5,
+  "cy": 877.43,
+  "d": 131.91,
+  "roll": 2.8,
+  "az": -4.32,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1593": {
+  "cx": 648.87,
+  "cy": 877.74,
+  "d": 137.04,
+  "roll": 2.7,
+  "az": -4.08,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1594": {
+  "cx": 643.52,
+  "cy": 877.87,
+  "d": 142.37,
+  "roll": 2.6,
+  "az": -3.84,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1595": {
+  "cx": 638.42,
+  "cy": 877.75,
+  "d": 148.02,
+  "roll": 2.5,
+  "az": -3.6,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1596": {
+  "cx": 633.67,
+  "cy": 877.48,
+  "d": 153.71,
+  "roll": 2.4,
+  "az": -3.36,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1597": {
+  "cx": 629.11,
+  "cy": 877.06,
+  "d": 159.8,
+  "roll": 2.3,
+  "az": -3.12,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1598": {
+  "cx": 624.92,
+  "cy": 876.38,
+  "d": 166.41,
+  "roll": 2.2,
+  "az": -2.88,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1599": {
+  "cx": 621.18,
+  "cy": 874.27,
+  "d": 175.14,
+  "roll": 2.1,
+  "az": -2.64,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1600": {
+  "cx": 617.87,
+  "cy": 870.86,
+  "d": 185.77,
+  "roll": 2.0,
+  "az": -2.4,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1601": {
+  "cx": 614.87,
+  "cy": 867.65,
+  "d": 196.44,
+  "roll": 1.9,
+  "az": -2.16,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1602": {
+  "cx": 612.0,
+  "cy": 866.73,
+  "d": 204.36,
+  "roll": 1.8,
+  "az": -1.92,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1603": {
+  "cx": 609.46,
+  "cy": 868.02,
+  "d": 209.18,
+  "roll": 1.7,
+  "az": -1.68,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1604": {
+  "cx": 606.93,
+  "cy": 870.84,
+  "d": 212.03,
+  "roll": 1.6,
+  "az": -1.44,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1605": {
+  "cx": 604.66,
+  "cy": 874.14,
+  "d": 214.6,
+  "roll": 1.5,
+  "az": -1.2,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1606": {
+  "cx": 602.71,
+  "cy": 876.97,
+  "d": 218.06,
+  "roll": 1.4,
+  "az": -0.96,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1607": {
+  "cx": 601.1,
+  "cy": 878.91,
+  "d": 222.82,
+  "roll": 1.3,
+  "az": -0.72,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1608": {
+  "cx": 599.89,
+  "cy": 880.02,
+  "d": 228.64,
+  "roll": 1.2,
+  "az": -0.48,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1609": {
+  "cx": 599.03,
+  "cy": 880.36,
+  "d": 235.33,
+  "roll": 1.1,
+  "az": -0.24,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1610": {
+  "cx": 598.52,
+  "cy": 880.17,
+  "d": 242.51,
+  "roll": 1.0,
+  "az": 0.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1611": {
+  "cx": 598.23,
+  "cy": 880.09,
+  "d": 249.28,
+  "roll": 0.93,
+  "az": 0.27,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1612": {
+  "cx": 598.08,
+  "cy": 880.3,
+  "d": 255.32,
+  "roll": 0.87,
+  "az": 0.53,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1613": {
+  "cx": 598.12,
+  "cy": 880.88,
+  "d": 260.43,
+  "roll": 0.8,
+  "az": 0.8,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1614": {
+  "cx": 598.17,
+  "cy": 881.72,
+  "d": 264.68,
+  "roll": 0.73,
+  "az": 1.07,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1615": {
+  "cx": 598.29,
+  "cy": 882.73,
+  "d": 268.28,
+  "roll": 0.67,
+  "az": 1.33,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1616": {
+  "cx": 598.48,
+  "cy": 883.77,
+  "d": 271.57,
+  "roll": 0.6,
+  "az": 1.6,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1617": {
+  "cx": 598.35,
+  "cy": 876.67,
+  "d": 279.12,
+  "roll": 0.53,
+  "az": 1.87,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1618": {
+  "cx": 600.41,
+  "cy": 860.92,
+  "d": 287.69,
+  "roll": 0.47,
+  "az": 2.13,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1619": {
+  "cx": 602.28,
+  "cy": 846.69,
+  "d": 296.27,
+  "roll": 0.4,
+  "az": 2.4,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1620": {
+  "cx": 603.53,
+  "cy": 837.2,
+  "d": 301.99,
+  "roll": 0.33,
+  "az": 2.67,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1621": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.27,
+  "az": 2.93,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1622": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.2,
+  "az": 3.2,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1623": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.13,
+  "az": 3.47,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1624": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.07,
+  "az": 3.73,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1625": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1626": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1627": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1628": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1629": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1630": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1631": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1632": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1633": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ },
+ "1634": {
+  "cx": 603.97,
+  "cy": 833.98,
+  "d": 304.84,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 4,
+  "src": "s17_tracks (white disc fit + corr)",
+  "quality": "s17"
+ }
+}

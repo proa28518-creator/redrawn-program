@@ -1,0 +1,12 @@
+{
+ "_doc": "Passenger limbs (tools/s09_build.py): keys per shot in limbs.<shot>.json.",
+ "width": 0.056,
+ "handR": 0.058,
+ "farLegGreyRuns": [],
+ "colours": {
+  "ink": "#3a2a33",
+  "farLegKneel": "#6a5868",
+  "spec": "#c4c2d6"
+ },
+ "keys": {}
+}

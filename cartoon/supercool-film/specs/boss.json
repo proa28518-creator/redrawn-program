@@ -1,0 +1,11 @@
+{
+  "_doc": "The Boss. Head, face, bowler by the head/face/hat agent 2026-11-03 (tracks/boss/head.json face.json cap.json). Body by the body builder 2026-11-03: torso outfit 'boss' (src/torso.js buildBoss: egg body, mustard vest, shirt V, bow tie, 5 gold buttons, 3 welt pockets, gold chain), limbs width .064 handR .064, prop cane (src/props/cane.js). Tracks: tracks/boss/*.json (torso.json limbs.json props.json written by tools/bossbody_track.py).",
+  "head": { "hairDark": "#5e565c", "hairLit": "#8a838a", "hairHi": "#b0aab0", "hairRim": "#8a838a", "litDir": [-0.2, 0.3, 0.93] },
+  "face": {},
+  "backHair": { "color": "#5e565c", "back": 92 },
+  "hat": { "kind": "bowler" },
+  "torso": { "outfit": "boss" },
+  "limbs": { "width": 0.064, "handR": 0.064 },
+  "props": [{ "kind": "cane", "length": 2.0 }, { "kind": "purple" }, { "kind": "steam" }],
+  "hide": []
+}

@@ -1,0 +1,12 @@
+{
+  "_doc": "The Townsperson (2026-11-03, s12 fitter). Grey bowler (src/hats/bowler.js, colours here), brown hair #7e5c48 on the sides under the hat (tracks/townsperson/head.json), brown jacket = torso outfit 'jacket' (src/torso.js buildJacket: lapels, shirt V, dotted tie, 1 button, welt pocket, pale rim streak), limbs .058, prop newspaper (src/props/newspaper.js, the printed page drawn on a canvas texture). Tracks: tracks/townsperson/*.json + per shot *.s12.json (tools/s12_build.py).",
+  "head": { "hairDark": "#5c4234", "hairLit": "#7e5c48", "hairHi": "#9a7863", "hairRim": "#7e5c48", "litDir": [-0.3, 0.4, 0.86] },
+  "backHair": { "color": "#5c4234", "shell": "look80", "back": 100, "seed": 2, "litDir": [-0.3, 0.4, 0.86] },
+  "face": {},
+  "hat": { "kind": "bowler", "crownLit": "#c4bfbc", "crownDark": "#7d7876", "term": 0.10, "termSoft": 0.42, "arc": "#ecebea", "arcOn": 0.8,
+           "stripe": "#a5a09d", "stripeOn": 0.5, "band": "#3c3438", "brimLit": "#5c5558", "brimDark": "#3a3337", "brimEdge": "#a39da0", "brimEdgeOn": 0.6 },
+  "torso": { "outfit": "jacket" },
+  "limbs": { "width": 0.058, "handR": 0.06 },
+  "props": [{ "kind": "newspaper", "w": 1.0, "h": 1.28 }],
+  "hide": []
+}

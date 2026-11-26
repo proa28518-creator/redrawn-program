@@ -1,0 +1,106 @@
+[
+ {
+  "n": 1,
+  "line": 1,
+  "who": "narrator",
+  "text": "If you ever find yourself in the backrooms, never answer a voice you recognize.",
+  "start": 0.06,
+  "end": 4.5
+ },
+ {
+  "n": 2,
+  "line": 2,
+  "who": "narrator",
+  "text": "Six wanderers have been lost on level zero for nine days when they hear a woman down the hallway.",
+  "start": 4.68,
+  "end": 9.86
+ },
+ {
+  "n": 3,
+  "line": 3,
+  "who": "narrator",
+  "text": "Over here, I found the way out.",
+  "start": 9.92,
+  "end": 11.06
+ },
+ {
+  "n": 4,
+  "line": 4,
+  "who": "narrator",
+  "text": "Everyone starts running, except Maya.",
+  "start": 11.16,
+  "end": 12.94
+ },
+ {
+  "n": 5,
+  "line": 5,
+  "who": "narrator",
+  "text": "She grabs the nearest guy by the collar.",
+  "start": 13.06,
+  "end": 14.48
+ },
+ {
+  "n": 6,
+  "line": 6,
+  "who": "narrator",
+  "text": "Don't, that's Lena.",
+  "start": 14.54,
+  "end": 15.42
+ },
+ {
+  "n": 7,
+  "line": 7,
+  "who": "narrator",
+  "text": "And he goes,",
+  "start": 15.52,
+  "end": 15.86
+ },
+ {
+  "n": 8,
+  "line": 8,
+  "who": "narrator",
+  "text": "great, so she's alive.",
+  "start": 15.92,
+  "end": 16.86
+ },
+ {
+  "n": 9,
+  "line": 9,
+  "who": "narrator",
+  "text": "But Lena went missing on day two.",
+  "start": 16.92,
+  "end": 18.44
+ },
+ {
+  "n": 10,
+  "line": 10,
+  "who": "narrator",
+  "text": "You see, the things down here copy voices, but only voices they've heard screaming.",
+  "start": 18.58,
+  "end": 22.82
+ },
+ {
+  "n": 11,
+  "line": 11,
+  "who": "narrator",
+  "text": "So everyone freezes, and for a second it's dead quiet.",
+  "start": 22.92,
+  "end": 25.44
+ },
+ {
+  "n": 12,
+  "line": 12,
+  "who": "narrator",
+  "text": "Then the voice calls again, closer.",
+  "start": 25.48,
+  "end": 26.84
+ },
+ {
+  "n": 13,
+  "line": 13,
+  "who": "narrator",
+  "text": "And this time it sounds exactly like Maya, who is still holding his collar and hasn't blinked once.",
+  "start": 26.92,
+  "end": 31.98
+ }
+]

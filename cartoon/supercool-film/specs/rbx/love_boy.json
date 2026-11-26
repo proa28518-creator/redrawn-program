@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "boy",
+  "film": "love",
+  "name": "Boy",
+  "role": "street kid next to grandma",
+  "skin": "#c98d5a",
+  "build": {
+    "scale": 0.82,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#3b2416"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "suit",
+    "topColor": "#3a2a6a",
+    "shirtColor": "#f4f4f4",
+    "pants": "#2c2c34",
+    "pantsKind": "long",
+    "shoes": "#2c2c34"
+  },
+  "v1": "not in the cast table; V1 scene.js boy: brown skin, purple short-sleeve suit"
+}

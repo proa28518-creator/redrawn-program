@@ -1,0 +1,10 @@
+{ "_doc": "S-4: the young hard-hat diver who gets snagged, slimmer olive canvas suit, copper helmet with a round port, clean shaven.",
+  "head": {}, "face": { "eyeSize": 1.03, "browThick": 1.35, "mouthWidth": 0.9 },
+  "hair": { "style": "lobe", "colour": "auburn" },
+  "hat": { "kind": "diver", "shell": "#c4693a", "trim": "#7a3f22" },
+  "torso": { "body": { "build": "stout", "W": 0.9, "H": 0.98 },
+    "outfit": { "trousers": "#6f7654", "layers": [
+      { "t": "jumper", "color": "#8a9068", "neckW": 0.5, "neckD": 0.1 },
+      { "t": "apron", "color": "#3f434a", "bib": true, "width": 0.7, "bibW": 0.62, "to": 0.45 },
+      { "t": "belt", "color": "#2c2a26", "buckle": "#c4693a" } ] } },
+  "limbs": { "legLen": 1.26, "armLen": 0.96, "width": 0.07, "handR": 0.07 }, "hide": [] }

@@ -1,0 +1,36 @@
+{
+  "kind": "rbx",
+  "id": "mailman",
+  "film": "love",
+  "name": "Mailman",
+  "role": "mailman",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": null,
+  "hat": {
+    "style": "mailman_cap",
+    "color": "#222222"
+  },
+  "glasses": {
+    "style": "square",
+    "color": "#111111"
+  },
+  "facial": null,
+  "wear": {
+    "top": "jacket",
+    "topColor": "#1a1a1e",
+    "pants": "#1a1a1e",
+    "pantsKind": "long",
+    "shoes": "#1a1a1e"
+  },
+  "v1": "dark cap, black coat"
+}

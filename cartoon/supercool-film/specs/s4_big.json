@@ -1,0 +1,9 @@
+{ "_doc": "S-4: the giant torpedoman, tall and wide, black full beard, navy watch cap, dark pea coat.",
+  "head": {}, "face": { "eyeSize": 0.97, "browThick": 1.5, "mouthWidth": 0.95 },
+  "hair": { "style": "lobe", "colour": "black" }, "facialHair": { "kind": "full", "colour": "black", "scale": 0.74 },
+  "hat": { "kind": "beanie", "crown": "#31405f", "cuff": "#26324f" },
+  "torso": { "body": { "build": "stout", "W": 1.0, "H": 1.0 },
+    "outfit": { "trousers": "#1f2432", "layers": [
+      { "t": "shirt", "color": "#8a93a0", "collar": "none" },
+      { "t": "coat", "color": "#2a3550", "buttons": 4, "buttonColor": "#c7c0ae", "tip": 0.4, "openW": 0.3 } ] } },
+  "limbs": { "legLen": 1.42, "armLen": 1.0, "width": 0.064, "handR": 0.064 }, "hide": [] }

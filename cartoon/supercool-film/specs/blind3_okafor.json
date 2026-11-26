@@ -1,0 +1,14 @@
+{ "_doc": "blind3: 'Mr Okafor, a stout park keeper with a grey flat cap, a full black beard and a dark green uniform, carrying a broom.' Stout W .96, legs 1.15; grey flatcap; full black beard scale .7; lobe hair under the cap; dark green uniform jacket (gold buttons, belt, pockets) + dark green trousers. (A first try with shirt + belt h .06 + flap pockets turned the whole torso near-black: see lab/blind3/LOG.md.)",
+  "head": {},
+  "face": { "eyeSize": 0.97, "browThick": 1.4, "mouthSize": 1.05 },
+  "hair": { "style": "lobe", "colour": "black", "seed": 3 },
+  "facialHair": { "kind": "full", "colour": "black", "scale": 0.7 },
+  "hat": { "kind": "flatcap", "crown": "#8a8a90", "band": "#5e5e66" },
+  "torso": { "body": { "build": "stout", "W": 0.96, "H": 0.95 },
+    "outfit": { "trousers": "#2c4a33",
+      "layers": [ { "t": "jacket", "color": "#3d6e48", "lapels": false, "buttons": 4, "buttonColor": "#c9a24a", "tip": 0.42, "openW": 0.2 },
+                  { "t": "belt", "y": 0.22, "color": "#3a2a22", "buckle": "#c9a24a" },
+                  { "t": "pocket", "x": -0.5, "y": 0.62, "w": 0.24, "h": 0.05, "color": "#2f5a3a" } ] } },
+  "limbs": { "legLen": 1.15, "armLen": 0.95, "width": 0.062, "handR": 0.062 },
+  "hide": []
+}

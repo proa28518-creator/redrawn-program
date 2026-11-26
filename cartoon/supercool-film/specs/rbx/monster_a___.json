@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "a___",
+  "film": "monster",
+  "name": "Student 7",
+  "role": "crowd, flees the school",
+  "skin": "#c68a5a",
+  "build": {
+    "scale": 1,
+    "width": 1
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "derp_o"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#2a1a10"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#e6e6e6",
+    "pants": "#262a36",
+    "pantsKind": "long",
+    "shoes": "#262a36"
+  },
+  "v1": "one of 6-8 mixed students (V1 crowd loop, entry 6)",
+  "copyOf": "monster_crowd7"
+}

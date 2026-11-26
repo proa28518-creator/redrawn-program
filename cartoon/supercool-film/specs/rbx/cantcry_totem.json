@@ -1,0 +1,16 @@
+{
+  "kind": "rbx",
+  "id": "totem",
+  "film": "cantcry",
+  "name": "Totem",
+  "role": "\"something stupid\"",
+  "skin": "#9a4a1c",
+  "body": "card",
+  "card": "totem",
+  "note": "WP-CR: painted AI Studio cards (engine/rbx/card.js, frames in engine/rbx/cards/totem/): carved wooden tiki mask body on stick legs, orange feet, a walking stick. Frames: front idle (grin), talk (a talking mouth viseme), shock (wide eyes / o face), side step. 2.7 D tall.",
+  "build": { "scale": 1 },
+  "head": { "shape": "classic" },
+  "face": { "default": "o_eyes" },
+  "hair": null, "hat": null, "glasses": null, "facial": null,
+  "v1": "brown wooden tiki-mask creature on stick legs"
+}

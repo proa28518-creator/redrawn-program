@@ -1,0 +1,38 @@
+{
+  "kind": "rbx",
+  "id": "oldman1",
+  "film": "love",
+  "name": "Old man",
+  "role": "\"someone you love\" receiver; 400-year-old",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#e8e8e8"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": {
+    "style": "beard_long",
+    "color": "#eeeeee"
+  },
+  "wear": {
+    "top": "suit",
+    "topColor": "#16161a",
+    "shirtColor": "#f4f4f4",
+    "accent": "#16161a",
+    "pants": "#16161a",
+    "pantsKind": "long",
+    "shoes": "#16161a"
+  },
+  "v1": "white hair + beard, black suit"
+}

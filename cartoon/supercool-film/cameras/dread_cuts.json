@@ -1,0 +1,23 @@
+{ "name": "Dread Cuts",
+  "id": "dread_cuts",
+  "feel": "The cut the film was built with. Hard cuts on the words, a low camera looking up at them, a tilted horizon that drifts, and a slow push or a small orbit on every shot, so the place feels wrong without the camera ever showing off.",
+  "recipe": "A hard cut on a line start or an action, every 1.2-3.5 s, never two near-identical angles in a row. Lens fov 26-32, camera at chest-to-head height. Every shot moves: a push of 10-15 % or an orbit of 10-15 deg. Roll 2-5 deg, changing side from shot to shot. Dead still only for the silence. The last shot pushes in on the character who knows.",
+  "shots": [
+    {"t0":0,"t1":"line:1.word:9","camera":{"move":"orbit","whos":["cal","maya"],"facing":0,"az0":-10,"az1":3,"el":-5,"dist":10,"height":2.7,"fov":26,"roll":3}},
+    {"t0":"line:1.word:9","t1":"line:2.start","camera":{"move":"orbit","who":"maya","az0":-18,"az1":-4,"el":-6,"dist":8.5,"height":2.75,"fov":26,"roll":-2}},
+    {"t0":"line:2.start","t1":"line:2.word:12","camera":{"move":"push","from":{"pos":[0.4,2.6,16.8],"target":[-0.4,2.2,0.8],"fov":40},"to":{"pos":[0.1,2.6,15.5],"target":[-0.4,2.2,0.8],"fov":40},"roll":[2,3]}},
+    {"t0":"line:2.word:12","t1":"line:3.start","camera":{"move":"push","from":{"pos":[0.4,2,-9],"target":[0.2,2.5,1.2],"fov":28},"to":{"pos":[0.35,2,-7.8],"target":[0.2,2.5,1.2],"fov":28},"roll":[-3,-4]}},
+    {"t0":"line:3.start","t1":"line:4.start","camera":{"move":"push","from":{"pos":[1.2,2.6,6.5],"target":[1,2.4,-30],"fov":26},"to":{"pos":[1.15,2.55,5.3],"target":[1,2.4,-30],"fov":26},"roll":3}},
+    {"t0":"line:4.start","t1":"line:4.word:4","camera":{"move":"push","from":{"pos":[0.6,1.6,-13],"target":[0,2.3,0],"fov":28},"to":{"pos":[0.5,1.6,-15],"target":[0,2.3,-2],"fov":28},"roll":[-2,-4]}},
+    {"t0":"line:4.word:4","t1":"line:4.word:5","camera":{"move":"orbit","who":"maya","az0":-44,"az1":-30,"el":-5,"dist":6.8,"height":2.7,"fov":26,"roll":3}},
+    {"t0":"line:4.word:5","t1":"line:6.start","camera":{"move":"orbit","whos":["maya","cal"],"facing":0,"az0":-10,"az1":2,"el":-3,"dist":12,"height":2.4,"fov":26,"roll":-2}},
+    {"t0":"line:6.start","t1":"line:7.start","camera":{"move":"orbit","who":"maya","az0":-26,"az1":-12,"el":-4,"dist":8,"height":2.75,"fov":26,"roll":2}},
+    {"t0":"line:7.start","t1":"line:9.start","camera":{"move":"orbit","who":"cal","az0":22,"az1":8,"el":-4,"dist":8,"height":2.55,"fov":26,"roll":-3}},
+    {"t0":"line:9.start","t1":"line:10.start","camera":{"move":"push","from":{"pos":[4.7,2,-47],"target":[4.4,2.5,-57],"fov":26},"to":{"pos":[4.6,2,-48],"target":[4.4,2.5,-57],"fov":26},"roll":[4,5]}},
+    {"t0":"line:10.start","t1":"line:10.word:9","camera":{"move":"push","from":{"pos":[0.5,1.4,-21],"target":[0.2,2.7,-55],"fov":26},"to":{"pos":[0.45,1.4,-24.5],"target":[0.2,2.7,-55],"fov":26},"roll":[-3,-4]}},
+    {"t0":"line:10.word:9","t1":"line:11.start","camera":{"move":"orbit","who":"cal","az0":34,"az1":20,"el":-5,"dist":7.5,"height":2.6,"fov":26,"roll":3}},
+    {"t0":"line:11.start","t1":"line:12.start","still":true,"camera":{"move":"push","from":{"pos":[0.5,2.2,-25.5],"target":[0,2.4,-8],"fov":32},"to":{"pos":[0.48,2.2,-25.2],"target":[0,2.4,-8],"fov":32},"roll":2}},
+    {"t0":"line:12.start","t1":"line:13.start","camera":{"move":"push","from":{"pos":[0.5,1.5,-21],"target":[0.2,2.6,-40],"fov":26},"to":{"pos":[0.4,1.5,-25.5],"target":[0.2,2.6,-40],"fov":26},"roll":[-4,-5]}},
+    {"t0":"line:13.start","t1":"line:13.word:9","camera":{"move":"orbit","who":"cal","az0":40,"az1":24,"el":-5,"dist":7.2,"height":2.6,"fov":26,"roll":-2}},
+    {"t0":"line:13.word:9","t1":99,"camera":{"move":"push","t0":"line:13.word:9","t1":"line:13.end+0.45","ease":"inOutSine","from":{"pos":[4.2,2.5,6.5],"target":[-0.6,2.68,0.8],"fov":26},"to":{"pos":[2.3,2.6,4.25],"target":[-0.6,2.68,0.8],"fov":26},"roll":[2,4]}}
+  ] }

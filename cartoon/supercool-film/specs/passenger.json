@@ -1,0 +1,11 @@
+{
+  "_doc": "The Passenger (2026-11-03, s09 fitter). Same body + hat as the Tycoon: src/hats/tophat.js with its gold band + gold brim trim (his f816-852 show both, so bandOn/trimOn stay 1), no hair visible (tracks/passenger/head.json: a tiny hair patch hidden under the crown). Torso: outfit 'passenger' in src/torso.js (Tycoon pill, purple suit, lined fabric, inked V lapels, shirt sliver + dotted tie, 2 dark buttons, 2 welt pockets). Limbs .056 / hands .058 as the Tycoon. Prop: src/props/teacup.js (cup + saucer + the far hand's oval thumb). Tracks: tracks/passenger/*.json + per shot *.s09.json (tools/s09_build.py).",
+  "head": { "hairDark": "#211b26", "hairLit": "#211b26", "hairHi": "#211b26", "hairRim": "#211b26", "litDir": [-0.3, 0.5, 0.8] },
+  "face": {},
+  "backHair": { "color": "#3f3238", "back": 94, "seed": 5 },
+  "hat": { "kind": "tophat" },
+  "torso": { "outfit": "passenger" },
+  "limbs": { "width": 0.056, "handR": 0.058 },
+  "props": [{ "kind": "teacup", "r": 0.125, "h": 0.15, "saucerR": 0.23, "thumbW": 0.032, "thumbH": 0.06, "thumbAt": [0.15, 0.05, 0.04] }],
+  "hide": []
+}

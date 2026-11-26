@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "extra17",
+  "film": "sneeze",
+  "name": "Kid 2",
+  "role": "cafeteria / hallway crowd",
+  "skin": "#7a4a2e",
+  "build": {
+    "scale": 1,
+    "width": 1
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "sweat"
+  },
+  "hair": {
+    "style": "bun",
+    "color": "#111111"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "hoodie",
+    "topColor": "#6a3fc9",
+    "pants": "#111111",
+    "pantsKind": "long",
+    "shoes": "#111111"
+  },
+  "v1": "scene.js KIDS[1]",
+  "copyOf": "sneeze_crowd2"
+}

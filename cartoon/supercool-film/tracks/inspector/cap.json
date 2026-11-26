@@ -1,0 +1,33 @@
+{
+ "_doc": "Inspector officer cap (src/hats/officer.js), tools/s07_build.py. shape = officer.js DEF overrides; follow = rides the head camera with its own el.",
+ "shape": {
+  "mount": {
+   "y": 0.29
+  },
+  "bandH": 0.12,
+  "crownH": 0.11,
+  "crownR": 0.44,
+  "crownTilt": 0,
+  "crownFwd": 0.04,
+  "visorR": 0.15,
+  "visorDrop": 0.3,
+  "pipeY": 0.15,
+  "badgeY": 0.2,
+  "wingW": 0.085,
+  "wingH": 0.016
+ },
+ "follow": [
+  {
+   "to": 708,
+   "el": 20,
+   "y": 0.29,
+   "roll": 5
+  },
+  {
+   "from": 709,
+   "el": 20,
+   "y": 0.29,
+   "roll": 10
+  }
+ ]
+}

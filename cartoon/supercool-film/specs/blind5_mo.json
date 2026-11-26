@@ -1,0 +1,14 @@
+{ "_doc": "blind5: 'Mo, a short stout delivery man with a ginger beard, a blue ball cap and a brown jacket, carrying a parcel.' Stout W .95, short legs 1.12; blue ballcap (owned colour); lobe ginger hair under the cap; full ginger beard scale .7; brown jacket (no lapels, buttons, chest pocket) over a pale shirt; dark trousers.",
+  "head": {},
+  "face": { "eyeSize": 0.98, "browThick": 1.4, "mouthSize": 1.05 },
+  "hair": { "style": "lobe", "colour": "ginger", "seed": 5 },
+  "facialHair": { "kind": "full", "colour": "ginger", "scale": 0.7 },
+  "hat": { "kind": "ballcap", "crown": "#2f5fb3", "bill": "#24488a" },
+  "torso": { "body": { "build": "stout", "W": 0.95, "H": 0.95 },
+    "outfit": { "trousers": "#33313a",
+      "layers": [ { "t": "shirt", "color": "#e9e2d2", "collar": "point" },
+                  { "t": "jacket", "color": "#8a5a36", "lapels": false, "buttons": 3, "buttonColor": "#3a2a22", "tip": 0.42, "openW": 0.24 },
+                  { "t": "pocket", "x": -0.5, "y": 0.66, "w": 0.24, "h": 0.06, "color": "#6e4528" } ] } },
+  "limbs": { "legLen": 1.12, "armLen": 0.95, "width": 0.062, "handR": 0.062 },
+  "hide": []
+}

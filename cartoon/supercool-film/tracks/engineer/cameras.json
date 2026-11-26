@@ -1,0 +1,688 @@
+{
+ "_meta": "Written by tools/truth_head.py. cx cy d (outer ink diameter) roll (+ clockwise, from the hat centroid) per GLOBAL frame, smoothed inside segments, snaps kept. az/el are ESTIMATES from where the face sits on the disc (yaw ~ .7 az, pitch ~ -1.1 el): treat as a start for the head solve. quality good/partial/unreliable/interpolated per frame.",
+ "1636": {
+  "cx": 576.62,
+  "cy": 645.92,
+  "d": 583.31,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 20.73,
+  "src": "s18:truth_head cx cy d; az el by hand (dissolve: held f1638)",
+  "quality": "good,roll-interp"
+ },
+ "1637": {
+  "cx": 576.62,
+  "cy": 645.92,
+  "d": 583.31,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 20.91,
+  "src": "s18:truth_head cx cy d; az el by hand (dissolve: held f1638)",
+  "quality": "good,roll-interp"
+ },
+ "1638": {
+  "cx": 576.62,
+  "cy": 645.92,
+  "d": 583.31,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 21.09,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1639": {
+  "cx": 574.21,
+  "cy": 639.9,
+  "d": 580.46,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 21.27,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1640": {
+  "cx": 578.59,
+  "cy": 640.49,
+  "d": 614.8434000000001,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 21.45,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "unreliable",
+  "raw_s18": 1
+ },
+ "1641": {
+  "cx": 571.03,
+  "cy": 620.62,
+  "d": 606.7756,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 21.64,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "unreliable",
+  "raw_s18": 1
+ },
+ "1642": {
+  "cx": 563.03,
+  "cy": 599.29,
+  "d": 598.3226,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 21.82,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "unreliable",
+  "raw_s18": 1
+ },
+ "1643": {
+  "cx": 555.03,
+  "cy": 577.88,
+  "d": 589.8589000000001,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 22.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "unreliable",
+  "raw_s18": 1
+ },
+ "1644": {
+  "cx": 546.59,
+  "cy": 556.69,
+  "d": 580.4429,
+  "roll": 0.0,
+  "az": -18.0,
+  "el": 25.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "unreliable",
+  "raw_s18": 1
+ },
+ "1645": {
+  "cx": 526.67,
+  "cy": 522.05,
+  "d": 530.5,
+  "roll": 0.0,
+  "az": -3.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1646": {
+  "cx": 516.07,
+  "cy": 506.54,
+  "d": 516.36,
+  "roll": 0.0,
+  "az": -1.5,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1647": {
+  "cx": 508.76,
+  "cy": 496.36,
+  "d": 506.98,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1648": {
+  "cx": 505.88,
+  "cy": 489.07,
+  "d": 504.75,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1649": {
+  "cx": 505.2,
+  "cy": 481.56,
+  "d": 506.76,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1650": {
+  "cx": 504.92,
+  "cy": 473.18,
+  "d": 509.87,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1651": {
+  "cx": 504.48,
+  "cy": 464.87,
+  "d": 512.3,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1652": {
+  "cx": 503.78,
+  "cy": 457.33,
+  "d": 514.09,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1653": {
+  "cx": 503.02,
+  "cy": 450.05,
+  "d": 517.39,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1654": {
+  "cx": 502.54,
+  "cy": 443.59,
+  "d": 521.87,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1655": {
+  "cx": 502.71,
+  "cy": 440.77,
+  "d": 522.35,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1656": {
+  "cx": 503.68,
+  "cy": 442.53,
+  "d": 516.56,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1657": {
+  "cx": 505.37,
+  "cy": 448.7,
+  "d": 506.41,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1658": {
+  "cx": 507.56,
+  "cy": 457.47,
+  "d": 494.92,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1659": {
+  "cx": 509.67,
+  "cy": 466.2,
+  "d": 485.09,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1660": {
+  "cx": 511.19,
+  "cy": 473.61,
+  "d": 478.25,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1661": {
+  "cx": 512.03,
+  "cy": 479.77,
+  "d": 474.08,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1662": {
+  "cx": 512.36,
+  "cy": 485.09,
+  "d": 471.91,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1663": {
+  "cx": 512.3,
+  "cy": 489.96,
+  "d": 471.0,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1664": {
+  "cx": 511.97,
+  "cy": 494.52,
+  "d": 470.53,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1665": {
+  "cx": 511.54,
+  "cy": 498.87,
+  "d": 469.93,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1666": {
+  "cx": 511.12,
+  "cy": 503.06,
+  "d": 469.12,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1667": {
+  "cx": 510.73,
+  "cy": 506.84,
+  "d": 468.16,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1668": {
+  "cx": 510.3,
+  "cy": 510.41,
+  "d": 466.79,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1669": {
+  "cx": 509.77,
+  "cy": 513.56,
+  "d": 465.14,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1670": {
+  "cx": 509.19,
+  "cy": 515.07,
+  "d": 464.55,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1671": {
+  "cx": 508.68,
+  "cy": 513.85,
+  "d": 466.74,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1672": {
+  "cx": 508.11,
+  "cy": 510.61,
+  "d": 471.01,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1673": {
+  "cx": 507.38,
+  "cy": 508.32,
+  "d": 473.13,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1674": {
+  "cx": 506.7,
+  "cy": 508.39,
+  "d": 470.96,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1675": {
+  "cx": 506.22,
+  "cy": 509.84,
+  "d": 464.74,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1676": {
+  "cx": 506.02,
+  "cy": 510.83,
+  "d": 457.23,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1677": {
+  "cx": 506.15,
+  "cy": 510.42,
+  "d": 451.11,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1678": {
+  "cx": 506.87,
+  "cy": 507.87,
+  "d": 447.72,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1679": {
+  "cx": 508.56,
+  "cy": 502.4,
+  "d": 447.28,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1680": {
+  "cx": 511.42,
+  "cy": 493.99,
+  "d": 449.33,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1681": {
+  "cx": 515.55,
+  "cy": 483.19,
+  "d": 453.37,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1682": {
+  "cx": 520.98,
+  "cy": 470.34,
+  "d": 459.09,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1683": {
+  "cx": 527.73,
+  "cy": 455.57,
+  "d": 466.22,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1684": {
+  "cx": 536.01,
+  "cy": 438.89,
+  "d": 474.43,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1685": {
+  "cx": 546.04,
+  "cy": 420.51,
+  "d": 483.4,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1686": {
+  "cx": 557.97,
+  "cy": 400.57,
+  "d": 493.16,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1687": {
+  "cx": 571.92,
+  "cy": 378.83,
+  "d": 504.01,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1688": {
+  "cx": 588.11,
+  "cy": 354.67,
+  "d": 516.41,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1689": {
+  "cx": 605.42,
+  "cy": 327.97,
+  "d": 530.58,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1690": {
+  "cx": 619.27,
+  "cy": 298.86,
+  "d": 546.43,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1691": {
+  "cx": 649.81,
+  "cy": 267.03,
+  "d": 563.74,
+  "roll": 0.0,
+  "az": 0.44,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1692": {
+  "cx": 676.02,
+  "cy": 233.83,
+  "d": 581.22,
+  "roll": 0.0,
+  "az": 0.89,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1693": {
+  "cx": 704.3,
+  "cy": 203.65,
+  "d": 595.41,
+  "roll": 0.0,
+  "az": 1.33,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1694": {
+  "cx": 733.3,
+  "cy": 183.42,
+  "d": 602.81,
+  "roll": 0.0,
+  "az": 1.78,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "partial,roll-interp"
+ },
+ "1695": {
+  "cx": 764.59,
+  "cy": 93.4,
+  "d": 663.12,
+  "roll": 0.0,
+  "az": 2.22,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1696": {
+  "cx": 797.2,
+  "cy": 68.45,
+  "d": 670.09,
+  "roll": 0.0,
+  "az": 2.67,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1697": {
+  "cx": 833.23,
+  "cy": 44.59,
+  "d": 677.07,
+  "roll": 0.0,
+  "az": 3.11,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "good,roll-interp"
+ },
+ "1698": {
+  "cx": 859.78,
+  "cy": 33.54,
+  "d": 687.62,
+  "roll": 0.0,
+  "az": 3.56,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "partial,roll-interp"
+ },
+ "1699": {
+  "cx": 934.75,
+  "cy": -28.09,
+  "d": 701.46,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 28.0,
+  "src": "s18:truth_head cx cy d; az el by hand",
+  "quality": "partial,roll-interp"
+ },
+ "1632": {
+  "cx": 576.62,
+  "cy": 645.92,
+  "d": 583.31,
+  "roll": 0.0,
+  "az": -33,
+  "el": 20,
+  "src": "s18:truth_head cx cy d; az el by hand (dissolve: held f1638)",
+  "quality": "good,roll-interp"
+ },
+ "1633": {
+  "cx": 576.62,
+  "cy": 645.92,
+  "d": 583.31,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 20.18,
+  "src": "s18:truth_head cx cy d; az el by hand (dissolve: held f1638)",
+  "quality": "good,roll-interp"
+ },
+ "1634": {
+  "cx": 576.62,
+  "cy": 645.92,
+  "d": 583.31,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 20.36,
+  "src": "s18:truth_head cx cy d; az el by hand (dissolve: held f1638)",
+  "quality": "good,roll-interp"
+ },
+ "1635": {
+  "cx": 576.62,
+  "cy": 645.92,
+  "d": 583.31,
+  "roll": 0.0,
+  "az": -33.0,
+  "el": 20.55,
+  "src": "s18:truth_head cx cy d; az el by hand (dissolve: held f1638)",
+  "quality": "good,roll-interp"
+ }
+}

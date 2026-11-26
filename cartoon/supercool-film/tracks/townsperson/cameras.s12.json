@@ -1,0 +1,738 @@
+{
+ "936": {
+  "cx": 555.5,
+  "cy": 895.2,
+  "d": 280.3,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (extrapolated: dissolve, no mask)",
+  "quality": "extrapolated"
+ },
+ "937": {
+  "cx": 555.5,
+  "cy": 893.7,
+  "d": 282.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (extrapolated: dissolve, no mask)",
+  "quality": "extrapolated"
+ },
+ "938": {
+  "cx": 555.5,
+  "cy": 892.3,
+  "d": 284.6,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (extrapolated: dissolve, no mask)",
+  "quality": "extrapolated"
+ },
+ "939": {
+  "cx": 555.5,
+  "cy": 890.9,
+  "d": 286.7,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (extrapolated: dissolve, no mask)",
+  "quality": "extrapolated"
+ },
+ "940": {
+  "cx": 555.5,
+  "cy": 889.5,
+  "d": 288.9,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (extrapolated: dissolve, no mask)",
+  "quality": "extrapolated"
+ },
+ "941": {
+  "cx": 555.5,
+  "cy": 888.0,
+  "d": 291.1,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (extrapolated: dissolve, no mask)",
+  "quality": "extrapolated"
+ },
+ "942": {
+  "cx": 555.5,
+  "cy": 886.6,
+  "d": 293.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (extrapolated: dissolve, no mask)",
+  "quality": "extrapolated"
+ },
+ "943": {
+  "cx": 555.3,
+  "cy": 886.1,
+  "d": 296.2,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "944": {
+  "cx": 555.5,
+  "cy": 884.0,
+  "d": 298.1,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "945": {
+  "cx": 555.6,
+  "cy": 881.9,
+  "d": 299.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "946": {
+  "cx": 555.6,
+  "cy": 880.0,
+  "d": 301.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "947": {
+  "cx": 555.6,
+  "cy": 878.7,
+  "d": 304.3,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "948": {
+  "cx": 555.6,
+  "cy": 878.2,
+  "d": 306.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "949": {
+  "cx": 555.7,
+  "cy": 877.3,
+  "d": 309.6,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "950": {
+  "cx": 555.6,
+  "cy": 875.7,
+  "d": 312.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "951": {
+  "cx": 555.6,
+  "cy": 874.9,
+  "d": 315.3,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "952": {
+  "cx": 555.4,
+  "cy": 873.8,
+  "d": 318.2,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "953": {
+  "cx": 555.3,
+  "cy": 871.3,
+  "d": 321.2,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "954": {
+  "cx": 555.2,
+  "cy": 869.4,
+  "d": 324.2,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "955": {
+  "cx": 555.2,
+  "cy": 867.6,
+  "d": 327.5,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "956": {
+  "cx": 555.0,
+  "cy": 865.0,
+  "d": 330.6,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "957": {
+  "cx": 555.0,
+  "cy": 862.4,
+  "d": 334.0,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "958": {
+  "cx": 555.0,
+  "cy": 860.7,
+  "d": 338.0,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "959": {
+  "cx": 554.8,
+  "cy": 859.1,
+  "d": 341.9,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "960": {
+  "cx": 554.3,
+  "cy": 857.2,
+  "d": 345.6,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "961": {
+  "cx": 553.7,
+  "cy": 854.0,
+  "d": 349.7,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "962": {
+  "cx": 553.4,
+  "cy": 849.8,
+  "d": 354.1,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "963": {
+  "cx": 553.0,
+  "cy": 844.4,
+  "d": 359.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "964": {
+  "cx": 552.1,
+  "cy": 837.4,
+  "d": 366.5,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "965": {
+  "cx": 551.3,
+  "cy": 833.1,
+  "d": 373.9,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "966": {
+  "cx": 551.2,
+  "cy": 831.3,
+  "d": 380.5,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "967": {
+  "cx": 551.7,
+  "cy": 826.0,
+  "d": 386.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "968": {
+  "cx": 552.6,
+  "cy": 818.6,
+  "d": 392.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "969": {
+  "cx": 553.5,
+  "cy": 812.8,
+  "d": 399.7,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "970": {
+  "cx": 554.5,
+  "cy": 807.0,
+  "d": 406.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "971": {
+  "cx": 555.9,
+  "cy": 801.2,
+  "d": 411.6,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "972": {
+  "cx": 557.3,
+  "cy": 795.3,
+  "d": 417.0,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "973": {
+  "cx": 558.2,
+  "cy": 787.4,
+  "d": 422.5,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "974": {
+  "cx": 559.4,
+  "cy": 780.4,
+  "d": 428.3,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "975": {
+  "cx": 561.4,
+  "cy": 775.8,
+  "d": 435.2,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "976": {
+  "cx": 563.7,
+  "cy": 771.7,
+  "d": 441.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "977": {
+  "cx": 565.7,
+  "cy": 767.9,
+  "d": 446.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "978": {
+  "cx": 567.4,
+  "cy": 765.2,
+  "d": 451.3,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "979": {
+  "cx": 568.8,
+  "cy": 763.4,
+  "d": 454.9,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "980": {
+  "cx": 570.1,
+  "cy": 761.5,
+  "d": 457.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "981": {
+  "cx": 571.0,
+  "cy": 758.2,
+  "d": 461.7,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "982": {
+  "cx": 571.5,
+  "cy": 755.2,
+  "d": 466.5,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "983": {
+  "cx": 571.7,
+  "cy": 753.9,
+  "d": 471.2,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "984": {
+  "cx": 571.8,
+  "cy": 753.0,
+  "d": 476.2,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "985": {
+  "cx": 572.0,
+  "cy": 751.5,
+  "d": 481.6,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "986": {
+  "cx": 572.3,
+  "cy": 749.9,
+  "d": 486.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "987": {
+  "cx": 572.6,
+  "cy": 747.4,
+  "d": 490.9,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "988": {
+  "cx": 572.8,
+  "cy": 744.5,
+  "d": 496.7,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "989": {
+  "cx": 572.9,
+  "cy": 742.8,
+  "d": 502.7,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "990": {
+  "cx": 573.2,
+  "cy": 741.2,
+  "d": 508.0,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "991": {
+  "cx": 573.2,
+  "cy": 739.3,
+  "d": 513.5,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "992": {
+  "cx": 573.2,
+  "cy": 736.0,
+  "d": 519.1,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "993": {
+  "cx": 573.0,
+  "cy": 731.2,
+  "d": 524.0,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "994": {
+  "cx": 572.6,
+  "cy": 729.1,
+  "d": 528.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "995": {
+  "cx": 571.6,
+  "cy": 730.0,
+  "d": 532.6,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "996": {
+  "cx": 569.5,
+  "cy": 732.3,
+  "d": 537.0,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "997": {
+  "cx": 566.0,
+  "cy": 734.7,
+  "d": 541.3,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "998": {
+  "cx": 560.8,
+  "cy": 736.3,
+  "d": 544.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "999": {
+  "cx": 553.9,
+  "cy": 740.2,
+  "d": 546.4,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1000": {
+  "cx": 544.2,
+  "cy": 748.0,
+  "d": 547.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1001": {
+  "cx": 531.6,
+  "cy": 756.3,
+  "d": 547.3,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1002": {
+  "cx": 516.0,
+  "cy": 764.7,
+  "d": 544.8,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1003": {
+  "cx": 498.6,
+  "cy": 774.8,
+  "d": 539.7,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1004": {
+  "cx": 483.3,
+  "cy": 785.9,
+  "d": 530.1,
+  "roll": 0,
+  "az": 0,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1005": {
+  "cx": 466.2,
+  "cy": 800.5,
+  "d": 518.9,
+  "roll": -6,
+  "az": 14,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1006": {
+  "cx": 455.6,
+  "cy": 821.0,
+  "d": 501.2,
+  "roll": -6,
+  "az": 14,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1007": {
+  "cx": 455.6,
+  "cy": 833.9,
+  "d": 476.9,
+  "roll": -6,
+  "az": 14,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1008": {
+  "cx": 462.1,
+  "cy": 848.5,
+  "d": 460.9,
+  "roll": -6,
+  "az": 14,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1009": {
+  "cx": 473.0,
+  "cy": 864.9,
+  "d": 439.0,
+  "roll": -6,
+  "az": 14,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1010": {
+  "cx": 482.0,
+  "cy": 889.6,
+  "d": 429.0,
+  "roll": 0,
+  "az": 14,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1011": {
+  "cx": 511.1,
+  "cy": 904.0,
+  "d": 418.8,
+  "roll": 0,
+  "az": 4,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1012": {
+  "cx": 551.3,
+  "cy": 915.1,
+  "d": 398.7,
+  "roll": 0,
+  "az": 4,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1013": {
+  "cx": 594.2,
+  "cy": 922.2,
+  "d": 378.6,
+  "roll": -2,
+  "az": -8,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1014": {
+  "cx": 631.2,
+  "cy": 925.4,
+  "d": 343.0,
+  "roll": -2,
+  "az": -8,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1015": {
+  "cx": 676.1,
+  "cy": 934.2,
+  "d": 324.4,
+  "roll": -2,
+  "az": -8,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ },
+ "1016": {
+  "cx": 719.0,
+  "cy": 945.5,
+  "d": 308.1,
+  "roll": -2,
+  "az": -8,
+  "el": 6,
+  "src": "s12_build (mask head circle, smoothed)"
+ }
+}

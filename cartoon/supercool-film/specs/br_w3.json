@@ -1,0 +1,17 @@
+{ "_doc": "backrooms (agent C, 2026-11-04): 'Dee, a short stout woman: dark curly hair, round glasses, a wine-red cardigan over a grey blouse, a long charcoal skirt.' Stout W .94, short legs 1.12 (the shortest adult); curly dark brown hair + round glasses; owned colour wine red.",
+  "id": "br_w3",
+  "name": "Dee",
+  "head": {},
+  "face": { "eyeSize": 1.0, "browThick": 1.35, "mouthSize": 1.0 },
+  "hair": { "style": "curly", "colour": "dark", "seed": 5 },
+  "glasses": { "kind": "round" },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "stout", "W": 0.94, "H": 0.94 },
+    "outfit": {
+      "layers": [ { "t": "blouse", "color": "#9a979c", "collar": "round" },
+                  { "t": "jacket", "color": "#7a2a3c", "lapels": false, "buttons": 4, "buttonColor": "#4a1824", "tip": 0.4, "openW": 0.34, "pattern": { "type": "speckle", "color": "#66222f" } },
+                  { "t": "pocket", "x": -0.55, "y": 0.22, "w": 0.24, "h": 0.08, "color": "#61202f" } ],
+      "skirt": { "color": "#3c3a42", "length": "ankle", "shape": "aline", "flare": 1.25 } } },
+  "limbs": { "legLen": 1.12, "armLen": 0.92, "width": 0.06, "handR": 0.062 },
+  "hide": []
+}

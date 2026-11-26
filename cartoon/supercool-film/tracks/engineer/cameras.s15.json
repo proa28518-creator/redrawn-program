@@ -1,0 +1,380 @@
+{
+ "1107": {
+  "cx": -100,
+  "cy": 520,
+  "d": 380,
+  "roll": 0.0,
+  "az": 22,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1108": {
+  "cx": 1,
+  "cy": 651,
+  "d": 399,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1109": {
+  "cx": 90,
+  "cy": 707,
+  "d": 415,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1110": {
+  "cx": 137.4,
+  "cy": 710.9,
+  "d": 417.4,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: mask index head"
+ },
+ "1111": {
+  "cx": 226.7,
+  "cy": 748.8,
+  "d": 345.0,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1112": {
+  "cx": 244.1,
+  "cy": 757.3,
+  "d": 341.9,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1113": {
+  "cx": 279.3,
+  "cy": 779.8,
+  "d": 311.2,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1114": {
+  "cx": 304.5,
+  "cy": 796.5,
+  "d": 288.1,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1115": {
+  "cx": 321.8,
+  "cy": 809.1,
+  "d": 270.3,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1116": {
+  "cx": 332.3,
+  "cy": 817.5,
+  "d": 258.8,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1117": {
+  "cx": 337.6,
+  "cy": 820.4,
+  "d": 254.1,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1118": {
+  "cx": 338.3,
+  "cy": 821.1,
+  "d": 253.0,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1119": {
+  "cx": 338.3,
+  "cy": 821.1,
+  "d": 253.0,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1120": {
+  "cx": 337.7,
+  "cy": 820.6,
+  "d": 254.0,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1121": {
+  "cx": 337.2,
+  "cy": 820.3,
+  "d": 254.7,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1122": {
+  "cx": 336.5,
+  "cy": 819.6,
+  "d": 256.1,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1123": {
+  "cx": 335.5,
+  "cy": 819.6,
+  "d": 256.1,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1124": {
+  "cx": 333.4,
+  "cy": 823.8,
+  "d": 252.0,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1125": {
+  "cx": 333.4,
+  "cy": 823.8,
+  "d": 252.0,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1126": {
+  "cx": 332.9,
+  "cy": 817.3,
+  "d": 260.5,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1127": {
+  "cx": 332.9,
+  "cy": 817.0,
+  "d": 261.6,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1128": {
+  "cx": 331.5,
+  "cy": 817.0,
+  "d": 261.6,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1129": {
+  "cx": 328.8,
+  "cy": 817.0,
+  "d": 262.9,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1130": {
+  "cx": 328.5,
+  "cy": 816.4,
+  "d": 266.5,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1131": {
+  "cx": 327.2,
+  "cy": 813.9,
+  "d": 270.4,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1132": {
+  "cx": 326.5,
+  "cy": 813.8,
+  "d": 271.0,
+  "roll": 0.0,
+  "az": 22.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1133": {
+  "cx": 326.5,
+  "cy": 813.8,
+  "d": 271.0,
+  "roll": 0.0,
+  "az": 17.3,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1134": {
+  "cx": 330.3,
+  "cy": 813.3,
+  "d": 272.7,
+  "roll": 0.0,
+  "az": 12.7,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1135": {
+  "cx": 330.3,
+  "cy": 806.7,
+  "d": 260.8,
+  "roll": 0.0,
+  "az": 8.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1136": {
+  "cx": 328.7,
+  "cy": 806.6,
+  "d": 260.3,
+  "roll": 0.0,
+  "az": 4.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1137": {
+  "cx": 327.0,
+  "cy": 806.4,
+  "d": 259.7,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1138": {
+  "cx": 319.0,
+  "cy": 796.3,
+  "d": 256.2,
+  "roll": 0.0,
+  "az": -7.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1139": {
+  "cx": 305.6,
+  "cy": 777.6,
+  "d": 251.9,
+  "roll": 0.0,
+  "az": -14.0,
+  "el": 15.0,
+  "src": "s15: truth_head copy (median-3)"
+ },
+ "1140": {
+  "cx": 258,
+  "cy": 722,
+  "d": 268,
+  "roll": 0.0,
+  "az": -18.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1141": {
+  "cx": 210,
+  "cy": 655,
+  "d": 275,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1142": {
+  "cx": 180,
+  "cy": 598,
+  "d": 280,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1143": {
+  "cx": 140,
+  "cy": 545,
+  "d": 285,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1144": {
+  "cx": 100,
+  "cy": 460,
+  "d": 290,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1145": {
+  "cx": 57,
+  "cy": 366,
+  "d": 295,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1146": {
+  "cx": 20,
+  "cy": 300,
+  "d": 300,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1147": {
+  "cx": -35,
+  "cy": 200,
+  "d": 300,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ },
+ "1148": {
+  "cx": -90,
+  "cy": 100,
+  "d": 300,
+  "roll": 0.0,
+  "az": -22.0,
+  "el": 15.0,
+  "src": "s15: by eye (entry/exit, head cut by the frame edge)"
+ }
+}

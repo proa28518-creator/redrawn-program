@@ -1,0 +1,382 @@
+{
+ "1047": {
+  "cx": -116.6,
+  "cy": 995.0,
+  "d": 295.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1048": {
+  "cx": -83.6,
+  "cy": 995.0,
+  "d": 290.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1049": {
+  "cx": -50.6,
+  "cy": 995.0,
+  "d": 285.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1050": {
+  "cx": -17.6,
+  "cy": 995.0,
+  "d": 280.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1051": {
+  "cx": 15.4,
+  "cy": 995.0,
+  "d": 275.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1052": {
+  "cx": 48.4,
+  "cy": 995.0,
+  "d": 270.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1053": {
+  "cx": 81.4,
+  "cy": 995.0,
+  "d": 265.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1054": {
+  "cx": 114.4,
+  "cy": 992.5,
+  "d": 260.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1055": {
+  "cx": 148.2,
+  "cy": 982.2,
+  "d": 255.8,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1056": {
+  "cx": 181.0,
+  "cy": 968.8,
+  "d": 250.9,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1057": {
+  "cx": 208.6,
+  "cy": 962.4,
+  "d": 243.5,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1058": {
+  "cx": 230.9,
+  "cy": 961.2,
+  "d": 236.6,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1059": {
+  "cx": 249.9,
+  "cy": 960.1,
+  "d": 231.7,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1060": {
+  "cx": 266.3,
+  "cy": 959.2,
+  "d": 227.5,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1061": {
+  "cx": 280.1,
+  "cy": 958.7,
+  "d": 223.3,
+  "roll": 0.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1062": {
+  "cx": 292.0,
+  "cy": 958.4,
+  "d": 220.1,
+  "roll": -3.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1063": {
+  "cx": 302.1,
+  "cy": 958.1,
+  "d": 217.0,
+  "roll": -3.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1064": {
+  "cx": 310.6,
+  "cy": 957.8,
+  "d": 215.2,
+  "roll": -3.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1065": {
+  "cx": 319.8,
+  "cy": 956.4,
+  "d": 213.0,
+  "roll": -3.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1066": {
+  "cx": 332.2,
+  "cy": 952.6,
+  "d": 213.0,
+  "roll": -3.0,
+  "az": 0.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1067": {
+  "cx": 343.4,
+  "cy": 948.5,
+  "d": 212.1,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1068": {
+  "cx": 348.7,
+  "cy": 946.3,
+  "d": 211.1,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1069": {
+  "cx": 351.0,
+  "cy": 945.2,
+  "d": 210.2,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1070": {
+  "cx": 353.3,
+  "cy": 944.0,
+  "d": 209.3,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1071": {
+  "cx": 355.7,
+  "cy": 942.9,
+  "d": 208.3,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1072": {
+  "cx": 358.0,
+  "cy": 941.7,
+  "d": 207.4,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1073": {
+  "cx": 360.3,
+  "cy": 940.6,
+  "d": 206.5,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1074": {
+  "cx": 362.7,
+  "cy": 939.5,
+  "d": 205.5,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1075": {
+  "cx": 364.6,
+  "cy": 940.2,
+  "d": 204.6,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1076": {
+  "cx": 366.1,
+  "cy": 943.1,
+  "d": 203.7,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1077": {
+  "cx": 367.5,
+  "cy": 947.8,
+  "d": 202.7,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1078": {
+  "cx": 368.2,
+  "cy": 953.2,
+  "d": 201.8,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1079": {
+  "cx": 368.9,
+  "cy": 957.2,
+  "d": 200.9,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1080": {
+  "cx": 368.9,
+  "cy": 959.8,
+  "d": 199.9,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1081": {
+  "cx": 368.2,
+  "cy": 961.6,
+  "d": 199.0,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1082": {
+  "cx": 367.9,
+  "cy": 962.0,
+  "d": 198.4,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1083": {
+  "cx": 367.9,
+  "cy": 962.0,
+  "d": 198.4,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ },
+ "1084": {
+  "cx": 367.9,
+  "cy": 962.0,
+  "d": 198.4,
+  "roll": -3.0,
+  "az": 2.0,
+  "el": -4.0,
+  "src": "s14: tools/s14_headfit.py + s14_tracks.py",
+  "quality": "s14 fit"
+ }
+}
