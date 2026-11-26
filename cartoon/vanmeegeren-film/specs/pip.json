@@ -1,0 +1,18 @@
+{
+  "_doc": "Pip, the kid (The Last Loaf, agent F). Body/outfit = agent E's lab/body/specs/kid.json; hair = W's short ginger under the cap; cap = W2 engine/hats/ballcap.js, green, backwards. Voice af_bella pitched up.",
+  "head": {},
+  "face": { "eyeSize": 1.12, "mouthSize": 1.1 },
+  "hair": { "style": "short", "colour": "ginger", "seed": 9 },
+  "hat": { "kind": "ballcap", "crown": "#4f8640", "backwards": true },
+  "torso": {
+    "body": { "build": "kid" },
+    "outfit": {
+      "trousers": "#3d5a9c",
+      "layers": [
+        { "t": "jumper", "color": "#e2772c", "neckW": 0.42, "neckD": 0.09, "pattern": { "type": "stripes", "color": "#f3dfb6", "every": 0.11, "width": 0.045, "to": 0.5 } }
+      ]
+    }
+  },
+  "limbs": { "legLen": 0.72, "armLen": 0.74, "width": 0.058, "handR": 0.058 },
+  "hide": []
+}

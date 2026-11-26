@@ -1,0 +1,17 @@
+{ "_doc": "backrooms (agent C, 2026-11-04): 'Hank, a big older man: wide and heavy, bald on top with grey sides, a grey full beard, a dirty forest-green work coat with a belt, brown trousers.' Stout W .99 (the widest), short legs 1.15; bald_sides grey + full beard = the old man; owned colour deep forest green.",
+  "id": "br_w1",
+  "name": "Hank",
+  "head": {},
+  "face": { "eyeSize": 0.98, "browThick": 1.5, "mouthSize": 1.05 },
+  "hair": { "style": "bald_sides", "colour": "grey", "seed": 2 },
+  "facialHair": { "kind": "full", "colour": "grey", "scale": 0.72 },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "stout", "W": 0.99, "H": 0.97 },
+    "outfit": { "trousers": "#4a3a33",
+      "layers": [ { "t": "shirt", "color": "#bdb6ae", "collar": "point" },
+                  { "t": "coat", "color": "#355a40", "lapels": false, "buttons": 3, "buttonColor": "#22382a", "tip": 0.52, "openW": 0.3, "pattern": { "type": "speckle", "color": "#2c4b35" } },
+                  { "t": "belt", "y": 0.2, "h": 0.045, "color": "#2b2622", "buckle": "#a39a8a" },
+                  { "t": "pocket", "x": 0.55, "y": 0.42, "w": 0.22, "h": 0.07, "color": "#2b4934", "flap": true } ] } },
+  "limbs": { "legLen": 1.15, "armLen": 0.98, "width": 0.064, "handR": 0.064 },
+  "hide": []
+}

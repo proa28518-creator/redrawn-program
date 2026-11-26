@@ -1,0 +1,10 @@
+{ "_doc": "S-4: the veteran hard-hat diver, bulky tan canvas suit, brass helmet with a round port, lead weight on the chest. Grey stubble in the port.",
+  "head": {}, "face": { "eyeSize": 1.0, "browThick": 1.5, "mouthWidth": 0.9 },
+  "hair": { "style": "lobe", "colour": "grey" }, "facialHair": { "kind": "moustache", "colour": "grey" },
+  "hat": { "kind": "diver", "shell": "#c79a3e", "trim": "#7e5d22" },
+  "torso": { "body": { "build": "stout", "W": 1.0, "H": 1.0 },
+    "outfit": { "trousers": "#8d7a54", "layers": [
+      { "t": "jumper", "color": "#b7a278", "neckW": 0.5, "neckD": 0.1 },
+      { "t": "apron", "color": "#3f434a", "bib": true, "width": 0.7, "bibW": 0.62, "to": 0.45 },
+      { "t": "belt", "color": "#2c2a26", "buckle": "#c79a3e" } ] } },
+  "limbs": { "legLen": 1.2, "armLen": 0.98, "width": 0.072, "handR": 0.072 }, "hide": [] }

@@ -1,0 +1,35 @@
+{
+  "kind": "rbx",
+  "id": "cop",
+  "film": "cantcry",
+  "name": "Cop",
+  "role": "onion cop",
+  "skin": "#f5d0a8",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": null,
+  "hat": {
+    "style": "police_cap",
+    "color": "#14161e",
+    "color2": "#d8b23a"
+  },
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "police",
+    "topColor": "#202230",
+    "accent": "#111111",
+    "pants": "#181920",
+    "pantsKind": "long",
+    "shoes": "#111111"
+  },
+  "v1": "white skin, police cap, black/navy police uniform"
+}

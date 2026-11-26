@@ -1,0 +1,8 @@
+{ "_doc": "S-4: the wiry machinist, very thin, buzz cut, round glasses, olive overall bib over a grey undershirt.",
+  "head": {}, "face": { "eyeSize": 0.98, "browThick": 1.3, "mouthWidth": 0.82 },
+  "hair": { "style": "buzz", "colour": "brown" }, "glasses": { "kind": "round" }, "hat": { "kind": "none" },
+  "torso": { "body": { "build": "slim", "W": 0.6, "H": 0.96 },
+    "outfit": { "trousers": "#556046", "layers": [
+      { "t": "jumper", "color": "#a8a89c", "neckW": 0.36, "neckD": 0.12 },
+      { "t": "apron", "color": "#6b7a58", "bib": true, "width": 0.9, "bibW": 0.56 } ] } },
+  "limbs": { "legLen": 1.36, "armLen": 0.94, "width": 0.054, "handR": 0.056 }, "hide": [] }

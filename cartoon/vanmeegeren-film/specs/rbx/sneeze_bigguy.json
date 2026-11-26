@@ -1,0 +1,38 @@
+{
+  "kind": "rbx",
+  "id": "bigguy",
+  "film": "sneeze",
+  "name": "Big guy",
+  "role": "big man in the hallway",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.15,
+    "width": 1.15
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "squint_frown"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#111111"
+  },
+  "hat": {
+    "style": "fedora",
+    "color": "#151515"
+  },
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "suit",
+    "topColor": "#1b2440",
+    "shirtColor": "#f4f4f4",
+    "accent": "#1b2440",
+    "pants": "#1b2440",
+    "pantsKind": "long",
+    "shoes": "#111111"
+  },
+  "v1": "scene.js bigGuy: navy suit, black fedora, scale 1.15"
+}

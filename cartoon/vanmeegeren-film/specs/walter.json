@@ -1,0 +1,22 @@
+{
+  "_doc": "Walter, the old man (The Last Loaf, agent F). Body/outfit = agent E's lab/body/specs/oldman.json (tall, slim, tweed); hair = W's bald_sides white (horseshoe), walrus moustache, round glasses; no hat (the script says bald on top). Voice bm_george.",
+  "head": {},
+  "face": { "eyeSize": 0.95, "browThick": 1.2 },
+  "hair": { "style": "bald_sides", "colour": "white", "seed": 2 },
+  "facialHair": { "kind": "walrus", "colour": "white" },
+  "glasses": { "kind": "round" },
+  "hat": { "kind": "none" },
+  "torso": {
+    "body": { "build": "slim", "W": 0.64, "H": 1.0 },
+    "outfit": {
+      "trousers": "#77737a",
+      "layers": [
+        { "t": "shirt", "color": "#f4eeec", "collar": "point" },
+        { "t": "jacket", "color": "#7a5a40", "tip": 0.5, "openW": 0.42, "buttons": 2, "pattern": { "type": "tweed", "color": "#4e3828", "light": "#a8896a" } },
+        { "t": "tie", "color": "#3d5241", "stripes": "#8a9a74" }
+      ]
+    }
+  },
+  "limbs": { "legLen": 1.45, "armLen": 1.0, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

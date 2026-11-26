@@ -1,0 +1,19 @@
+{
+  "_doc": "Sentence (agent S, 2026-11-04): 'A little girl with brown pigtails in a yellow dress with white polka dots and a red belt.' Kid build; pigtails brown; blouse yellow + bell skirt knee with dots; red belt. ~2 min.",
+  "head": {},
+  "face": { "eyeSize": 1.12, "mouthSize": 1.05 },
+  "hair": { "style": "pigtails", "colour": "brown", "seed": 5, "tieColour": "#c23a32" },
+  "hat": { "kind": "none" },
+  "torso": {
+    "body": { "build": "kid", "band": 0 },
+    "outfit": {
+      "layers": [
+        { "t": "blouse", "color": "#f2c63a", "collar": "round", "placket": false, "pattern": { "type": "dots", "color": "#fbf3dc" } },
+        { "t": "belt", "y": 0.12, "h": 0.035, "color": "#c23a32", "buckle": "#c23a32" }
+      ],
+      "skirt": { "color": "#f2c63a", "length": "knee", "shape": "bell", "flare": 1.6, "pleats": 0, "pattern": { "type": "dots", "color": "#fbf3dc" } }
+    }
+  },
+  "limbs": { "legLen": 0.72, "armLen": 0.62, "width": 0.058, "handR": 0.058 },
+  "hide": []
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "rbx",
+  "id": "crowd4",
+  "film": "love",
+  "name": "Crowd 4",
+  "role": "crowd: four husbands line-up",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#333333"
+  },
+  "hat": {
+    "style": "fedora",
+    "color": "#3a3f4a"
+  },
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "shirt",
+    "topColor": "#5a7f9c",
+    "pants": "#22242c",
+    "pantsKind": "long",
+    "shoes": "#22242c"
+  },
+  "v1": "four husbands line-up (V1 scene.js line-up entry)"
+}

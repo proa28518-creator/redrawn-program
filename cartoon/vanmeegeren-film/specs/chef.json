@@ -1,0 +1,22 @@
+{
+  "_doc": "Sentence (agent S, 2026-11-04): 'A stout chef with a tall white toque, a full black beard, a white double-breasted jacket with two rows of buttons and a red neckerchief.' Stout egg W .98, short legs 1.1; jacket white + 2 button rows + red scarf; beard full black at scale .82 (1.0 swallowed the chest); hair short black (lobe read as a black band at the side under the toque); hat = W2's engine/hats/chef.js (the first render used a white-recoloured tophat before it existed). ~3 min.",
+  "head": {},
+  "face": { "eyeSize": 0.95, "browThick": 1.3, "mouthSize": 1.05 },
+  "hair": { "style": "short", "colour": "black", "seed": 3 },
+  "facialHair": { "kind": "full", "colour": "black", "scale": 0.82 },
+  "hat": { "kind": "chef", "height": 0.55, "puff": 0.11 },
+  "torso": {
+    "body": { "build": "stout", "W": 0.98, "H": 0.95 },
+    "outfit": {
+      "trousers": "#3b3a44",
+      "layers": [
+        { "t": "jumper", "color": "#f6f2ee", "neckW": 0.36, "neckD": 0.08 },
+        { "t": "buttons", "n": 3, "from": 0.62, "to": 0.24, "x": -0.3, "r": 0.03, "color": "#f6f2ee" },
+        { "t": "buttons", "n": 3, "from": 0.62, "to": 0.24, "x": 0.3, "r": 0.03, "color": "#f6f2ee" },
+        { "t": "scarf", "color": "#c23a32", "tail": 0.3 }
+      ]
+    }
+  },
+  "limbs": { "legLen": 1.1, "armLen": 0.92, "width": 0.064, "handR": 0.064 },
+  "hide": []
+}

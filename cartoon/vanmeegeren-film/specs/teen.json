@@ -1,0 +1,19 @@
+{
+  "_doc": "Sentence (agent S, 2026-11-04): 'A skinny teenage boy in a mustard beanie with a pompom, a grey hoodie-like jumper with a blue stripe and short legs.' Slim W .62, legs 1.05 (teen, between kid and adult); beanie mustard + pom; jumper grey + one wide blue chest stripe; dark brown hair. ~2 min.",
+  "head": {},
+  "face": { "eyeSize": 1.06, "mouthSize": 1.0 },
+  "hair": { "style": "fringe", "colour": "dark", "seed": 14 },
+  "hat": { "kind": "beanie", "crown": "#d0a032", "pom": true, "mount": { "y": 0.17 } },
+  "torso": {
+    "body": { "build": "slim", "W": 0.62, "H": 0.82 },
+    "outfit": {
+      "trousers": "#3a3f52",
+      "layers": [
+        { "t": "jumper", "color": "#8e8c94", "neckW": 0.34, "neckD": 0.09, "pattern": { "type": "stripes", "color": "#3f62a8", "every": 0.5, "width": 0.07, "from": 0.4, "to": 0.5 } },
+        { "t": "pocket", "x": 0, "y": 0.18, "w": 0.5, "h": 0.12, "color": "#7f7d86" }
+      ]
+    }
+  },
+  "limbs": { "legLen": 1.05, "armLen": 0.82, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

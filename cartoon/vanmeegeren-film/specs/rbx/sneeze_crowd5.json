@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "crowd5",
+  "film": "sneeze",
+  "name": "Kid 5",
+  "role": "cafeteria / hallway crowd",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "glasses_frown"
+  },
+  "hair": {
+    "style": "spiky",
+    "color": "#e05a1a"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#3a3a3a",
+    "pants": "#2a2a2a",
+    "pantsKind": "long",
+    "shoes": "#2a2a2a"
+  },
+  "v1": "scene.js KIDS[4]"
+}

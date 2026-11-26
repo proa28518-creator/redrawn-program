@@ -1,0 +1,15 @@
+{ "_doc": "blind6: 'Bea, a skinny old lady with a lilac bun, cat-eye glasses and a green cardigan, carrying a handbag.' From blind3_nora: slim W .62, legs 1.36; lilac bun; cat-eye = square frames in a plum colour (no cat-eye kind); white blouse + green cardigan (jacket, no lapels, 4 buttons) + plum ankle skirt; owned colour = green. Handbag = a film prop (bag).",
+  "head": {},
+  "face": { "eyeSize": 0.98, "browThick": 1.35, "mouthWidth": 0.88 },
+  "hair": { "style": "bun", "colour": "#b9a0d8", "seed": 4 },
+  "glasses": { "kind": "square", "colour": "#6a2f5e" },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "slim", "W": 0.62, "H": 0.93 },
+    "outfit": {
+      "layers": [ { "t": "blouse", "color": "#f4eeec", "collar": "round" },
+                  { "t": "jacket", "color": "#4f8a4a", "lapels": false, "buttons": 4, "buttonColor": "#2c5228", "tip": 0.45, "openW": 0.36 },
+                  { "t": "pocket", "x": 0.5, "y": 0.3, "w": 0.22, "h": 0.05, "color": "#3c6c38" } ],
+      "skirt": { "color": "#5e3b63", "length": "ankle", "shape": "aline", "flare": 1.25 } } },
+  "limbs": { "legLen": 1.36, "armLen": 0.94, "width": 0.054, "handR": 0.056 },
+  "hide": []
+}

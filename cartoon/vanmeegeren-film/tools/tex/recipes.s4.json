@@ -1,0 +1,645 @@
+{
+ "about": "S-4 (the submarine and sea film): the worked example of make_tex.py + make_sprites.py recipes. Field meanings: the header of make_tex.py and make_sprites.py.",
+ "tile_size": 2048,
+ "preview_size": 400,
+ "note": "tile = D covered by one repeat of the texture. Decals multiply: surface * mix(1, rgb, a * instance alpha). What exists right now is what is listed here.",
+ "bases": {
+  "plate_riveted": {
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": null,
+   "periodic": true,
+   "square": true,
+   "mean": [
+    0.5,
+    0.55,
+    0.51
+   ],
+   "detail": 0.05,
+   "chroma": 0.5,
+   "tile": [
+    4,
+    4
+   ]
+  },
+  "hull_riveted": {
+   "raw": "plate_riveted",
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": null,
+   "periodic": true,
+   "square": true,
+   "mean": [
+    0.31,
+    0.36,
+    0.37
+   ],
+   "detail": 0.042,
+   "chroma": 0.4,
+   "tile": [
+    4,
+    4
+   ]
+  },
+  "hull_wreck": {
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": [
+    9,
+    0.4
+   ],
+   "periodic": false,
+   "mean": [
+    0.31,
+    0.35,
+    0.36
+   ],
+   "detail": 0.03,
+   "chroma": 0.5,
+   "tile": [
+    4,
+    4
+   ]
+  },
+  "steel_paint": {
+   "fallback": "hull_wreck",
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": [
+    9,
+    0.4
+   ],
+   "periodic": false,
+   "mean": [
+    0.62,
+    0.64,
+    0.62
+   ],
+   "detail": 0.028,
+   "chroma": 0.4,
+   "tile": [
+    3,
+    3
+   ]
+  },
+  "ship_paint": {
+   "fallback": "hull_wreck",
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": [
+    9,
+    0.4
+   ],
+   "periodic": false,
+   "mean": [
+    0.86,
+    0.86,
+    0.84
+   ],
+   "detail": 0.024,
+   "chroma": 0.3,
+   "tile": [
+    4,
+    4
+   ]
+  },
+  "deck_wood": {
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.25
+   ],
+   "calm": null,
+   "periodic": true,
+   "mean": [
+    0.5,
+    0.45,
+    0.38
+   ],
+   "detail": 0.055,
+   "chroma": 0.6,
+   "tile": [
+    4,
+    4
+   ]
+  },
+  "deck_steel": {
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": null,
+   "periodic": true,
+   "mean": [
+    0.37,
+    0.36,
+    0.34
+   ],
+   "detail": 0.05,
+   "chroma": 0.5,
+   "tile": [
+    2,
+    2
+   ]
+  },
+  "sand": {
+   "trim": 0.015,
+   "flat": [
+    8,
+    0.15
+   ],
+   "calm": [
+    70,
+    0.35
+   ],
+   "periodic": false,
+   "fade": 0.22,
+   "post": [
+    70,
+    0.2
+   ],
+   "mean": [
+    0.63,
+    0.66,
+    0.56
+   ],
+   "detail": 0.04,
+   "chroma": 0.5,
+   "tile": [
+    12,
+    12
+   ]
+  },
+  "rock": {
+   "fallback": "hull_wreck",
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": [
+    40,
+    0.55
+   ],
+   "periodic": false,
+   "mean": [
+    0.38,
+    0.42,
+    0.38
+   ],
+   "detail": 0.045,
+   "chroma": 0.5,
+   "tile": [
+    4,
+    4
+   ]
+  },
+  "sea": {
+   "trim": 0.015,
+   "flat": [
+    6,
+    0.2
+   ],
+   "calm": [
+    50,
+    0.5
+   ],
+   "periodic": false,
+   "mean": [
+    0.22,
+    0.33,
+    0.38
+   ],
+   "detail": 0.05,
+   "chroma": 0.6,
+   "tile": [
+    13,
+    13
+   ]
+  }
+ },
+ "skies": {
+  "sky_storm": {
+   "mode": "cut",
+   "trim": 0.012,
+   "quality": 92
+  },
+  "sky_dawn": {
+   "mode": "crossfade",
+   "crossfade_part": 3,
+   "trim": 0.012,
+   "quality": 92,
+   "why": "long thin cloud bands do not line up across a cut: it passed the seam check and still showed as a wavy edge"
+  }
+ },
+ "decals": {
+  "grid": 6,
+  "floor_rgb": 0.22,
+  "zero": 36,
+  "fade": 34,
+  "kinds": {
+   "rust_streak": {
+    "colour": 0.65,
+    "dark": 0.34,
+    "soft": 3,
+    "streak": true
+   },
+   "rust_patch": {
+    "colour": 0.65,
+    "dark": 0.32,
+    "soft": 3
+   },
+   "oil_grime": {
+    "colour": 0.2,
+    "dark": 0.24,
+    "soft": 5
+   },
+   "barnacle": {
+    "colour": 0.2,
+    "dark": 0.26,
+    "soft": 2
+   },
+   "growth": {
+    "colour": 0.6,
+    "dark": 0.36,
+    "soft": 9
+   },
+   "ship_wear": {
+    "colour": 0.2,
+    "dark": 0.42,
+    "soft": 3
+   }
+  },
+  "groups": [
+   {
+    "raw": "dec_rust_streaks",
+    "first": 0,
+    "kind": "rust_streak",
+    "names": [
+     "streak_a",
+     "streak_b",
+     "streak_c",
+     "streak_d",
+     "streak_e",
+     "streak_f"
+    ]
+   },
+   {
+    "raw": "dec_rust_patch",
+    "first": 6,
+    "kind": "rust_patch",
+    "names": [
+     "patch_a",
+     "patch_b",
+     "patch_c",
+     "patch_d",
+     "patch_e",
+     "patch_f"
+    ],
+    "stand_in": {
+     "from": "dec_oil_grime",
+     "mirror": true,
+     "gamma": [
+      0.5,
+      1.0,
+      1.7
+     ]
+    }
+   },
+   {
+    "raw": "dec_oil_grime",
+    "first": 12,
+    "kind": "oil_grime",
+    "names": [
+     "spill",
+     "drips",
+     "smear",
+     "grime",
+     "oil_run",
+     "oil_ring"
+    ]
+   },
+   {
+    "raw": "dec_barnacles",
+    "first": 18,
+    "kind": "barnacle",
+    "names": [
+     "barn_a",
+     "barn_b",
+     "barn_c",
+     "barn_d",
+     "barn_e",
+     "barn_f"
+    ]
+   },
+   {
+    "raw": "dec_growth",
+    "first": 24,
+    "kind": "growth",
+    "names": [
+     "band",
+     "bloom",
+     "clump_a",
+     "drip_and_clump",
+     "clump_b",
+     "clump_c"
+    ]
+   },
+   {
+    "raw": "dec_ship_wear",
+    "first": 30,
+    "kind": "ship_wear",
+    "names": [
+     "scrape",
+     "weep",
+     "tide_line",
+     "dent",
+     "chips",
+     "gouge"
+    ]
+   }
+  ],
+  "notes": {
+   "rust_streak": "cells 0-5 have their heavy end at the cell top: keep spin near 0 so they run down"
+  },
+  "preview_base": [
+   0.5,
+   0.55,
+   0.51
+  ],
+  "preview_name": "decals_on_steel.jpg"
+ },
+ "sprites": {
+  "max_side": 1024,
+  "pad": 6,
+  "ink": [
+   0.09,
+   0.07,
+   0.06
+  ],
+  "character_height": 3.2,
+  "sheets": [
+   {
+    "name": "sheet_sub_clutter",
+    "aspect": "1:1",
+    "prompt": "A sprite sheet of six separate objects from inside a 1920s submarine for an old video game, flat cartoon illustration, thick uniform dark brown-black ink outline around every shape, simple two-tone cel shading, muted oily grey-green, rust and dark wood colours, wet and worn, seen from the front at eye level. In a neat 3 by 2 grid with wide empty space between them: a dented steel oil drum, a battered wooden sea chest with rope handles, a steel bucket stuffed with oily rags, a rolled canvas hammock tied with cord, a heap of spare brass valves and big wrenches, a flat coil of thick dark hose. Plain flat solid pure magenta #FF00FF background everywhere. No floor, no ground shadow, nothing touching another object, no people, no faces, no text, no labels, no logos.",
+    "sprites": [
+     {
+      "name": "oil_drum",
+      "height": 1.8,
+      "kind": "floor"
+     },
+     {
+      "name": "sea_chest",
+      "height": 1.1,
+      "kind": "floor"
+     },
+     {
+      "name": "rag_bucket",
+      "height": 0.9,
+      "kind": "floor"
+     },
+     {
+      "name": "hammock_roll",
+      "height": 0.8,
+      "kind": "floor"
+     },
+     {
+      "name": "valve_heap",
+      "height": 0.7,
+      "kind": "floor"
+     },
+     {
+      "name": "hose_coil",
+      "height": 0.5,
+      "kind": "floor"
+     }
+    ]
+   },
+   {
+    "name": "sheet_seabed",
+    "aspect": "1:1",
+    "prompt": "A sprite sheet of six separate things growing on a cold sea floor for an old video game, flat cartoon illustration, thick uniform dark brown-black ink outline around every shape, simple two-tone cel shading, muted grey-green, olive and pale bone colours, seen from the front at eye level, each with a flat bottom. In a neat row of six with wide empty space between them: a very tall thin strand of kelp with long ragged blades, a wide clump of shorter kelp, a low tuft of wiry seaweed, a bare fish skeleton lying on its side with no eyes, a rock with pale sea anemones, a rock crusted with black mussels. Plain flat solid pure magenta #FF00FF background everywhere. No sand, no ground shadow, nothing touching another object, no people, no faces, no text, no logos.",
+    "sprites": [
+     {
+      "name": "kelp_tall",
+      "height": 4.2,
+      "kind": "floor"
+     },
+     {
+      "name": "kelp_clump",
+      "height": 2.2,
+      "kind": "floor"
+     },
+     {
+      "name": "weed_tuft",
+      "height": 0.8,
+      "kind": "floor"
+     },
+     {
+      "name": "fish_skeleton",
+      "height": 0.5,
+      "kind": "floor"
+     },
+     {
+      "name": "anemone_rock",
+      "height": 1.0,
+      "kind": "floor"
+     },
+     {
+      "name": "mussel_rock",
+      "height": 0.9,
+      "kind": "floor"
+     }
+    ]
+   },
+   {
+    "name": "sheet_wreck",
+    "trim_bottom": 16,
+    "note": "Flow drew 9 objects in 3 rows, each on a thin ink ground line: trim_bottom removes that line, the extra three are variants",
+    "aspect": "1:1",
+    "prompt": "A sprite sheet of six separate pieces of old shipwreck debris lying on a sea floor for an old video game, flat cartoon illustration, thick uniform dark brown-black ink outline around every shape, simple two-tone cel shading, muted rust, dark grey and sea-green colours, crusted and worn, seen from the front at eye level, each with a flat bottom. In a neat 3 by 2 grid with wide empty space between them: a snapped wooden spar sticking up at an angle with torn rigging, a bent rusty hull plate with rivets, a heavy iron anchor half sunk, a torn fishing net snagged on a stake, an old empty glass bottle tipped on its side, a twisted length of rusty pipe. Plain flat solid pure magenta #FF00FF background everywhere. No sand, no ground shadow, nothing touching another object, no people, no faces, no text, no labels, no logos.",
+    "sprites": [
+     {
+      "name": "broken_spar",
+      "height": 3.4,
+      "kind": "floor"
+     },
+     {
+      "name": "bent_plate",
+      "height": 1.3,
+      "kind": "floor"
+     },
+     {
+      "name": "half_anchor",
+      "height": 2.0,
+      "kind": "floor"
+     },
+     {
+      "name": "torn_net",
+      "height": 2.0,
+      "kind": "floor"
+     },
+     {
+      "name": "sunk_bottle",
+      "height": 0.35,
+      "kind": "floor"
+     },
+     {
+      "name": "twisted_pipe",
+      "height": 0.8,
+      "kind": "floor"
+     },
+     {
+      "name": "torn_net_b",
+      "height": 2.2,
+      "kind": "floor"
+     },
+     {
+      "name": "sunk_bottle_b",
+      "height": 0.32,
+      "kind": "floor"
+     },
+     {
+      "name": "twisted_pipe_b",
+      "height": 0.9,
+      "kind": "floor"
+     }
+    ]
+   },
+   {
+    "name": "sheet_ship_deck",
+    "aspect": "1:1",
+    "prompt": "A sprite sheet of six separate objects from the deck of a 1920s navy rescue ship for an old video game, flat cartoon illustration, thick uniform dark brown-black ink outline around every shape, simple two-tone cel shading, muted salt-worn colours, seen from the front at eye level. In a neat 3 by 2 grid with wide empty space between them: a thick neat coil of ship's rope, a plain white and red life ring leaning upright, an empty brass deep-sea diving helmet sitting on its collar, a wooden hand-cranked diver's air pump box with two big wheels, a coil of black rubber air hose, a heavy wooden block and tackle lying on the deck. Plain flat solid pure magenta #FF00FF background everywhere. No floor, no ground shadow, nothing touching another object, no people, no faces, no text, no labels, no logos.",
+    "sprites": [
+     {
+      "name": "rope_coil",
+      "height": 0.8,
+      "kind": "floor"
+     },
+     {
+      "name": "life_ring",
+      "height": 1.3,
+      "kind": "floor"
+     },
+     {
+      "name": "dive_helmet",
+      "height": 1.0,
+      "kind": "floor"
+     },
+     {
+      "name": "air_pump",
+      "height": 1.4,
+      "kind": "floor"
+     },
+     {
+      "name": "air_hose_coil",
+      "height": 0.7,
+      "kind": "floor"
+     },
+     {
+      "name": "air_pump_copy",
+      "height": 1.8,
+      "kind": "floor",
+      "skip": true
+     },
+     {
+      "name": "block_tackle",
+      "height": 0.8,
+      "kind": "floor"
+     }
+    ]
+   },
+   {
+    "name": "sheet_rum",
+    "aspect": "1:1",
+    "prompt": "A sprite sheet of six separate objects from a 1920s rum runner's boat for an old video game, flat cartoon illustration, thick uniform dark brown-black ink outline around every shape, simple two-tone cel shading, muted warm wood and bottle-green colours, wet and worn, seen from the front at eye level. In a neat 3 by 2 grid with wide empty space between them: a closed plain wooden whiskey crate with rope handles, a tall stack of three plain wooden crates, an open plain wooden crate full of dark bottles in straw, a single dark unlabelled whiskey bottle, an old wooden barrel with iron hoops, a heap of crates under a wet tied-down tarp. Plain flat solid pure magenta #FF00FF background everywhere. No floor, no ground shadow, nothing touching another object, no people, no faces, no text, no letters, no labels, no logos.",
+    "sprites": [
+     {
+      "name": "whiskey_crate",
+      "height": 1.1,
+      "kind": "floor"
+     },
+     {
+      "name": "crate_stack",
+      "height": 2.4,
+      "kind": "floor"
+     },
+     {
+      "name": "crate_bottles",
+      "height": 1.2,
+      "kind": "floor"
+     },
+     {
+      "name": "whiskey_bottle",
+      "height": 0.6,
+      "kind": "floor"
+     },
+     {
+      "name": "barrel",
+      "height": 1.5,
+      "kind": "floor"
+     },
+     {
+      "name": "tarp_heap",
+      "height": 1.6,
+      "kind": "floor"
+     }
+    ]
+   },
+   {
+    "name": "sheet_sub_hanging",
+    "aspect": "1:1",
+    "prompt": "A sprite sheet of six separate things hanging down from pipes inside a 1920s submarine for an old video game, flat cartoon illustration, thick uniform dark brown-black ink outline around every shape, simple two-tone cel shading, muted oily grey, rust and dark oilskin colours, seen from the front at eye level, each one starting at a straight horizontal cut at its top and hanging straight down. In a neat row of six tall narrow items with wide empty space between them: a short rusty chain ending in an iron hook, an empty yellow-black oilskin coat on a hook, a tied bundle of dark cables, a string of three tin mugs, a wet grey rag, one dangling loose wire. Plain flat solid pure magenta #FF00FF background everywhere. No ceiling drawn, no shadow, nothing touching another item, no people, no faces, no text, no logos.",
+    "sprites": [
+     {
+      "name": "hook_chain",
+      "height": 1.0,
+      "kind": "hanging"
+     },
+     {
+      "name": "oilskin_coat",
+      "height": 1.7,
+      "kind": "hanging"
+     },
+     {
+      "name": "cable_bundle",
+      "height": 1.0,
+      "kind": "hanging"
+     },
+     {
+      "name": "tin_mugs",
+      "height": 0.8,
+      "kind": "hanging"
+     },
+     {
+      "name": "wet_rag",
+      "height": 0.6,
+      "kind": "hanging"
+     },
+     {
+      "name": "loose_wire",
+      "height": 0.9,
+      "kind": "hanging"
+     }
+    ]
+   }
+  ]
+ }
+}

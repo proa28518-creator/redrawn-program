@@ -1,0 +1,15 @@
+{ "_doc": "fix1 proof: 'June, a slim young woman with an auburn bob, sunglasses, a white blouse under a teal cardigan and a mustard knee-length skirt.' Slim W .66, legs 1.38; auburn bob; spec sunglasses (taken off on screen); owned colour = teal + mustard.",
+  "head": {},
+  "face": { "eyeSize": 1.0, "browThick": 1.35, "mouthWidth": 0.92 },
+  "hair": { "style": "bob", "colour": "auburn", "seed": 6 },
+  "glasses": { "kind": "sun" },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "slim", "W": 0.66, "H": 0.94 },
+    "outfit": {
+      "layers": [ { "t": "blouse", "color": "#f4f1ec", "collar": "round" },
+                  { "t": "jacket", "color": "#2f8a86", "lapels": false, "buttons": 3, "buttonColor": "#1d5552", "tip": 0.45, "openW": 0.36 },
+                  { "t": "pocket", "x": 0.5, "y": 0.32, "w": 0.24, "h": 0.05, "color": "#246c69" } ],
+      "skirt": { "color": "#d9a23a", "length": "knee", "shape": "aline", "flare": 1.2 } } },
+  "limbs": { "legLen": 1.38, "armLen": 0.95, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

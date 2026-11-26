@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "grandma",
+  "film": "love",
+  "name": "Grandma",
+  "role": "1200-year-old",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "love"
+  },
+  "hair": {
+    "style": "bun",
+    "color": "#e6e6e6"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "dress",
+    "topColor": "#5c0f16",
+    "pants": "#5c0f16",
+    "pantsKind": "skirt",
+    "shoes": "#5c0f16"
+  },
+  "v1": "white hair bun, dark red dress, blush cheeks, smiling"
+}

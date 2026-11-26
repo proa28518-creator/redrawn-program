@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "crowd5",
+  "film": "monster",
+  "name": "Student 5",
+  "role": "crowd, flees the school",
+  "skin": "#5a3420",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "noob_yell"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#111111"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#e08a1a",
+    "pants": "#262a36",
+    "pantsKind": "long",
+    "shoes": "#262a36"
+  },
+  "v1": "one of 6-8 mixed students (V1 crowd loop, entry 4)"
+}

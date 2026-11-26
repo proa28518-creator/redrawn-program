@@ -1,0 +1,17 @@
+{ "_doc": "backrooms (agent C, 2026-11-04): 'Omar, an average-height guy in a charcoal ball cap and square glasses, a steel-blue windbreaker with backpack straps over it, black jeans, unshaven.' Medium W .78 + band, legs 1.33; ballcap + square glasses = his head shape; owned colour steel blue; the dark suspenders read as backpack straps (they cross at the back).",
+  "id": "br_w4",
+  "name": "Omar",
+  "head": {},
+  "face": { "eyeSize": 1.0, "browThick": 1.4 },
+  "hair": { "style": "short", "colour": "black", "seed": 4 },
+  "facialHair": { "kind": "stubble", "colour": "black" },
+  "glasses": { "kind": "square" },
+  "hat": { "kind": "ballcap", "crown": "#34363e", "bill": "#26272d" },
+  "torso": { "body": { "build": "medium", "W": 0.78, "H": 0.93, "band": 0.1 },
+    "outfit": { "trousers": "#2e2c34",
+      "layers": [ { "t": "jumper", "color": "#3d6386", "neckW": 0.3, "neckD": 0.06, "pattern": { "type": "speckle", "color": "#33557a" } },
+                  { "t": "placket", "x": 0, "to": 0.8 },
+                  { "t": "suspenders", "color": "#2a2a30", "x": 0.5, "dash": "#2a2a30" } ] } },
+  "limbs": { "legLen": 1.33, "armLen": 0.95, "width": 0.058, "handR": 0.06 },
+  "hide": []
+}

@@ -1,0 +1,9 @@
+{ "_doc": "S-4: a whiskey smuggler, lanky, black stubble, grey flat cap, striped sailor jersey.",
+  "head": {}, "face": { "eyeSize": 0.99, "browThick": 1.35, "mouthWidth": 1.0 },
+  "hair": { "style": "lobe", "colour": "black" }, "facialHair": { "kind": "stubble", "colour": "black" },
+  "hat": { "kind": "flatcap", "crown": "#6c6a66", "band": "#4e4c49" },
+  "torso": { "body": { "build": "slim", "W": 0.72, "H": 0.94 },
+    "outfit": { "trousers": "#3b342c", "layers": [
+      { "t": "jumper", "color": "#ece6d8", "neckW": 0.38, "neckD": 0.1, "pattern": { "type": "stripes", "color": "#b5372c" } },
+      { "t": "belt", "color": "#2f2620", "buckle": "#b7a15a" } ] } },
+  "limbs": { "legLen": 1.34, "armLen": 0.96, "width": 0.056, "handR": 0.058 }, "hide": [] }

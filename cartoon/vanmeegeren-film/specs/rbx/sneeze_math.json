@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "math",
+  "film": "sneeze",
+  "name": "Math teacher",
+  "role": "math teacher",
+  "skin": "#f7e0cc",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "glasses_frown"
+  },
+  "hair": null,
+  "hat": null,
+  "glasses": {
+    "style": "square",
+    "color": "#111111"
+  },
+  "facial": null,
+  "wear": {
+    "top": "shirt",
+    "topColor": "#e9e3d0",
+    "accent": "#7a1a2a",
+    "pants": "#3b3b44",
+    "pantsKind": "long",
+    "shoes": "#3b3b44"
+  },
+  "v1": "scene.js MATH: bald, cream shirt + tie, grey pants, glasses"
+}

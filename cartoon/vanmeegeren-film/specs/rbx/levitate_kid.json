@@ -1,0 +1,35 @@
+{
+  "kind": "rbx",
+  "id": "kid",
+  "film": "levitate",
+  "name": "Kid",
+  "role": "homework liar",
+  "skin": "#f7e0cc",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#3b2416"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "varsity",
+    "topColor": "#1a1a1a",
+    "sleeveColor": "#f4f4f4",
+    "accent": "#c0202a",
+    "pants": "#3a0f12",
+    "pantsKind": "long",
+    "shoes": "#f4f4f4"
+  },
+  "v1": "white skin, dark brown hair, black/red jacket with white sleeves, white shoes"
+}

@@ -1,0 +1,9 @@
+{ "_doc": "S-4: the youngest sailor, skinny, big eyes, messy black hair, faded chambray dungaree shirt, red neckerchief. The face of the film.",
+  "head": {}, "face": { "eyeSize": 1.04, "browThick": 1.35, "mouthWidth": 0.9 },
+  "hair": { "style": "messy", "colour": "black", "seed": 7 }, "hat": { "kind": "none" },
+  "torso": { "body": { "build": "slim", "W": 0.68, "H": 0.92 },
+    "outfit": { "trousers": "#2c3346", "layers": [
+      { "t": "shirt", "color": "#7c9cbd", "collar": "point" },
+      { "t": "pocket", "x": 0.4, "y": 0.62, "w": 0.2, "h": 0.12, "color": "#6a8aab" },
+      { "t": "scarf", "color": "#b8352c" } ] } },
+  "limbs": { "legLen": 1.14, "armLen": 0.9, "width": 0.056, "handR": 0.058 }, "hide": [] }

@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "grinner",
+  "film": "cantcry",
+  "name": "Grinner",
+  "role": "explains the rule, big open grin",
+  "skin": "#f2b880",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "happy_derp"
+  },
+  "hair": {
+    "style": "swept",
+    "color": "#e8e4ea"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "sweater",
+    "topColor": "#2a62e8",
+    "pants": "#1aa69a",
+    "pantsKind": "long",
+    "shoes": "#ffffff"
+  },
+  "v1": "tan skin, white grey hair, blue knit sweater, teal track pants, white shoes"
+}

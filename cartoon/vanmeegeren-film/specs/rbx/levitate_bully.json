@@ -1,0 +1,36 @@
+{
+  "kind": "rbx",
+  "id": "bully",
+  "film": "levitate",
+  "name": "Bully",
+  "role": "bully, floats higher every lie",
+  "skin": "#f7e0cc",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "noob_angry"
+  },
+  "hair": {
+    "style": "swoop",
+    "color": "#f2c933"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "print_hoodie",
+    "topColor": "#141414",
+    "accent": "#f4f4f4",
+    "print": "text",
+    "printText": "LOL",
+    "pants": "#2257c9",
+    "pantsKind": "long",
+    "shoes": "#d12b2b"
+  },
+  "v1": "white skin, blond swoop hair over eyes, black hoodie with white repeated text print, blue/red sneakers"
+}

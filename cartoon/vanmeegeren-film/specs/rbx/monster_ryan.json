@@ -1,0 +1,35 @@
+{
+  "kind": "rbx",
+  "id": "ryan",
+  "film": "monster",
+  "name": "Ryan",
+  "role": "hero",
+  "skin": "#7a4a2e",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "sweat"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#24160c"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "hoodie",
+    "topColor": "#e2b11c",
+    "accent": "#111111",
+    "print": "bolt",
+    "pants": "#141416",
+    "pantsKind": "long",
+    "shoes": "#0b0b0b"
+  },
+  "v1": "brown skin, dark brown hair, mustard-yellow hoodie with black lightning bolt + white drawstrings, black pants"
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "helmet",
+  "film": "sneeze",
+  "name": "Helmet teacher",
+  "role": "teacher in a hard hat",
+  "skin": "#f7e0cc",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "glasses_worry"
+  },
+  "hair": null,
+  "hat": {
+    "style": "helmet",
+    "color": "#f2c21a"
+  },
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "shirt",
+    "topColor": "#6b8e3a",
+    "pants": "#3b3b44",
+    "pantsKind": "long",
+    "shoes": "#3b3b44"
+  },
+  "v1": "scene.js helmetT: olive long-sleeve shirt, yellow hard hat"
+}

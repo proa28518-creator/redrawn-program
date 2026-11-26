@@ -1,0 +1,9 @@
+{ "_doc": "S-4: the Coast Guard skipper, stout, handlebar moustache, dark officer cap, double row of gold buttons.",
+  "head": {}, "face": { "eyeSize": 0.98, "browThick": 1.5, "mouthWidth": 0.95 },
+  "hair": { "style": "lobe", "colour": "grey" }, "facialHair": { "kind": "handlebar", "colour": "grey" },
+  "hat": { "kind": "officer", "crownLit": "#2d3a58", "crownMid": "#232d46", "crownDark": "#1a2133", "band": "#141a29", "visor": "#141a29", "gold": "#e0b94c" },
+  "torso": { "body": { "build": "stout", "W": 0.96, "H": 0.96 },
+    "outfit": { "trousers": "#1b2130", "layers": [
+      { "t": "shirt", "color": "#efe9dc", "collar": "point" },
+      { "t": "coat", "color": "#23304e", "buttons": 4, "buttonColor": "#e0b94c", "tip": 0.42, "openW": 0.28 } ] } },
+  "limbs": { "legLen": 1.2, "armLen": 0.96, "width": 0.06, "handR": 0.062 }, "hide": [] }

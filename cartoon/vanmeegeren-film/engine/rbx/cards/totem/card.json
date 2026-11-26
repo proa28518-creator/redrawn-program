@@ -1,0 +1,70 @@
+{
+ "height": 2.7,
+ "headY": 0.8,
+ "sideFaces": 1,
+ "crawlFaces": 1,
+ "source": "AI Studio (Nano Banana, owner's plan), prompts in experiments/roblox-style/v3/creatures/batch*.txt; cut with propkit cut.py (BiRefNet, MIT)",
+ "frames": {
+  "idle": {
+   "file": "idle.webp",
+   "w": 668,
+   "h": 1400,
+   "ppd": 518.519,
+   "foot": [
+    0.4604,
+    0.9979
+   ],
+   "sheet": "totem"
+  },
+  "talk": {
+   "file": "talk.webp",
+   "w": 863,
+   "h": 1400,
+   "ppd": 518.519,
+   "foot": [
+    0.6279,
+    0.9979
+   ],
+   "sheet": "totem"
+  },
+  "shock": {
+   "file": "shock.webp",
+   "w": 635,
+   "h": 1400,
+   "ppd": 513.191,
+   "foot": [
+    0.453,
+    0.9979
+   ],
+   "sheet": "totem"
+  },
+  "side": {
+   "file": "side.webp",
+   "w": 699,
+   "h": 1400,
+   "ppd": 514.247,
+   "foot": [
+    0.5038,
+    0.9979
+   ],
+   "sheet": "totem"
+  }
+ },
+ "sets": {
+  "front": {
+   "idle": "idle",
+   "talk": "talk",
+   "shock": "shock",
+   "roar": "shock"
+  },
+  "side": {
+   "idle": "side",
+   "walk": [
+    "side",
+    "side",
+    "side",
+    "side"
+   ]
+  }
+ }
+}

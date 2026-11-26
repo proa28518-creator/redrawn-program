@@ -1,0 +1,15 @@
+{ "_doc": "backrooms (agent C, 2026-11-04): 'Maya, the calm one the film turns on: tall and slim, a sharp black bob, a long dark-teal coat buttoned to the neck over a charcoal top, black jeans; nine days lost, so the coat is dusty.' Slim W .64, tall legs 1.43 (the tallest woman: a narrow vertical silhouette); black bob = the helmet shape nobody else has; owned colour TEAL (cold, stands out on the yellow walls); no hat, no props. Face: big eyes + heavy brows (she acts with the stare: face key { eyes: 'stare', brow: 'down', mouth: 'tight' }, blink false all film, lab/cast/BR_EXPRESSIONS.md).",
+  "id": "br_maya",
+  "name": "Maya",
+  "head": {},
+  "face": { "eyeSize": 1.02, "browThick": 1.45, "mouthWidth": 0.9 },
+  "hair": { "style": "bun", "colour": "black", "seed": 3 },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "slim", "W": 0.64, "H": 0.96 },
+    "outfit": { "trousers": "#2a2830",
+      "layers": [ { "t": "shirt", "color": "#3b3940", "collar": "none" },
+                  { "t": "coat", "color": "#1f6e70", "lapels": false, "buttons": 5, "buttonColor": "#123f41", "buttonGap": 0.08, "tip": 0.86, "openW": 0.16, "pattern": { "type": "speckle", "color": "#1a5c5e" } },
+                  { "t": "belt", "y": 0.36, "h": 0.05, "color": "#16494b", "buckle": "#9aa3a3" } ] } },
+  "limbs": { "legLen": 1.43, "armLen": 0.96, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

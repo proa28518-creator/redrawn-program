@@ -1,0 +1,13 @@
+{ "_doc": "blind5: 'Lena, a tall woman with long black hair in a ponytail, sunglasses and a red coat.' Slim W .66, tall legs 1.44; black ponytail; no hat; red coat (owned colour) over a white blouse, belt; black jeans. Sunglasses are NOT in the spec (spec glasses can't come off and 'sun' hides the eyes): they are a film prop she holds at her eyes and lowers (films/blind5/props/shades.js).",
+  "head": {},
+  "face": { "eyeSize": 1.0, "mouthWidth": 0.92, "browThick": 1.35 },
+  "hair": { "style": "ponytail", "colour": "black", "seed": 4, "length": 0.75 },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "slim", "W": 0.66, "H": 0.95 },
+    "outfit": { "trousers": "#2e2c34",
+      "layers": [ { "t": "blouse", "color": "#f4f1ec", "collar": "round" },
+                  { "t": "coat", "color": "#c23a36", "buttons": 4, "buttonColor": "#5a1a1a", "tip": 0.45, "openW": 0.3 },
+                  { "t": "belt", "y": 0.42, "h": 0.06, "color": "#7a2222", "buckle": "#e3c25a" } ] } },
+  "limbs": { "legLen": 1.44, "armLen": 0.96, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

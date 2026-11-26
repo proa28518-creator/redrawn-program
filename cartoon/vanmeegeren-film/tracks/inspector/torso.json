@@ -1,0 +1,43 @@
+{
+ "_doc": "Inspector torso pose per GLOBAL frame (tools/s07_build.py): x y hem centre px, D px per torso unit, lean, yaw, pitch, sy, tz.",
+ "700": {
+  "x": 268.5,
+  "y": 1022.1,
+  "D": 352.9,
+  "lean": -9,
+  "yaw": 0,
+  "pitch": 22,
+  "sy": 0.86,
+  "tz": -0.5
+ },
+ "706": {
+  "x": 269.7,
+  "y": 1015.9,
+  "D": 352.9,
+  "lean": -6,
+  "yaw": 0,
+  "pitch": 22,
+  "sy": 0.86,
+  "tz": -0.5
+ },
+ "712": {
+  "x": 279.7,
+  "y": 1021.9,
+  "D": 352.9,
+  "lean": -6,
+  "yaw": 0,
+  "pitch": 22,
+  "sy": 0.86,
+  "tz": -0.5
+ },
+ "718": {
+  "x": 211.9,
+  "y": 1041.4,
+  "D": 441.2,
+  "lean": -9,
+  "yaw": 0,
+  "pitch": 22,
+  "sy": 0.86,
+  "tz": -0.5
+ }
+}

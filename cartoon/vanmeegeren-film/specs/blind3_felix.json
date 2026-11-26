@@ -1,0 +1,12 @@
+{ "_doc": "blind3: 'Felix, a tall skinny young jogger with a red headscarf tied as a headband and a blue tracksuit.' Slim W .62, tall legs 1.45; red headscarf (closest hat kind to a headband); short dark hair under it; blue tracksuit = blue jumper with white vstripes pattern + zip placket + blue trousers; owned colour = red on blue.",
+  "head": {},
+  "face": { "eyeSize": 1.0, "browThick": 1.35, "mouthWidth": 1.0 },
+  "hair": { "style": "lobe", "colour": "dark", "seed": 2 },
+  "hat": { "kind": "headscarf", "crown": "#d23a2e", "dots": false, "knot": "back" },
+  "torso": { "body": { "build": "slim", "W": 0.62, "H": 0.95 },
+    "outfit": { "trousers": "#2f55a8",
+      "layers": [ { "t": "jumper", "color": "#2f55a8", "neckW": 0.3, "neckD": 0.06 },
+                  { "t": "placket", "x": 0, "to": 0.95 } ] } },
+  "limbs": { "legLen": 1.45, "armLen": 0.98, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

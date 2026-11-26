@@ -1,0 +1,36 @@
+{
+  "kind": "rbx",
+  "id": "friend",
+  "film": "whistle",
+  "name": "Friend",
+  "role": "best friend two towns over",
+  "skin": "#6b4429",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "glasses_frown"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#777777"
+  },
+  "hat": null,
+  "glasses": {
+    "style": "square",
+    "color": "#111111"
+  },
+  "facial": null,
+  "wear": {
+    "top": "tank",
+    "topColor": "#1f4fd1",
+    "pants": "#15161c",
+    "pantsKind": "long",
+    "shoes": "#15161c"
+  },
+  "v1": "dark skin, grey hair, black glasses"
+}

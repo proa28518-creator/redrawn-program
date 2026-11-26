@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "girl",
+  "film": "love",
+  "name": "Girl",
+  "role": "gets +1 day (25320 -> 25321)",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 0.82,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "happy_derp"
+  },
+  "hair": {
+    "style": "pigtails",
+    "color": "#f3cf45"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#3d6fb8",
+    "shirtColor": "#f4f4f4",
+    "pants": "#2f5f9e",
+    "pantsKind": "long",
+    "shoes": "#2f5f9e"
+  },
+  "v1": "blond pigtails, denim overalls"
+}

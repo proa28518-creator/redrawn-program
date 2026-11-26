@@ -1,0 +1,29 @@
+{
+ "_doc": "Boss bowler, tools/boss_face.py: shape = src/hats/bowler.js params. Rigid on the head (truth/boss/MEASURED.md: tilts with every roll, rides the bob); tilt { \"<frame>\": {rx, rz, y} } optional.",
+ "shape": {
+  "brimR": 0.57,
+  "brimT": 0.034,
+  "curl": 0.075,
+  "curlStart": 0.72,
+  "crownR": 0.39,
+  "crownH": 0.36,
+  "crownTop": 0.45,
+  "crownBulge": 0.02,
+  "inkBrim": 0.028,
+  "stripe": "#6c6576",
+  "stripeOn": 0.75,
+  "stripeX": [
+   0.18,
+   0.4
+  ],
+  "mount": {
+   "y": 0.28,
+   "rx": 0
+  }
+ },
+ "tilt": {},
+ "follow": {
+  "el": -12.0
+ },
+ "pose": {}
+}

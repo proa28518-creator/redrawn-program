@@ -1,0 +1,263 @@
+{
+ "_meta": "Inspector s07 cameras (tools/s07_build.py): cx cy d truth_head f697-716, by hand f717-722; roll from the eye line; az/el read by eye (high close).",
+ "697": {
+  "cx": 400.9,
+  "cy": 726.34,
+  "d": 415.87,
+  "roll": 16.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "698": {
+  "cx": 367.24,
+  "cy": 689.75,
+  "d": 415.83,
+  "roll": 14.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "699": {
+  "cx": 335.45,
+  "cy": 658.65,
+  "d": 412.79,
+  "roll": 12.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "700": {
+  "cx": 324.2,
+  "cy": 650.56,
+  "d": 407.07,
+  "roll": 10.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "701": {
+  "cx": 313.9,
+  "cy": 639.95,
+  "d": 403.31,
+  "roll": 9.5,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "702": {
+  "cx": 308.45,
+  "cy": 631.16,
+  "d": 401.83,
+  "roll": 9.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "703": {
+  "cx": 306.64,
+  "cy": 627.65,
+  "d": 400.21,
+  "roll": 8.5,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "704": {
+  "cx": 307.06,
+  "cy": 628.6,
+  "d": 397.03,
+  "roll": 8.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "705": {
+  "cx": 309.47,
+  "cy": 632.32,
+  "d": 392.97,
+  "roll": 7.5,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "706": {
+  "cx": 313.31,
+  "cy": 637.78,
+  "d": 389.16,
+  "roll": 7.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "707": {
+  "cx": 317.78,
+  "cy": 643.93,
+  "d": 386.34,
+  "roll": 7.7,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "708": {
+  "cx": 322.34,
+  "cy": 650.29,
+  "d": 384.41,
+  "roll": 8.3,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "709": {
+  "cx": 326.88,
+  "cy": 657.28,
+  "d": 382.72,
+  "roll": 9.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "710": {
+  "cx": 331.6,
+  "cy": 664.69,
+  "d": 381.49,
+  "roll": 9.7,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "711": {
+  "cx": 338.29,
+  "cy": 670.13,
+  "d": 381.0,
+  "roll": 10.3,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "712": {
+  "cx": 346.77,
+  "cy": 673.46,
+  "d": 416.22,
+  "roll": 11.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "713": {
+  "cx": 352.87,
+  "cy": 675.46,
+  "d": 440.45,
+  "roll": 9.8,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "714": {
+  "cx": 352.89,
+  "cy": 674.89,
+  "d": 463.85,
+  "roll": 8.5,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "715": {
+  "cx": 346.4,
+  "cy": 668.61,
+  "d": 485.57,
+  "roll": 7.2,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "716": {
+  "cx": 337.68,
+  "cy": 656.11,
+  "d": 516.29,
+  "roll": 6.0,
+  "az": -4,
+  "el": 20,
+  "src": "truth_head cx cy d",
+  "quality": "fit"
+ },
+ "717": {
+  "cx": 305,
+  "cy": 585,
+  "d": 545,
+  "roll": 8.5,
+  "az": -4,
+  "el": 20,
+  "src": "read by hand (s07_build)",
+  "quality": "fit"
+ },
+ "718": {
+  "cx": 275,
+  "cy": 525,
+  "d": 590,
+  "roll": 11.0,
+  "az": -4,
+  "el": 20,
+  "src": "read by hand (s07_build)",
+  "quality": "fit"
+ },
+ "719": {
+  "cx": 210,
+  "cy": 455,
+  "d": 670,
+  "roll": 9.5,
+  "az": -4,
+  "el": 20,
+  "src": "read by hand (s07_build)",
+  "quality": "fit"
+ },
+ "720": {
+  "cx": 180,
+  "cy": 395,
+  "d": 700,
+  "roll": 8.0,
+  "az": -4,
+  "el": 20,
+  "src": "read by hand (s07_build)",
+  "quality": "fit"
+ },
+ "721": {
+  "cx": 160,
+  "cy": 320,
+  "d": 730,
+  "roll": 8.0,
+  "az": -4,
+  "el": 20,
+  "src": "read by hand (s07_build)",
+  "quality": "fit"
+ },
+ "722": {
+  "cx": 50,
+  "cy": 220,
+  "d": 760,
+  "roll": 8.0,
+  "az": -4,
+  "el": 20,
+  "src": "read by hand (s07_build)",
+  "quality": "fit"
+ }
+}

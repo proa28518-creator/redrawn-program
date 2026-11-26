@@ -1,0 +1,713 @@
+{
+ "567": {
+  "cx": -105.0,
+  "cy": 1004.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "568": {
+  "cx": -80.6,
+  "cy": 1002.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "569": {
+  "cx": -56.2,
+  "cy": 1000.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "570": {
+  "cx": -31.8,
+  "cy": 998.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "571": {
+  "cx": -7.4,
+  "cy": 996.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "572": {
+  "cx": 16.9,
+  "cy": 994.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "573": {
+  "cx": 41.3,
+  "cy": 992.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "574": {
+  "cx": 65.7,
+  "cy": 990.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "575": {
+  "cx": 90.1,
+  "cy": 988.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (head cut by the left edge)"
+ },
+ "576": {
+  "cx": 114.5,
+  "cy": 986.1,
+  "d": 287.2,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "577": {
+  "cx": 124.25,
+  "cy": 985.2,
+  "d": 285.25,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "578": {
+  "cx": 135.95,
+  "cy": 981.9,
+  "d": 283.18,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "579": {
+  "cx": 150.0,
+  "cy": 978.03,
+  "d": 281.17,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "580": {
+  "cx": 166.23,
+  "cy": 973.8,
+  "d": 278.47,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "581": {
+  "cx": 182.6,
+  "cy": 971.57,
+  "d": 275.43,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "582": {
+  "cx": 198.8,
+  "cy": 969.43,
+  "d": 272.17,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "583": {
+  "cx": 214.77,
+  "cy": 967.17,
+  "d": 269.4,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "584": {
+  "cx": 230.67,
+  "cy": 964.97,
+  "d": 267.0,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "585": {
+  "cx": 246.27,
+  "cy": 962.63,
+  "d": 265.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "586": {
+  "cx": 260.23,
+  "cy": 960.87,
+  "d": 263.27,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "587": {
+  "cx": 272.27,
+  "cy": 958.9,
+  "d": 262.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "588": {
+  "cx": 283.17,
+  "cy": 957.63,
+  "d": 260.57,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "589": {
+  "cx": 291.3,
+  "cy": 956.57,
+  "d": 259.8,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "590": {
+  "cx": 297.47,
+  "cy": 956.0,
+  "d": 259.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "591": {
+  "cx": 303.6,
+  "cy": 953.57,
+  "d": 261.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "592": {
+  "cx": 313.63,
+  "cy": 949.97,
+  "d": 264.03,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "593": {
+  "cx": 326.47,
+  "cy": 946.7,
+  "d": 266.97,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "594": {
+  "cx": 338.33,
+  "cy": 945.5,
+  "d": 267.9,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "595": {
+  "cx": 348.4,
+  "cy": 945.83,
+  "d": 266.8,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "596": {
+  "cx": 356.3,
+  "cy": 946.5,
+  "d": 264.77,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "597": {
+  "cx": 362.4,
+  "cy": 947.17,
+  "d": 262.73,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "598": {
+  "cx": 366.2,
+  "cy": 947.5,
+  "d": 261.8,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "599": {
+  "cx": 368.53,
+  "cy": 947.33,
+  "d": 262.03,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "600": {
+  "cx": 370.07,
+  "cy": 946.6,
+  "d": 263.07,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "601": {
+  "cx": 371.17,
+  "cy": 945.43,
+  "d": 265.17,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "602": {
+  "cx": 371.73,
+  "cy": 944.17,
+  "d": 267.7,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "603": {
+  "cx": 371.9,
+  "cy": 942.97,
+  "d": 270.3,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "604": {
+  "cx": 371.9,
+  "cy": 942.17,
+  "d": 272.63,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "605": {
+  "cx": 371.73,
+  "cy": 941.17,
+  "d": 274.77,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "606": {
+  "cx": 371.33,
+  "cy": 940.57,
+  "d": 276.47,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "607": {
+  "cx": 370.6,
+  "cy": 939.97,
+  "d": 277.93,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "608": {
+  "cx": 369.7,
+  "cy": 939.73,
+  "d": 279.33,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "609": {
+  "cx": 368.63,
+  "cy": 937.6,
+  "d": 283.93,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "610": {
+  "cx": 367.37,
+  "cy": 935.07,
+  "d": 289.6,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "611": {
+  "cx": 365.93,
+  "cy": 932.63,
+  "d": 294.87,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "612": {
+  "cx": 364.4,
+  "cy": 932.2,
+  "d": 296.5,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "613": {
+  "cx": 362.87,
+  "cy": 933.13,
+  "d": 295.37,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "614": {
+  "cx": 361.33,
+  "cy": 934.83,
+  "d": 293.3,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "615": {
+  "cx": 359.7,
+  "cy": 936.63,
+  "d": 291.23,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "616": {
+  "cx": 358.17,
+  "cy": 937.5,
+  "d": 290.3,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "617": {
+  "cx": 356.73,
+  "cy": 937.6,
+  "d": 290.6,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "618": {
+  "cx": 355.63,
+  "cy": 937.53,
+  "d": 291.33,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "619": {
+  "cx": 354.63,
+  "cy": 937.37,
+  "d": 292.9,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "620": {
+  "cx": 353.83,
+  "cy": 936.73,
+  "d": 294.9,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "621": {
+  "cx": 353.13,
+  "cy": 935.9,
+  "d": 296.87,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "622": {
+  "cx": 352.57,
+  "cy": 935.17,
+  "d": 298.03,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "623": {
+  "cx": 352.13,
+  "cy": 934.9,
+  "d": 298.47,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "624": {
+  "cx": 351.8,
+  "cy": 934.93,
+  "d": 298.5,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "625": {
+  "cx": 351.6,
+  "cy": 935.1,
+  "d": 298.4,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "626": {
+  "cx": 351.47,
+  "cy": 935.33,
+  "d": 298.27,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "627": {
+  "cx": 351.4,
+  "cy": 935.53,
+  "d": 298.13,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "628": {
+  "cx": 351.4,
+  "cy": 935.6,
+  "d": 298.07,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "629": {
+  "cx": 351.4,
+  "cy": 935.6,
+  "d": 298.07,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "630": {
+  "cx": 351.4,
+  "cy": 935.6,
+  "d": 298.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: maskhead circle fit, smoothed; az el by hand"
+ },
+ "631": {
+  "cx": 366.4,
+  "cy": 935.6,
+  "d": 300.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "632": {
+  "cx": 381.4,
+  "cy": 930.6,
+  "d": 302.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "633": {
+  "cx": 410,
+  "cy": 925,
+  "d": 304.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "634": {
+  "cx": 483,
+  "cy": 930,
+  "d": 306.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "635": {
+  "cx": 575,
+  "cy": 865,
+  "d": 308.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "636": {
+  "cx": 667,
+  "cy": 801,
+  "d": 310.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "637": {
+  "cx": 760,
+  "cy": 793,
+  "d": 312.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "638": {
+  "cx": 852,
+  "cy": 786,
+  "d": 314.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "639": {
+  "cx": 924,
+  "cy": 801,
+  "d": 316.1,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (pan, leaving right)"
+ },
+ "640": {
+  "cx": 1014,
+  "cy": 801,
+  "d": 320,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (walking out right; f644+ off frame)"
+ },
+ "641": {
+  "cx": 1104,
+  "cy": 801,
+  "d": 320,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (walking out right; f644+ off frame)"
+ },
+ "642": {
+  "cx": 1194,
+  "cy": 801,
+  "d": 320,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (walking out right; f644+ off frame)"
+ },
+ "643": {
+  "cx": 1284,
+  "cy": 801,
+  "d": 320,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (walking out right; f644+ off frame)"
+ },
+ "644": {
+  "cx": 1674,
+  "cy": 801,
+  "d": 320,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (walking out right; f644+ off frame)"
+ },
+ "645": {
+  "cx": 2064,
+  "cy": 801,
+  "d": 320,
+  "roll": 0.0,
+  "az": -20.0,
+  "el": 15.0,
+  "src": "s05e: by eye (walking out right; f644+ off frame)"
+ }
+}

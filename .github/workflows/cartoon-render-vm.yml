@@ -1,0 +1,90 @@
+# Cartoon render — frame chunks (cartoon-shorts kit, vanmeegeren-film)
+# Splits a frame range of the kit film (cartoon/vanmeegeren-film) across up to 20
+# parallel GitHub-hosted jobs. Each job boots the project's own harness
+# (harness/drive.mjs) in the Chrome Headless Shell — the same Chromium build
+# as the local VM (157.0.8080.0) — and renders ONLY its chunk's frames as a
+# PNG sequence (the engine is pure-in-t, so slices are independent and match
+# local renders byte-for-byte). NO finalize on the fleet: frames come back as
+# artifacts and are assembled + mixed with the audio locally, per the owner's
+# pipeline rule (per-chunk AAC encoding punches silence holes at the joins).
+name: Cartoon render — vanmeegeren-film frames
+
+on:
+  workflow_dispatch:
+    inputs:
+      frames:
+        description: 'Frame range, e.g. 0-458 (pilot, lines 1-7) or 0-1990 (full film)'
+        default: '0-458'
+        required: true
+      max_chunks:
+        description: 'Parallel chunks (max 20)'
+        default: '12'
+        required: true
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      chunks: ${{ steps.split.outputs.chunks }}
+    steps:
+      - id: split
+        run: |
+          python3 - <<'PY'
+          import json, os
+          frames = os.environ['FRAMES']
+          start, end = map(int, frames.split('-'))
+          max_chunks = int(os.environ['MAX_CHUNKS'])
+          total = end - start + 1
+          n = min(max_chunks, total)
+          chunks = []
+          base_size = total // n
+          remainder = total % n
+          current_start = start
+          for i in range(n):
+              chunk_size = base_size + (1 if i < remainder else 0)
+              current_end = current_start + chunk_size - 1
+              chunks.append({"index": i, "start": current_start, "end": current_end})
+              current_start = current_end + 1
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('chunks=' + json.dumps(chunks) + '\n')
+          print(f"{total} frames -> {n} chunks")
+          PY
+        env:
+          FRAMES: ${{ inputs.frames }}
+          MAX_CHUNKS: ${{ inputs.max_chunks }}
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        chunk: ${{ fromJSON(needs.plan.outputs.chunks) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install Chrome Headless Shell 157.0.8080.0 (same build as the local VM)
+        run: |
+          curl -fsSL -o /tmp/chs.zip https://storage.googleapis.com/chrome-for-testing-public/157.0.8080.0/linux64/chrome-headless-shell-linux64.zip
+          unzip -q /tmp/chs.zip -d /tmp/cft
+          chmod +x /tmp/cft/chrome-headless-shell-linux64/chrome-headless-shell
+          /tmp/cft/chrome-headless-shell-linux64/chrome-headless-shell --version || true
+      - name: Install Chrome runtime libraries (if missing)
+        run: |
+          /tmp/cft/chrome-headless-shell-linux64/chrome-headless-shell --dump-dom about:blank >/dev/null 2>&1 || (
+            sudo apt-get update && sudo apt-get install -y libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64 libpango-1.0-0 libcairo2 )
+      - name: Render chunk ${{ matrix.chunk.index }} (frames ${{ matrix.chunk.start }}-${{ matrix.chunk.end }})
+        working-directory: cartoon/vanmeegeren-film
+        env:
+          CZ_CHROME: /tmp/cft/chrome-headless-shell-linux64/chrome-headless-shell
+        run: node harness/drive.mjs frames ${{ matrix.chunk.start }} ${{ matrix.chunk.end }} frames-out
+      - name: Upload frames ${{ matrix.chunk.index }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: frames-${{ matrix.chunk.index }}
+          path: cartoon/vanmeegeren-film/frames-out
+          retention-days: 3

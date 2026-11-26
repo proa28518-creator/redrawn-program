@@ -1,0 +1,14 @@
+{ "_doc": "docs4: 'a wiry young woman cyclist with curly ginger hair, a teal sweatband with a white stripe round her head, a yellow jersey and black cycling shorts'. headband (sweatband = knot false + stripe), curly ginger, slim, yellow jumper with one stripes pattern, black trousers, tall.",
+  "head": {},
+  "face": { "eyeSize": 0.98, "browThick": 1.35, "mouthWidth": 0.95 },
+  "hair": { "style": "curly", "colour": "ginger", "seed": 3 },
+  "hat": { "kind": "headband", "crown": "#2f8f8a", "stripe": "#f4eee6", "knot": false },
+  "torso": { "body": { "build": "slim", "W": 0.64, "H": 0.93 },
+    "outfit": { "trousers": "#2b2730",
+      "layers": [ { "t": "jumper", "color": "#e8b62e", "neckW": 0.3, "neckD": 0.07,
+                    "pattern": { "type": "stripes", "color": "#2f8f8a", "from": 0.55, "to": 0.7 } },
+                  { "t": "placket", "x": 0, "to": 0.9 },
+                  { "t": "pocket", "x": 0.5, "y": 0.3, "w": 0.2, "h": 0.07, "color": "#c99a22" } ] } },
+  "limbs": { "legLen": 1.38, "armLen": 0.95, "width": 0.056, "handR": 0.058 },
+  "hide": []
+}

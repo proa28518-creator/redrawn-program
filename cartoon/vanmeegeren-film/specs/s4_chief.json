@@ -1,0 +1,9 @@
+{ "_doc": "S-4: the old chief, stout, bald on top, grey walrus moustache, undershirt and brown suspenders, oil on his belly.",
+  "head": {}, "face": { "eyeSize": 0.97, "browThick": 1.5, "mouthWidth": 1.0 },
+  "hair": { "style": "bald_sides", "colour": "grey" }, "facialHair": { "kind": "walrus", "colour": "grey" }, "hat": { "kind": "none" },
+  "torso": { "body": { "build": "stout", "W": 0.98, "H": 0.94 },
+    "outfit": { "trousers": "#39404f", "layers": [
+      { "t": "jumper", "color": "#d9d3c2", "neckW": 0.4, "neckD": 0.16 },
+      { "t": "suspenders", "color": "#5a3e28" },
+      { "t": "belt", "color": "#2f2620", "buckle": "#b7a15a" } ] } },
+  "limbs": { "legLen": 1.14, "armLen": 0.96, "width": 0.062, "handR": 0.064 }, "hide": [] }

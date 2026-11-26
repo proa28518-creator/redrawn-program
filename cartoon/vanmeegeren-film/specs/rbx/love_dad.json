@@ -1,0 +1,36 @@
+{
+  "kind": "rbx",
+  "id": "dad",
+  "film": "love",
+  "name": "Dad",
+  "role": "575 days",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "dad_moustache"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#111111"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": {
+    "style": "moustache_big",
+    "color": "#111111"
+  },
+  "wear": {
+    "top": "tank",
+    "topColor": "#1f4fd1",
+    "pants": "#15161c",
+    "pantsKind": "long",
+    "shoes": "#15161c"
+  },
+  "v1": "black hair, big black moustache, blue tank"
+}

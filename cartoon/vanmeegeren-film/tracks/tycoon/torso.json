@@ -1,0 +1,74 @@
+{
+ "_doc": "Tycoon torso pose per GLOBAL frame (tools/tycoon_build.py): x y hem centre px, D px per torso unit, lean, yaw (+ chest to viewer right), pitch, sy; outfit flags beach (gold waistcoat, s17) sash (f345) rose (0/1), chainSag [x y].",
+ "343": {
+  "x": 660,
+  "y": 1411,
+  "D": 282,
+  "lean": 0,
+  "yaw": 0,
+  "pitch": 0,
+  "sy": 1,
+  "sash": 1,
+  "beach": 0,
+  "rose": 1
+ },
+ "760": {
+  "x": 478,
+  "y": 1039,
+  "D": 132,
+  "lean": -3,
+  "yaw": 80,
+  "pitch": 0,
+  "sy": 1,
+  "beach": 0,
+  "rose": 1
+ },
+ "768": {
+  "x": 402,
+  "y": 1056,
+  "D": 122,
+  "lean": -10,
+  "yaw": 65,
+  "pitch": 0,
+  "sy": 1,
+  "beach": 0,
+  "rose": 1
+ },
+ "1585": {
+  "x": 699,
+  "y": 995,
+  "D": 96,
+  "lean": 0,
+  "yaw": 0,
+  "pitch": 4,
+  "sy": 1,
+  "beach": 1,
+  "rose": 0
+ },
+ "1610": {
+  "x": 601,
+  "y": 1181,
+  "D": 218,
+  "lean": 0,
+  "yaw": 0,
+  "pitch": 4,
+  "sy": 1,
+  "beach": 1,
+  "rose": 0
+ },
+ "1625": {
+  "x": 607,
+  "y": 1235,
+  "D": 268,
+  "lean": -2,
+  "yaw": 0,
+  "pitch": 2,
+  "sy": 1,
+  "beach": 1,
+  "rose": 0,
+  "chainSag": [
+   0,
+   -0.05
+  ]
+ }
+}

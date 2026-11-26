@@ -1,0 +1,18 @@
+{
+ "_doc": "Passenger top hat (src/hats/tophat.js, the Tycoon shape). follow = the hat rides the head camera with its own el + brim height.",
+ "shape": {
+  "crownH": 0.55,
+  "crownR": 0.4,
+  "crownRTop": 0.415,
+  "brimR": 0.565,
+  "bandH": 0.06,
+  "mount": {
+   "y": 0.3
+  }
+ },
+ "follow": {
+  "el": 2,
+  "y": 0.4
+ },
+ "pose": {}
+}

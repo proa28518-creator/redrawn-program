@@ -1,0 +1,16 @@
+{ "_doc": "backrooms (agent C, 2026-11-04): 'Cal, the guy Maya grabs by the collar: average build, messy brown hair, a rust-red flannel shirt with a big pointed collar under an open navy work jacket with lapels, a dark backpack strap, dark trousers; unshaven after nine days.' Medium W .82 + band, legs 1.3; messy brown hair; the COLLAR reads twice (the shirt's point collar inside the jacket's lapels, collarW .55); owned colour rust red + navy; stubble.",
+  "id": "br_guy",
+  "name": "Cal",
+  "head": {},
+  "face": { "eyeSize": 1.0, "browThick": 1.38, "mouthSize": 1.05 },
+  "hair": { "style": "messy", "colour": "brown", "seed": 7 },
+  "facialHair": { "kind": "stubble", "colour": "dark" },
+  "hat": { "kind": "none" },
+  "torso": { "body": { "build": "medium", "W": 0.82, "H": 0.93, "band": 0.1 },
+    "outfit": { "trousers": "#33303a",
+      "layers": [ { "t": "shirt", "color": "#9a3b2c", "collar": "point", "collarW": 0.55, "placket": true, "pattern": { "type": "tartan", "color": "#6e2a22", "every": 0.2 } },
+                  { "t": "jacket", "color": "#2c3a5c", "lapels": true, "buttons": 0, "tip": 0.3, "openW": 0.5, "pattern": { "type": "speckle", "color": "#243050" } },
+                  { "t": "pocket", "x": -0.55, "y": 0.3, "w": 0.24, "h": 0.07, "color": "#232f4c" } ] } },
+  "limbs": { "legLen": 1.3, "armLen": 0.95, "width": 0.058, "handR": 0.06 },
+  "hide": []
+}

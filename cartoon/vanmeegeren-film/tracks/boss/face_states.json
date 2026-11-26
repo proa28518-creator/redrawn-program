@@ -1,0 +1,3389 @@
+{
+"_meta": "Boss face states per GLOBAL frame, read by eye on truth/boss/sheets (states snap, no tweens). eyes/brows/mouth names: see truth/boss/MEASURED.md. flip 1 = the lone raised brow over the viewer-right eye (s16). skin: white | purple | fill (purple rising) | drain (purple falling). mouth in talking spans from tools/truth_face.py (w, h).",
+"403": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "dissolve in from s04, faint"
+},
+"404": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "dissolve in from s04, faint"
+},
+"405": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "dissolve in from s04, faint"
+},
+"406": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "dissolve in from s04, faint"
+},
+"407": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "dissolve in from s04, faint"
+},
+"408": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "dissolve in from s04, faint"
+},
+"409": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"410": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"411": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"412": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"413": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"414": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"415": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"416": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"417": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"418": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"419": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"420": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"421": {
+"eyes": "smug",
+"brows": "flat",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"422": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"423": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"424": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"425": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"426": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"427": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"428": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"429": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"430": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"431": {
+"eyes": "rings",
+"brows": "raisedOne",
+"mouth": "dot",
+"flip": -1,
+"skin": "white",
+"note": "lone raised brow over the viewer-left eye"
+},
+"432": {
+"eyes": "blink",
+"brows": "none",
+"mouth": "dot",
+"flip": 1,
+"skin": "white"
+},
+"433": {
+"eyes": "blink",
+"brows": "none",
+"mouth": "dot",
+"flip": 1,
+"skin": "white"
+},
+"434": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"435": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"436": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"437": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"438": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"439": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"440": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"441": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"442": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"443": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"444": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"445": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"446": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"447": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"448": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"449": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"450": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"451": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"452": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"453": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"454": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"455": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"456": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"457": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"458": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"459": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"460": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"461": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"462": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"463": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"464": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"465": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "scowl; viewer-left lid tilted"
+},
+"466": {
+"eyes": "squintL",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "viewer-left eye a squeezed dash, right lidded"
+},
+"467": {
+"eyes": "squintL",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "viewer-left eye a squeezed dash, right lidded"
+},
+"468": {
+"eyes": "squeeze",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "both shut tight"
+},
+"469": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"470": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"471": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"472": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"473": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"474": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"475": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"476": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"477": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"478": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"479": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"480": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"481": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"482": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"483": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"484": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"485": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"486": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"487": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"488": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"489": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"490": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"491": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"492": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"493": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"494": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"495": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"496": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"497": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"498": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"499": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"500": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"501": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"502": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"503": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"504": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "frown",
+"flip": 1,
+"skin": "white"
+},
+"505": {
+"eyes": "blink",
+"brows": "angry",
+"mouth": "wavy",
+"flip": 1,
+"skin": "white"
+},
+"506": {
+"eyes": "blink",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"507": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"508": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"509": {
+"eyes": "blink",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"510": {
+"eyes": "blink",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"511": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"512": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"513": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"514": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "fill",
+"note": "purple rises from the chin to the hat, f514 ~10 %, f517 ~45 %, f520 full"
+},
+"515": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "fill",
+"note": "purple rises from the chin to the hat, f514 ~10 %, f517 ~45 %, f520 full"
+},
+"516": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "fill",
+"note": "purple rises from the chin to the hat, f514 ~10 %, f517 ~45 %, f520 full"
+},
+"517": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "fill",
+"note": "purple rises from the chin to the hat, f514 ~10 %, f517 ~45 %, f520 full"
+},
+"518": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "fill",
+"note": "purple rises from the chin to the hat, f514 ~10 %, f517 ~45 %, f520 full"
+},
+"519": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "fill",
+"note": "purple rises from the chin to the hat, f514 ~10 %, f517 ~45 %, f520 full"
+},
+"520": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "fill",
+"note": "purple rises from the chin to the hat, f514 ~10 %, f517 ~45 %, f520 full"
+},
+"521": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"522": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"523": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"524": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"525": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"526": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"527": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"528": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"529": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"530": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"531": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"532": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"533": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"534": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"535": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"536": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"537": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"538": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"539": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"540": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"541": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"542": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "purple",
+"note": "steam puffs from f524"
+},
+"543": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "line",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.27,
+0.038
+]
+},
+"544": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.308,
+0.085
+]
+},
+"545": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.308,
+0.145
+]
+},
+"546": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.2,
+0.165
+]
+},
+"547": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.195,
+0.16
+]
+},
+"548": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.268,
+0.115
+]
+},
+"549": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.298,
+0.132
+]
+},
+"550": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.31,
+0.145
+]
+},
+"551": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.298,
+0.1
+]
+},
+"552": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.198,
+0.178
+]
+},
+"553": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.122
+]
+},
+"554": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.29,
+0.12
+]
+},
+"555": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.29,
+0.075
+]
+},
+"556": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.098
+]
+},
+"557": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.275,
+0.125
+]
+},
+"558": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.278,
+0.122
+]
+},
+"559": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.302,
+0.13
+]
+},
+"560": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.3,
+0.138
+]
+},
+"561": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.265,
+0.115
+]
+},
+"562": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.278,
+0.118
+]
+},
+"563": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.288,
+0.095
+]
+},
+"564": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "line",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.262,
+0.042
+]
+},
+"565": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.315,
+0.138
+]
+},
+"566": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.308,
+0.14
+]
+},
+"567": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.312,
+0.15
+]
+},
+"568": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.292,
+0.082
+]
+},
+"569": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.132
+]
+},
+"570": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.152
+]
+},
+"571": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.155
+]
+},
+"572": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.285,
+0.152
+]
+},
+"573": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.312,
+0.14
+]
+},
+"574": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.308,
+0.14
+]
+},
+"575": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.308,
+0.138
+]
+},
+"576": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.292,
+0.138
+]
+},
+"577": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.278,
+0.138
+]
+},
+"578": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.27,
+0.132
+]
+},
+"579": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.255,
+0.115
+]
+},
+"580": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.215,
+0.155
+]
+},
+"581": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.185,
+0.18
+]
+},
+"582": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.182,
+0.17
+]
+},
+"583": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.195,
+0.165
+]
+},
+"584": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.252,
+0.145
+]
+},
+"585": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.258,
+0.148
+]
+},
+"586": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "open",
+"flip": 1,
+"skin": "purple",
+"note": "talking",
+"mouth_wh": [
+0.26,
+0.145
+]
+},
+"587": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"588": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"589": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"590": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"591": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"592": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"593": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"594": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"595": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"596": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"597": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"598": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"599": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "purple",
+"note": "face turned away (3/4 back view)"
+},
+"600": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"601": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"602": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"603": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"604": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"605": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"606": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"607": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"608": {
+"eyes": "hidden",
+"brows": "none",
+"mouth": "hidden",
+"flip": 1,
+"skin": "drain",
+"note": "purple drains from the top down, f603 ~70 %, f606 ~25 %, f609 a rim"
+},
+"609": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "drain",
+"note": "last purple rim at the chin"
+},
+"610": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"611": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"612": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"613": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"614": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"615": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"616": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"617": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"618": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"619": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"620": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"621": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"622": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"623": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"624": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"625": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"626": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"627": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"628": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"629": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"630": {
+"eyes": "smug",
+"brows": "angry",
+"mouth": "grid",
+"flip": 1,
+"skin": "white"
+},
+"631": {
+"eyes": "rings",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "small grin, 4 teeth"
+},
+"632": {
+"eyes": "rings",
+"brows": "raisedBoth",
+"mouth": "line",
+"flip": 1,
+"skin": "white"
+},
+"633": {
+"eyes": "rings",
+"brows": "raisedBoth",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "leaving frame right"
+},
+"634": {
+"eyes": "rings",
+"brows": "raisedBoth",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "leaving frame right"
+},
+"1050": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "head entering at the left edge"
+},
+"1051": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "head entering at the left edge"
+},
+"1052": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "head entering at the left edge"
+},
+"1053": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1054": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1055": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1056": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1057": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1058": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1059": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1060": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1061": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1062": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1063": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1064": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1065": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1066": {
+"eyes": "closedArc",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "content grin, brows under the brim"
+},
+"1067": {
+"eyes": "blink",
+"brows": "none",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "narrower grin"
+},
+"1068": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1069": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1070": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1071": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1072": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1073": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1074": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1075": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1076": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1077": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1078": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1079": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1080": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1081": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1082": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1083": {
+"eyes": "smug",
+"brows": "none",
+"mouth": "frown",
+"flip": 1,
+"skin": "white",
+"note": "sign covers the hat f1076+, dissolve out f1080+"
+},
+"1330": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1331": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1332": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1333": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1334": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1335": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1336": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1337": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1338": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1339": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1340": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1341": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1342": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "smirk",
+"flip": 1,
+"skin": "white",
+"note": "head enters from the top f1328-1333 (tilt up)"
+},
+"1343": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1344": {
+"eyes": "blink",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1345": {
+"eyes": "blink",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1346": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1347": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1348": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1349": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1350": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1351": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1352": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1353": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1354": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1355": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1356": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1357": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1358": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1359": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1360": {
+"eyes": "oval",
+"brows": "raisedBoth",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "laugh, head bobs"
+},
+"1361": {
+"eyes": "blink",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1362": {
+"eyes": "blink",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1363": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1364": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1365": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1366": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white"
+},
+"1367": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.255,
+0.035
+]
+},
+"1368": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.285,
+0.06
+]
+},
+"1369": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.288,
+0.078
+]
+},
+"1370": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.288,
+0.082
+]
+},
+"1371": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.288,
+0.092
+]
+},
+"1372": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.315,
+0.12
+]
+},
+"1373": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.318,
+0.112
+]
+},
+"1374": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.318,
+0.112
+]
+},
+"1375": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.32,
+0.112
+]
+},
+"1376": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.32,
+0.112
+]
+},
+"1377": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.322,
+0.12
+]
+},
+"1378": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.32,
+0.102
+]
+},
+"1379": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.315,
+0.09
+]
+},
+"1380": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.31,
+0.062
+]
+},
+"1381": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.31,
+0.062
+]
+},
+"1382": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.31,
+0.055
+]
+},
+"1383": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.278,
+0.045
+]
+},
+"1384": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.312,
+0.088
+]
+},
+"1385": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.305,
+0.082
+]
+},
+"1386": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.295,
+0.058
+]
+},
+"1387": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.308,
+0.07
+]
+},
+"1388": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.315,
+0.092
+]
+},
+"1389": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.318,
+0.108
+]
+},
+"1390": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.29,
+0.09
+]
+},
+"1391": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.282,
+0.09
+]
+},
+"1392": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.072
+]
+},
+"1393": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.32,
+0.11
+]
+},
+"1394": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.195,
+0.12
+]
+},
+"1395": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.198,
+0.125
+]
+},
+"1396": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.085
+]
+},
+"1397": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.275,
+0.05
+]
+},
+"1398": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.278,
+0.08
+]
+},
+"1399": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.292,
+0.175
+]
+},
+"1400": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.292,
+0.175
+]
+},
+"1401": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.292,
+0.175
+]
+},
+"1402": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.29,
+0.175
+]
+},
+"1403": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.298,
+0.128
+]
+},
+"1404": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.038
+]
+},
+"1405": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.038
+]
+},
+"1406": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.285,
+0.062
+]
+},
+"1407": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.085
+]
+},
+"1408": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.282,
+0.095
+]
+},
+"1409": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.275,
+0.065
+]
+},
+"1410": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.282,
+0.095
+]
+},
+"1411": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.208,
+0.17
+]
+},
+"1412": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.202,
+0.175
+]
+},
+"1413": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.202,
+0.17
+]
+},
+"1414": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.195,
+0.132
+]
+},
+"1415": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.195,
+0.132
+]
+},
+"1416": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.19,
+0.1
+]
+},
+"1417": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.192,
+0.12
+]
+},
+"1418": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.195,
+0.13
+]
+},
+"1419": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.158,
+0.042
+]
+},
+"1420": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.318,
+0.108
+]
+},
+"1421": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.282,
+0.09
+]
+},
+"1422": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.315,
+0.11
+]
+},
+"1423": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.31,
+0.102
+]
+},
+"1424": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.04
+]
+},
+"1425": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.198,
+0.118
+]
+},
+"1426": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.28,
+0.085
+]
+},
+"1427": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "open",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.25,
+0.098
+]
+},
+"1428": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.195,
+0.128
+]
+},
+"1429": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "gaspO",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.19,
+0.11
+]
+},
+"1430": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.065
+]
+},
+"1431": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.06
+]
+},
+"1432": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "openThin",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.062
+]
+},
+"1433": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.242,
+0.038
+]
+},
+"1434": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "line",
+"flip": 1,
+"skin": "white",
+"note": "talking",
+"mouth_wh": [
+0.272,
+0.04
+]
+},
+"1435": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+},
+"1436": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+},
+"1437": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+},
+"1438": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+},
+"1439": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+},
+"1440": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+},
+"1441": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+},
+"1442": {
+"eyes": "smug",
+"brows": "raisedOne",
+"mouth": "crescent",
+"flip": 1,
+"skin": "white",
+"note": "dissolve out, gone f1443"
+}
+}

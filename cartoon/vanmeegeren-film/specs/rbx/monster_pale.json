@@ -1,0 +1,17 @@
+{
+  "kind": "rbx",
+  "id": "pale",
+  "film": "monster",
+  "name": "Pale",
+  "role": "outside creature",
+  "skin": "#dfe2ea",
+  "body": "card",
+  "card": "pale",
+  "crawl": 1,
+  "note": "WP-CR: painted AI Studio cards (engine/rbx/card.js, frames in engine/rbx/cards/pale/): tall thin chalk-white long-limbed creature, hollow black eyes and screaming mouth hole. Crawls by default (crawl 1): side crawl cycle x4 driven by its walk, crawl toward the camera when it faces it. Standing (scream) frame when timeline base { 'body.crawl': [[t, 0]] }. 4.4 D standing.",
+  "build": { "scale": 1 },
+  "head": { "shape": "classic" },
+  "face": { "default": "o_eyes" },
+  "hair": null, "hat": null, "glasses": null, "facial": null,
+  "v1": "tall, thin, white/pale spider-limbed humanoid, crawls on all fours"
+}

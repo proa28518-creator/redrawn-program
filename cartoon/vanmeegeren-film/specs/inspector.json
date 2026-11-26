@@ -1,0 +1,11 @@
+{
+  "_doc": "The Rival Inspector (2026-11-03, inspector builder). Head: white hair under the cap (inked wavy hairline), grey tuft on the far side (tracks/inspector/head.json hair + hi). Hat: src/hats/officer.js (blue crown, black glossy band + visor, one gold piping line, gold winged badge). Torso: outfit 'inspector' in src/torso.js (navy coat pill, rim streak, 4 gold buttons + 2 collar, lighter chest pocket, black belt, gold buckle). Limbs .058, hands .06. Prop marble (src/props/marble.js). Tracks: tracks/inspector/*.json + per shot *.s07.json / *.s06.json (tools/s07_build.py, tools/s06_build.py).",
+  "head": { "hairDark": "#ddd5d8", "hairLit": "#f4efea", "hairHi": "#a49ea8", "hairRim": "#f4efea", "litDir": [-0.3, 0.4, 0.86] },
+  "backHair": { "color": "#ddd5d8", "back": 100, "seed": 6 },
+  "face": {},
+  "hat": { "kind": "officer" },
+  "torso": { "outfit": "inspector", "beltY": 0.22 },
+  "limbs": { "width": 0.058, "handR": 0.06 },
+  "props": [{ "kind": "marble", "r": 0.05 }],
+  "hide": []
+}

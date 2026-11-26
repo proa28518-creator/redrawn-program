@@ -1,0 +1,33 @@
+{
+  "kind": "rbx",
+  "id": "crowd2",
+  "film": "love",
+  "name": "Crowd 2",
+  "role": "crowd: store line",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#ff7a2a"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tshirt",
+    "topColor": "#27c0b0",
+    "pants": "#d8c9a8",
+    "pantsKind": "long",
+    "shoes": "#d8c9a8"
+  },
+  "v1": "store line (V1 scene.js line-up entry)"
+}

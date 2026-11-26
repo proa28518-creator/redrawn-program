@@ -1,0 +1,35 @@
+{
+  "kind": "rbx",
+  "id": "kid2",
+  "film": "monster",
+  "name": "Kid 2",
+  "role": "screaming student (face close-up)",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "noob_yell"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#0d0d0d"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "plaid",
+    "topColor": "#a5141c",
+    "accent": "#1a1a1a",
+    "print": "plaid",
+    "pants": "#202020",
+    "pantsKind": "long",
+    "shoes": "#202020"
+  },
+  "v1": "red plaid shirt, black hair"
+}

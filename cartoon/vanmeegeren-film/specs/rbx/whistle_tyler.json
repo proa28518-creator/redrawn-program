@@ -1,0 +1,35 @@
+{
+  "kind": "rbx",
+  "id": "tyler",
+  "film": "whistle",
+  "name": "Tyler",
+  "role": "hero; face changes almost every shot",
+  "hero": true,
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "classic_smile"
+  },
+  "hair": {
+    "style": "swept",
+    "color": "#dcdcdc",
+    "color2": "#b8b8b8"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tank",
+    "topColor": "#1f4fd1",
+    "pants": "#15161c",
+    "pantsKind": "long",
+    "shoes": "#15161c"
+  },
+  "v1": "tan skin, white/grey swept hair, sleeveless royal-blue tank, black pants (V1 skin #e2b98a)"
+}

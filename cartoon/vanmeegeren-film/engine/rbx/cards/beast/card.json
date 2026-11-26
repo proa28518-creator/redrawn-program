@@ -1,0 +1,88 @@
+{
+ "height": 4.5,
+ "eyesCard": {
+  "file": "eyes.webp",
+  "w": 1024,
+  "h": 384,
+  "core": 0.6836,
+  "drawn": true
+ },
+ "headY": 0.9,
+ "sideFaces": 1,
+ "crawlFaces": 1,
+ "source": "AI Studio (Nano Banana, owner's plan), prompts in experiments/roblox-style/v3/creatures/batch*.txt; cut with propkit cut.py (BiRefNet, MIT)",
+ "frames": {
+  "idle": {
+   "file": "idle.webp",
+   "w": 783,
+   "h": 1400,
+   "ppd": 311.111,
+   "foot": [
+    0.4726,
+    0.9971
+   ],
+   "sheet": "beast_front",
+   "eyes": [
+    0.7671,
+    0.1263,
+    0.2146
+   ]
+  },
+  "step": {
+   "file": "step.webp",
+   "w": 757,
+   "h": 1400,
+   "ppd": 305.056,
+   "foot": [
+    0.4673,
+    0.9979
+   ],
+   "sheet": "beast_front",
+   "eyes": [
+    0.7808,
+    0.1204,
+    0.2193
+   ]
+  },
+  "reach": {
+   "file": "reach.webp",
+   "w": 967,
+   "h": 1400,
+   "ppd": 335.326,
+   "foot": [
+    0.4412,
+    0.9971
+   ],
+   "sheet": "beast_front",
+   "eyes": [
+    0.5992,
+    0.1485,
+    0.1892
+   ]
+  },
+  "roar": {
+   "file": "roar.webp",
+   "w": 1308,
+   "h": 1400,
+   "ppd": 342.816,
+   "foot": [
+    0.657,
+    0.9979
+   ],
+   "sheet": "beast_front",
+   "eyes": [
+    0.6078,
+    0.0852,
+    0.1353
+   ]
+  }
+ },
+ "sets": {
+  "front": {
+   "idle": "idle",
+   "step": "step",
+   "reach": "reach",
+   "roar": "roar"
+  }
+ }
+}

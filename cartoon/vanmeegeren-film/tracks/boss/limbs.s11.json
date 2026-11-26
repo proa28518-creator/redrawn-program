@@ -1,0 +1,1072 @@
+{
+"keys": {
+"863": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"864": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"865": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"866": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"867": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"868": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"869": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"870": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"871": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"872": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"873": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"874": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"875": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"876": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"877": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"878": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"879": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"880": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"881": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"882": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"883": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"884": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"885": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"886": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"887": {
+"visible": {
+"nearArm": false,
+"farArm": true,
+"nearLeg": false,
+"farLeg": false
+},
+"farArm": [
+[
+-0.1698,
+-1.05,
+0.2
+],
+[
+0.1667,
+-0.8,
+0.38
+],
+[
+0.2971,
+-0.68,
+0.4
+],
+[
+0.4032,
+-0.59,
+0.4
+]
+],
+"hands": {
+"near": [
+-0.1698,
+-1.05,
+0.2
+],
+"far": [
+-0.1698,
+-1.05,
+0.2
+]
+}
+},
+"888": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"889": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"890": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"891": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"892": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"893": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"894": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"895": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"896": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"897": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"898": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"899": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"900": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"901": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"902": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"903": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"904": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"905": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"906": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"907": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"908": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"909": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"910": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"911": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"912": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"913": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"914": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"915": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"916": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"917": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"918": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"919": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"920": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"921": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"922": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"923": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"924": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"925": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"926": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"927": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"928": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"929": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"930": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"931": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"932": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"933": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"934": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"935": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+},
+"936": {
+"visible": {
+"nearArm": false,
+"farArm": false,
+"nearLeg": false,
+"farLeg": false
+}
+}
+}
+}

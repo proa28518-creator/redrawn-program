@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "dion",
+  "film": "cantcry",
+  "name": "Dion",
+  "role": "hero",
+  "skin": "#a8d8f4",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "dion_smirk",
+    "scale": 1.18
+  },
+  "hair": {
+    "style": "spiky",
+    "color": "#1f4ee8"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "tank",
+    "topColor": "#141c7a",
+    "pants": "#0c0c10",
+    "pantsKind": "long",
+    "shoes": "#0c0c10"
+  },
+  "v1": "pale blue skin, spiky royal-blue hair, navy tank, black pants"
+}

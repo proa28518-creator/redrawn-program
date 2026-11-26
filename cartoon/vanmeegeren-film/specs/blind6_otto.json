@@ -1,0 +1,22 @@
+{
+  "_doc": "blind6: 'Otto, a big round chef with a black curly moustache, a white chef's hat and a striped apron.' From specs/chef.json: stout W .98, short legs 1.12; white chef jacket (jumper + 2 button rows); striped apron (red/white stripes, the one pattern); black handlebar moustache (curly ends), short black hair under the toque; owned colour = the red of the apron.",
+  "head": {},
+  "face": { "eyeSize": 0.98, "browThick": 1.4, "mouthSize": 1.05 },
+  "hair": { "style": "short", "colour": "black", "seed": 3 },
+  "facialHair": { "kind": "handlebar", "colour": "black" },
+  "hat": { "kind": "chef", "height": 0.55, "puff": 0.11 },
+  "torso": {
+    "body": { "build": "stout", "W": 0.98, "H": 0.95 },
+    "outfit": {
+      "trousers": "#3b3a44",
+      "layers": [
+        { "t": "jumper", "color": "#f6f2ee", "neckW": 0.36, "neckD": 0.08 },
+        { "t": "buttons", "n": 2, "from": 0.86, "to": 0.76, "x": -0.3, "r": 0.03, "color": "#c9c3bc" },
+        { "t": "buttons", "n": 2, "from": 0.86, "to": 0.76, "x": 0.3, "r": 0.03, "color": "#c9c3bc" },
+        { "t": "apron", "color": "#c8423a", "pattern": { "type": "vstripes", "color": "#f4eee6" } }
+      ]
+    }
+  },
+  "limbs": { "legLen": 1.12, "armLen": 0.94, "width": 0.064, "handR": 0.064 },
+  "hide": []
+}

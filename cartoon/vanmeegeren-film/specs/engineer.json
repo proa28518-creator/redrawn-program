@@ -1,0 +1,10 @@
+{
+  "_doc": "The young engineer (f0-108). Empty part objects = every part's measured defaults (src/*.js); docs/API.md lists every param. Renders pixel-identical to `--part char`.",
+  "head": {},
+  "face": {},
+  "hat": { "kind": "hickory" },
+  "torso": {},
+  "limbs": {},
+  "props": [{ "kind": "saw" }],
+  "hide": []
+}

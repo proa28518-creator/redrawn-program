@@ -1,0 +1,91 @@
+{
+ "_doc": "Tycoon top hat (src/hats/tophat.js), tools/tycoon_build.py. shape = tophat.js DEF overrides; pose per gate frame (the hat as its own 2.5D layer); lift = the launch (f1625: up and to the viewer right, spinning); hide { from: to }.",
+ "shape": {
+  "crownH": 0.55,
+  "crownR": 0.4,
+  "crownRTop": 0.415,
+  "brimR": 0.565,
+  "bandH": 0.06,
+  "mount": {
+   "y": 0.3
+  }
+ },
+ "follow": [
+  {
+   "from": 312,
+   "to": 352,
+   "el": 3,
+   "y": 0.23
+  },
+  {
+   "from": 650,
+   "to": 792,
+   "el": 15,
+   "y": 0.28
+  },
+  {
+   "from": 1446,
+   "to": 1619,
+   "el": 15,
+   "y": 0.38
+  },
+  {
+   "el": 8
+  }
+ ],
+ "hide": {
+  "1631": 1700
+ },
+ "pose": {
+  "343": {
+   "az": 0,
+   "el": 3,
+   "roll": 3,
+   "u": 0.0,
+   "v": -0.2,
+   "s": 1
+  },
+  "760": {
+   "az": -52,
+   "el": 16,
+   "roll": -8,
+   "u": -0.2,
+   "v": -0.3,
+   "s": 1
+  },
+  "768": {
+   "az": -38,
+   "el": 20,
+   "roll": 16,
+   "u": 0.1,
+   "v": -0.27,
+   "s": 1
+  },
+  "1585": {
+   "az": -6,
+   "el": 16,
+   "roll": 7,
+   "u": 0.04,
+   "v": -0.38,
+   "s": 1
+  },
+  "1610": {
+   "az": 0,
+   "el": 16,
+   "roll": 2,
+   "u": 0.035,
+   "v": -0.36,
+   "s": 1
+  }
+ },
+ "lift": {
+  "1625": {
+   "x": 0.92,
+   "y": 0.62,
+   "z": -5.3,
+   "rx": -0.5,
+   "ry": 0,
+   "rz": 2.3
+  }
+ }
+}

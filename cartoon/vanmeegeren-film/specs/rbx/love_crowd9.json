@@ -1,0 +1,35 @@
+{
+  "kind": "rbx",
+  "id": "crowd9",
+  "film": "love",
+  "name": "Crowd 9",
+  "role": "crowd: presidents line-up",
+  "skin": "#f2c99b",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "happy_derp"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#e8b24a"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "suit",
+    "topColor": "#1c2a5a",
+    "shirtColor": "#f4f4f4",
+    "accent": "#c3192b",
+    "pants": "#15161c",
+    "pantsKind": "long",
+    "shoes": "#15161c"
+  },
+  "v1": "presidents line-up (V1 scene.js line-up entry)"
+}

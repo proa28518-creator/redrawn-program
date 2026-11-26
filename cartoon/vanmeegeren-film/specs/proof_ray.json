@@ -1,0 +1,13 @@
+{ "_doc": "fix1 proof: 'Ray, a medium-built middle-aged man in a brown flat cap, short dark hair, a stubble beard, a navy jacket over a checked shirt and grey trousers.' Medium W .82, legs 1.3; brown flatcap; stubble; owned colour = navy.",
+  "head": {},
+  "face": { "eyeSize": 0.98, "browThick": 1.4, "mouthSize": 1.0 },
+  "hair": { "style": "lobe", "colour": "dark", "seed": 2 },
+  "facialHair": { "kind": "stubble", "colour": "dark" },
+  "hat": { "kind": "flatcap", "crown": "#8a6440", "band": "#4e3826" },
+  "torso": { "body": { "build": "medium", "W": 0.82, "H": 0.95, "band": 0.1 },
+    "outfit": { "trousers": "#6e7078",
+      "layers": [ { "t": "shirt", "color": "#e9e2d0", "pattern": { "type": "tartan", "color": "#b44a3a" } },
+                  { "t": "jacket", "color": "#2c3c66", "buttons": 3, "buttonColor": "#1a2440", "tip": 0.42, "openW": 0.34 } ] } },
+  "limbs": { "legLen": 1.3, "armLen": 0.95, "width": 0.058, "handR": 0.06 },
+  "hide": []
+}

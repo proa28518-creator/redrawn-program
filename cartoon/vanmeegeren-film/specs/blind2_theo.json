@@ -1,0 +1,17 @@
+{ "_doc": "blind2: 'Theo, a chubby teenage boy with messy blond hair, a green jumper and a ball cap worn backwards.' Stout W .95, teen legs 1.08 / arms .86; short blond hair (messy = seed + front tuft) under a backwards mustard-red cap; green jumper with a darker green chest stripe; dark denim trousers.",
+  "head": {},
+  "face": { "eyeSize": 1.04, "mouthSize": 1.08, "mouthWidth": 1.05 },
+  "hair": { "style": "short", "colour": "blond", "seed": 21, "front": 1 },
+  "hat": { "kind": "ballcap", "crown": "#c8562e", "bill": "#a8431f", "backwards": true },
+  "torso": {
+    "body": { "build": "stout", "W": 0.95, "H": 0.86 },
+    "outfit": {
+      "trousers": "#33405e",
+      "layers": [
+        { "t": "jumper", "color": "#4f8a48", "neckW": 0.38, "neckD": 0.09, "pattern": { "type": "stripes", "color": "#3a6a36", "every": 0.5, "width": 0.06, "from": 0.45, "to": 0.55 } }
+      ]
+    }
+  },
+  "limbs": { "legLen": 1.08, "armLen": 0.86, "width": 0.06, "handR": 0.06 },
+  "hide": []
+}

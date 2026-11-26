@@ -1,0 +1,11 @@
+{
+  "_doc": "The Rival Tycoon (2026-11-03, tycoon builder). Head: black hair top + back, silver wings #a79a9c (tracks/tycoon/head.json hair + hi). Hat: src/hats/tophat.js (gold band, gold brim trim; the Passenger wears it too with bandOn/trimOn 0 or other colours). Torso: outfit 'tycoon' in src/torso.js (tall pill, black frock coat, charcoal lapels, 4 gold buttons, chain + fob, rose; per frame beach (gold waistcoat) / sash / rose flags in torso.json). Limbs .056, hands .058. No props yet (sledgehammer missing). Tracks: tracks/tycoon/*.json (tools/tycoon_build.py).",
+  "head": { "hairDark": "#211b26", "hairLit": "#3a3240", "hairHi": "#a79a9c", "hairRim": "#3a3240", "litDir": [-0.3, 0.5, 0.8] },
+  "backHair": { "color": "#211b26", "shell": "look80", "lit": "#3a3240", "back": 100, "seed": 4, "litDir": [-0.3, 0.5, 0.8] },
+  "face": {},
+  "hat": { "kind": "tophat" },
+  "torso": { "outfit": "tycoon" },
+  "limbs": { "width": 0.056, "handR": 0.058 },
+  "props": [],
+  "hide": []
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "rbx",
+  "id": "kid",
+  "film": "cantcry",
+  "name": "Kid",
+  "role": "grabs dion",
+  "skin": "#f0c08a",
+  "build": {
+    "scale": 1.0,
+    "width": 1.0
+  },
+  "head": {
+    "shape": "classic"
+  },
+  "face": {
+    "default": "sweat"
+  },
+  "hair": {
+    "style": "short",
+    "color": "#5a3418"
+  },
+  "hat": null,
+  "glasses": null,
+  "facial": null,
+  "wear": {
+    "top": "varsity",
+    "topColor": "#9a1a24",
+    "sleeveColor": "#f4f4f4",
+    "pants": "#121216",
+    "pantsKind": "long",
+    "shoes": "#121216"
+  },
+  "v1": "brown hair, red/white varsity jacket"
+}
