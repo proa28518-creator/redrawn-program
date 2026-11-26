@@ -126,11 +126,15 @@ jobs:
           # onto an exact 30fps grid (setpts=N/(30*TB)) gives perfectly even
           # pacing with no frames duplicated or dropped; aresample=async
           # keeps the concatenated narration audio continuous and in sync.
+          # -t trims the summed per-chunk AAC padding tail so the output is
+          # exactly the requested frame range long (frames/30 seconds).
+          DUR=$(python3 -c "s,e='${{ inputs.frames }}'.split('-'); print((int(e)-int(s)+1)/30)")
           ffmpeg -f concat -safe 0 -i list.txt \
             -vf "settb=AVTB,setpts=N/(30*TB)" -vsync cfr -r 30 \
             -c:v libx264 -crf 17 -preset medium -pix_fmt yuv420p \
             -af "aresample=async=1:first_pts=0" \
             -c:a aac -b:a 192k \
+            -t "$DUR" \
             ../final.mp4
           ls -la ../final.mp4
       - name: Upload final video
