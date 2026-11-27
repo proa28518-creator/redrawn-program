@@ -1,0 +1,1220 @@
+[
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "عشان",
+  "start": 0.02,
+  "end": 0.26
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "يهرب",
+  "start": 0.26,
+  "end": 0.6
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "من",
+  "start": 0.6,
+  "end": 0.66
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "تهمة",
+  "start": 0.66,
+  "end": 0.92
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "الخيانة",
+  "start": 0.92,
+  "end": 1.42
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "العظمى",
+  "start": 1.42,
+  "end": 1.8
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "والتعاون",
+  "start": 1.8,
+  "end": 2.39
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "مع",
+  "start": 2.39,
+  "end": 2.57
+ },
+ {
+  "who": "hero",
+  "line": 1,
+  "word": "النازيين",
+  "start": 2.57,
+  "end": 3.1
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "هان",
+  "start": 3.46,
+  "end": 3.67
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "فان",
+  "start": 3.67,
+  "end": 3.94
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "ميجرين",
+  "start": 3.94,
+  "end": 4.49
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "ما",
+  "start": 4.49,
+  "end": 4.66
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "لقاش",
+  "start": 4.66,
+  "end": 4.92
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "قدامه",
+  "start": 4.92,
+  "end": 5.33
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "غير",
+  "start": 5.33,
+  "end": 5.58
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "حل",
+  "start": 5.58,
+  "end": 5.74
+ },
+ {
+  "who": "hero",
+  "line": 2,
+  "word": "واحد",
+  "start": 5.74,
+  "end": 6.2
+ },
+ {
+  "who": "hero",
+  "line": 3,
+  "word": "إنه",
+  "start": 6.62,
+  "end": 6.84
+ },
+ {
+  "who": "hero",
+  "line": 3,
+  "word": "يعترف",
+  "start": 6.84,
+  "end": 7.25
+ },
+ {
+  "who": "hero",
+  "line": 3,
+  "word": "إنه",
+  "start": 7.25,
+  "end": 7.5
+ },
+ {
+  "who": "hero",
+  "line": 3,
+  "word": "نصاب",
+  "start": 7.5,
+  "end": 8.21
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "سنة",
+  "start": 8.63,
+  "end": 8.85
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "1945",
+  "start": 8.85,
+  "end": 10.33
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "السلطات",
+  "start": 10.33,
+  "end": 10.9
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "الهولندية",
+  "start": 10.9,
+  "end": 11.55
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "قبضت",
+  "start": 11.55,
+  "end": 11.82
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "على",
+  "start": 11.82,
+  "end": 12.04
+ },
+ {
+  "who": "hero",
+  "line": 4,
+  "word": "هان",
+  "start": 12.04,
+  "end": 12.31
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "بعد",
+  "start": 12.64,
+  "end": 12.8
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "ما",
+  "start": 12.8,
+  "end": 12.96
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "لقوا",
+  "start": 12.96,
+  "end": 13.31
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "لوحة",
+  "start": 13.31,
+  "end": 13.59
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "نادرة",
+  "start": 13.59,
+  "end": 13.94
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "للفنان",
+  "start": 13.94,
+  "end": 14.32
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "الشهير",
+  "start": 14.32,
+  "end": 14.78
+ },
+ {
+  "who": "hero",
+  "line": 5,
+  "word": "فيرمير",
+  "start": 14.78,
+  "end": 15.18
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "في",
+  "start": 15.6,
+  "end": 15.75
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "حوزة",
+  "start": 15.75,
+  "end": 16.05
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "هيرمان",
+  "start": 16.05,
+  "end": 16.51
+ },
+ {
+  "who": "hero",
+  "line": 6,
+  "word": "جورينج",
+  "start": 16.51,
+  "end": 17.01
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "واحد",
+  "start": 17.42,
+  "end": 17.79
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "من",
+  "start": 17.79,
+  "end": 17.95
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "أكبر",
+  "start": 17.95,
+  "end": 18.24
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "قادة",
+  "start": 18.24,
+  "end": 18.5
+ },
+ {
+  "who": "hero",
+  "line": 7,
+  "word": "النازيين",
+  "start": 18.5,
+  "end": 19.52
+ },
+ {
+  "who": "hero",
+  "line": 8,
+  "word": "التهمة",
+  "start": 19.94,
+  "end": 20.28
+ },
+ {
+  "who": "hero",
+  "line": 8,
+  "word": "كانت",
+  "start": 20.28,
+  "end": 20.48
+ },
+ {
+  "who": "hero",
+  "line": 8,
+  "word": "واضحة",
+  "start": 20.48,
+  "end": 20.83
+ },
+ {
+  "who": "hero",
+  "line": 9,
+  "word": "بيع",
+  "start": 21.12,
+  "end": 21.35
+ },
+ {
+  "who": "hero",
+  "line": 9,
+  "word": "كنز",
+  "start": 21.35,
+  "end": 21.6
+ },
+ {
+  "who": "hero",
+  "line": 9,
+  "word": "من",
+  "start": 21.6,
+  "end": 21.76
+ },
+ {
+  "who": "hero",
+  "line": 9,
+  "word": "تراث",
+  "start": 21.76,
+  "end": 22.0
+ },
+ {
+  "who": "hero",
+  "line": 9,
+  "word": "البلد",
+  "start": 22.0,
+  "end": 22.37
+ },
+ {
+  "who": "hero",
+  "line": 9,
+  "word": "للعدو",
+  "start": 22.37,
+  "end": 22.79
+ },
+ {
+  "who": "hero",
+  "line": 10,
+  "word": "وعقوبتها",
+  "start": 23.02,
+  "end": 23.59
+ },
+ {
+  "who": "hero",
+  "line": 10,
+  "word": "الإعدام",
+  "start": 23.59,
+  "end": 24.36
+ },
+ {
+  "who": "hero",
+  "line": 11,
+  "word": "لكن",
+  "start": 24.78,
+  "end": 25.01
+ },
+ {
+  "who": "hero",
+  "line": 11,
+  "word": "هان",
+  "start": 25.01,
+  "end": 25.28
+ },
+ {
+  "who": "hero",
+  "line": 11,
+  "word": "فجر",
+  "start": 25.65,
+  "end": 25.83
+ },
+ {
+  "who": "hero",
+  "line": 11,
+  "word": "مفاجأة",
+  "start": 25.83,
+  "end": 26.32
+ },
+ {
+  "who": "hero",
+  "line": 11,
+  "word": "قدام",
+  "start": 26.32,
+  "end": 26.62
+ },
+ {
+  "who": "hero",
+  "line": 11,
+  "word": "المحققين",
+  "start": 26.62,
+  "end": 27.4
+ },
+ {
+  "who": "hero",
+  "line": 12,
+  "word": "اللوحة",
+  "start": 27.82,
+  "end": 28.13
+ },
+ {
+  "who": "hero",
+  "line": 12,
+  "word": "دي",
+  "start": 28.13,
+  "end": 28.31
+ },
+ {
+  "who": "hero",
+  "line": 12,
+  "word": "مش",
+  "start": 28.31,
+  "end": 28.41
+ },
+ {
+  "who": "hero",
+  "line": 12,
+  "word": "أصلية",
+  "start": 28.41,
+  "end": 28.84
+ },
+ {
+  "who": "hero",
+  "line": 13,
+  "word": "أنا",
+  "start": 29.26,
+  "end": 29.43
+ },
+ {
+  "who": "hero",
+  "line": 13,
+  "word": "اللي",
+  "start": 29.43,
+  "end": 29.67
+ },
+ {
+  "who": "hero",
+  "line": 13,
+  "word": "راسمها",
+  "start": 29.67,
+  "end": 30.03
+ },
+ {
+  "who": "hero",
+  "line": 13,
+  "word": "بإيدي",
+  "start": 30.03,
+  "end": 30.54
+ },
+ {
+  "who": "hero",
+  "line": 14,
+  "word": "المشكلة",
+  "start": 30.96,
+  "end": 31.5
+ },
+ {
+  "who": "hero",
+  "line": 14,
+  "word": "إن",
+  "start": 31.5,
+  "end": 31.65
+ },
+ {
+  "who": "hero",
+  "line": 14,
+  "word": "ما",
+  "start": 31.65,
+  "end": 31.81
+ },
+ {
+  "who": "hero",
+  "line": 14,
+  "word": "فيش",
+  "start": 31.81,
+  "end": 32.08
+ },
+ {
+  "who": "hero",
+  "line": 14,
+  "word": "حد",
+  "start": 32.08,
+  "end": 32.22
+ },
+ {
+  "who": "hero",
+  "line": 14,
+  "word": "صدقه",
+  "start": 32.22,
+  "end": 32.63
+ },
+ {
+  "who": "hero",
+  "line": 15,
+  "word": "اللوحات",
+  "start": 33.05,
+  "end": 33.56
+ },
+ {
+  "who": "hero",
+  "line": 15,
+  "word": "كانت",
+  "start": 33.56,
+  "end": 33.79
+ },
+ {
+  "who": "hero",
+  "line": 15,
+  "word": "مخدعة",
+  "start": 33.79,
+  "end": 34.1
+ },
+ {
+  "who": "hero",
+  "line": 15,
+  "word": "كبار",
+  "start": 34.1,
+  "end": 34.33
+ },
+ {
+  "who": "hero",
+  "line": 15,
+  "word": "الخبراء",
+  "start": 34.33,
+  "end": 34.79
+ },
+ {
+  "who": "hero",
+  "line": 16,
+  "word": "لدرجة",
+  "start": 35.17,
+  "end": 35.54
+ },
+ {
+  "who": "hero",
+  "line": 16,
+  "word": "إنهم",
+  "start": 35.54,
+  "end": 35.87
+ },
+ {
+  "who": "hero",
+  "line": 16,
+  "word": "اعتبروها",
+  "start": 35.87,
+  "end": 36.51
+ },
+ {
+  "who": "hero",
+  "line": 16,
+  "word": "أصلية",
+  "start": 36.51,
+  "end": 36.85
+ },
+ {
+  "who": "hero",
+  "line": 16,
+  "word": "100%",
+  "start": 36.85,
+  "end": 37.87
+ },
+ {
+  "who": "hero",
+  "line": 17,
+  "word": "تخيل",
+  "start": 38.29,
+  "end": 38.63
+ },
+ {
+  "who": "hero",
+  "line": 17,
+  "word": "توصل",
+  "start": 38.63,
+  "end": 38.96
+ },
+ {
+  "who": "hero",
+  "line": 17,
+  "word": "لمرحلة",
+  "start": 38.96,
+  "end": 39.41
+ },
+ {
+  "who": "hero",
+  "line": 17,
+  "word": "من",
+  "start": 39.41,
+  "end": 39.51
+ },
+ {
+  "who": "hero",
+  "line": 17,
+  "word": "الإتقان",
+  "start": 39.51,
+  "end": 40.04
+ },
+ {
+  "who": "hero",
+  "line": 17,
+  "word": "في",
+  "start": 40.04,
+  "end": 40.24
+ },
+ {
+  "who": "hero",
+  "line": 17,
+  "word": "الكدب",
+  "start": 40.24,
+  "end": 40.64
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "لدرجة",
+  "start": 41.06,
+  "end": 41.37
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "إنك",
+  "start": 41.37,
+  "end": 41.56
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "لما",
+  "start": 41.56,
+  "end": 41.79
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "تقول",
+  "start": 41.79,
+  "end": 42.05
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "الحقيقة",
+  "start": 42.05,
+  "end": 42.47
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "ما",
+  "start": 42.7,
+  "end": 42.84
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "حدش",
+  "start": 42.84,
+  "end": 43.08
+ },
+ {
+  "who": "hero",
+  "line": 18,
+  "word": "يصدقك",
+  "start": 43.08,
+  "end": 43.92
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "عشان",
+  "start": 44.34,
+  "end": 44.67
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "يثبت",
+  "start": 44.67,
+  "end": 44.91
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "كلامه",
+  "start": 44.91,
+  "end": 45.33
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "هان",
+  "start": 45.33,
+  "end": 45.48
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "اضطر",
+  "start": 45.48,
+  "end": 45.77
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "يمسك",
+  "start": 45.77,
+  "end": 46.12
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "الفرشة",
+  "start": 46.12,
+  "end": 46.55
+ },
+ {
+  "who": "hero",
+  "line": 19,
+  "word": "تاني",
+  "start": 46.55,
+  "end": 47.0
+ },
+ {
+  "who": "hero",
+  "line": 20,
+  "word": "تحت",
+  "start": 47.42,
+  "end": 47.58
+ },
+ {
+  "who": "hero",
+  "line": 20,
+  "word": "رقابة",
+  "start": 47.58,
+  "end": 47.95
+ },
+ {
+  "who": "hero",
+  "line": 20,
+  "word": "صارمة",
+  "start": 47.95,
+  "end": 48.3
+ },
+ {
+  "who": "hero",
+  "line": 21,
+  "word": "قعد",
+  "start": 48.61,
+  "end": 48.82
+ },
+ {
+  "who": "hero",
+  "line": 21,
+  "word": "شهور",
+  "start": 48.82,
+  "end": 49.17
+ },
+ {
+  "who": "hero",
+  "line": 21,
+  "word": "يرسم",
+  "start": 49.17,
+  "end": 49.48
+ },
+ {
+  "who": "hero",
+  "line": 21,
+  "word": "لوحة",
+  "start": 49.48,
+  "end": 49.86
+ },
+ {
+  "who": "hero",
+  "line": 21,
+  "word": "جديدة",
+  "start": 49.86,
+  "end": 50.23
+ },
+ {
+  "who": "hero",
+  "line": 22,
+  "word": "بنفس",
+  "start": 50.56,
+  "end": 50.77
+ },
+ {
+  "who": "hero",
+  "line": 22,
+  "word": "أسلوب",
+  "start": 50.77,
+  "end": 51.09
+ },
+ {
+  "who": "hero",
+  "line": 22,
+  "word": "فيرمير",
+  "start": 51.09,
+  "end": 51.49
+ },
+ {
+  "who": "hero",
+  "line": 22,
+  "word": "القديم",
+  "start": 51.49,
+  "end": 52.02
+ },
+ {
+  "who": "hero",
+  "line": 23,
+  "word": "وفي",
+  "start": 52.44,
+  "end": 52.58
+ },
+ {
+  "who": "hero",
+  "line": 23,
+  "word": "نفس",
+  "start": 52.58,
+  "end": 52.7
+ },
+ {
+  "who": "hero",
+  "line": 23,
+  "word": "الوقت",
+  "start": 52.7,
+  "end": 53.12
+ },
+ {
+  "who": "hero",
+  "line": 24,
+  "word": "التحليلات",
+  "start": 53.54,
+  "end": 54.1
+ },
+ {
+  "who": "hero",
+  "line": 24,
+  "word": "العلمية",
+  "start": 54.1,
+  "end": 54.59
+ },
+ {
+  "who": "hero",
+  "line": 24,
+  "word": "للوحاته",
+  "start": 54.59,
+  "end": 54.96
+ },
+ {
+  "who": "hero",
+  "line": 24,
+  "word": "القديمة",
+  "start": 54.96,
+  "end": 55.42
+ },
+ {
+  "who": "hero",
+  "line": 25,
+  "word": "كشفت",
+  "start": 55.82,
+  "end": 56.14
+ },
+ {
+  "who": "hero",
+  "line": 25,
+  "word": "عن",
+  "start": 56.14,
+  "end": 56.22
+ },
+ {
+  "who": "hero",
+  "line": 25,
+  "word": "مواد",
+  "start": 56.22,
+  "end": 56.6
+ },
+ {
+  "who": "hero",
+  "line": 25,
+  "word": "كيميائية",
+  "start": 56.6,
+  "end": 57.22
+ },
+ {
+  "who": "hero",
+  "line": 26,
+  "word": "ما",
+  "start": 57.22,
+  "end": 57.33
+ },
+ {
+  "who": "hero",
+  "line": 26,
+  "word": "كانتش",
+  "start": 57.33,
+  "end": 57.69
+ },
+ {
+  "who": "hero",
+  "line": 26,
+  "word": "موجودة",
+  "start": 57.69,
+  "end": 58.23
+ },
+ {
+  "who": "hero",
+  "line": 26,
+  "word": "أصلاً",
+  "start": 58.23,
+  "end": 58.48
+ },
+ {
+  "who": "hero",
+  "line": 26,
+  "word": "في",
+  "start": 58.48,
+  "end": 58.69
+ },
+ {
+  "who": "hero",
+  "line": 26,
+  "word": "عصر",
+  "start": 58.69,
+  "end": 58.87
+ },
+ {
+  "who": "hero",
+  "line": 26,
+  "word": "فيرمير",
+  "start": 58.87,
+  "end": 59.69
+ },
+ {
+  "who": "hero",
+  "line": 27,
+  "word": "فعلاً",
+  "start": 60.11,
+  "end": 60.42
+ },
+ {
+  "who": "hero",
+  "line": 27,
+  "word": "تهمة",
+  "start": 60.73,
+  "end": 60.95
+ },
+ {
+  "who": "hero",
+  "line": 27,
+  "word": "الخيانة",
+  "start": 60.95,
+  "end": 61.34
+ },
+ {
+  "who": "hero",
+  "line": 27,
+  "word": "اتشالت",
+  "start": 61.34,
+  "end": 61.61
+ },
+ {
+  "who": "hero",
+  "line": 28,
+  "word": "لكن",
+  "start": 62.02,
+  "end": 62.25
+ },
+ {
+  "who": "hero",
+  "line": 28,
+  "word": "هان",
+  "start": 62.25,
+  "end": 62.59
+ },
+ {
+  "who": "hero",
+  "line": 28,
+  "word": "ما",
+  "start": 62.83,
+  "end": 63.02
+ },
+ {
+  "who": "hero",
+  "line": 28,
+  "word": "خرجش",
+  "start": 63.02,
+  "end": 63.3
+ },
+ {
+  "who": "hero",
+  "line": 28,
+  "word": "بريء",
+  "start": 63.3,
+  "end": 63.68
+ },
+ {
+  "who": "hero",
+  "line": 29,
+  "word": "سنة",
+  "start": 64.1,
+  "end": 64.3
+ },
+ {
+  "who": "hero",
+  "line": 29,
+  "word": "1947",
+  "start": 64.3,
+  "end": 65.6
+ },
+ {
+  "who": "hero",
+  "line": 29,
+  "word": "صدر",
+  "start": 65.92,
+  "end": 66.19
+ },
+ {
+  "who": "hero",
+  "line": 29,
+  "word": "حكم",
+  "start": 66.19,
+  "end": 66.46
+ },
+ {
+  "who": "hero",
+  "line": 29,
+  "word": "بسجنه",
+  "start": 66.46,
+  "end": 66.97
+ },
+ {
+  "who": "hero",
+  "line": 29,
+  "word": "سنة",
+  "start": 66.97,
+  "end": 67.32
+ },
+ {
+  "who": "hero",
+  "line": 29,
+  "word": "كاملة",
+  "start": 67.32,
+  "end": 67.79
+ },
+ {
+  "who": "hero",
+  "line": 30,
+  "word": "بتهمة",
+  "start": 68.03,
+  "end": 68.36
+ },
+ {
+  "who": "hero",
+  "line": 30,
+  "word": "التزوير",
+  "start": 68.36,
+  "end": 68.88
+ },
+ {
+  "who": "hero",
+  "line": 30,
+  "word": "والاحتيال",
+  "start": 69.08,
+  "end": 69.95
+ },
+ {
+  "who": "hero",
+  "line": 31,
+  "word": "خرج",
+  "start": 70.37,
+  "end": 70.6
+ },
+ {
+  "who": "hero",
+  "line": 31,
+  "word": "من",
+  "start": 70.6,
+  "end": 70.67
+ },
+ {
+  "who": "hero",
+  "line": 31,
+  "word": "التهمة",
+  "start": 70.67,
+  "end": 71.12
+ },
+ {
+  "who": "hero",
+  "line": 31,
+  "word": "الأخطر",
+  "start": 71.12,
+  "end": 71.5
+ },
+ {
+  "who": "hero",
+  "line": 32,
+  "word": "لما",
+  "start": 71.89,
+  "end": 72.12
+ },
+ {
+  "who": "hero",
+  "line": 32,
+  "word": "أثبت",
+  "start": 72.12,
+  "end": 72.42
+ },
+ {
+  "who": "hero",
+  "line": 32,
+  "word": "للكل",
+  "start": 72.42,
+  "end": 72.78
+ },
+ {
+  "who": "hero",
+  "line": 32,
+  "word": "إنه",
+  "start": 73.27,
+  "end": 73.49
+ },
+ {
+  "who": "hero",
+  "line": 32,
+  "word": "فعلاً",
+  "start": 73.49,
+  "end": 73.8
+ },
+ {
+  "who": "hero",
+  "line": 32,
+  "word": "مجرم",
+  "start": 73.8,
+  "end": 74.35
+ },
+ {
+  "who": "hero",
+  "line": 33,
+  "word": "بس",
+  "start": 74.77,
+  "end": 74.95
+ },
+ {
+  "who": "hero",
+  "line": 33,
+  "word": "من",
+  "start": 74.95,
+  "end": 75.08
+ },
+ {
+  "who": "hero",
+  "line": 33,
+  "word": "نوع",
+  "start": 75.08,
+  "end": 75.32
+ },
+ {
+  "who": "hero",
+  "line": 33,
+  "word": "تاني",
+  "start": 75.32,
+  "end": 75.58
+ },
+ {
+  "who": "hero",
+  "line": 33,
+  "word": "خالص",
+  "start": 75.58,
+  "end": 75.9
+ }
+]
