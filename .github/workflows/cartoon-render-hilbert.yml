@@ -80,6 +80,7 @@ jobs:
           unzip -o -q cartoon/hilbert-text.zip
           unzip -o -q cartoon/hilbert-bin1.zip
           unzip -o -q cartoon/hilbert-bin2.zip
+          unzip -o -q cartoon/hilbert-bin3.zip
       - name: Render chunk ${{ matrix.chunk.index }} (frames ${{ matrix.chunk.start }}-${{ matrix.chunk.end }})
         working-directory: cartoon/hilbert-film
         env:
